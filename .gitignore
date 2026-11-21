@@ -36,3 +36,18 @@ PACKAGE-MANIFEST.json
 base/PACKAGE-MANIFEST.json
 scripts/native-campus.ps1
 scripts/import-local-visitor.mjs
+
+# Large dev.124 models restored locally from the matching delivery.
+# Runtime JS and vendored code remain tracked.
+/public/art-v0120/**
+!/public/art-v0120/**/
+!/public/art-v0120/vendor/**
+
+!/public/art-v0120/**/*.js
+/public/art-v0130/**
+!/public/art-v0130/**/
+!/public/art-v0130/**/*.js
+!/public/art-v0130/visitor-v*-assets.json
+/public/kin-site-concrete.png
+/public/pdl-bridge-precast.png
+**/.restore-art-*

@@ -4,7 +4,7 @@ import {pathToFileURL} from 'node:url';
 import {baseRoot,projectRoot,protocol} from './base.mjs';
 
 const original=await import(pathToFileURL(join(baseRoot,'src/avatar/catalog-m2-v2.mjs')).href);
-const version='uw-visitors-6',generator='uw-pixel-3.0.0';
+const version='uw-visitors-13',generator='uw-chibi-modular3d-7.0.0';
 const historical=async file=>protocol.digest(await readFile(join(projectRoot,'compat/3d-v052/public',file),'utf8'));
 const legacy={version:'uw-visitors-1',generator:'uw-studio-1.0.0',rendererHash:await historical('visitor-model-v1.js')};
 const paper={version:'uw-visitors-2',generator:'uw-paper-2.0.0',rendererHash:await historical('visitor-paper-model.js')};
@@ -13,20 +13,43 @@ const adapt=(r,v=version,g=generator)=>({...structuredClone(r),catalogVersion:v,
 const rasterSource=await readFile(join(projectRoot,'public/pixel-raster.js'),'utf8');
 const pixel={version:'uw-visitors-4',generator:'uw-pixel-1.0.0',rendererHash:protocol.digest({avatar:await readFile(join(projectRoot,'public/pixel-avatar.js'),'utf8'),raster:rasterSource})};
 const detailed={version:'uw-visitors-5',generator:'uw-pixel-2.0.0',rendererHash:protocol.digest({avatar:await readFile(join(projectRoot,'public/pixel-avatar-v2.js'),'utf8'),raster:rasterSource})};
-const rendererHash=protocol.digest({avatar:await readFile(join(projectRoot,'public/pixel-avatar-v3.js'),'utf8'),raster:rasterSource});
-const versions=[{version,generator,rendererHash},detailed,pixel,rounded,paper,legacy];
+const pixelV6={version:'uw-visitors-6',generator:'uw-pixel-3.0.0',rendererHash:protocol.digest({avatar:await readFile(join(projectRoot,'public/pixel-avatar-v3.js'),'utf8'),raster:rasterSource})};
+const v7RendererHash=protocol.digest({avatar:await readFile(join(projectRoot,'public/campus-avatar-3d.js'),'utf8'),materials:await readFile(join(projectRoot,'public/campus-avatar-materials.js'),'utf8'),premium:await readFile(join(projectRoot,'public/campus-premium-avatar.js'),'utf8'),style:'live-3d-modular-q-v1'});
+const liveV7={version:'uw-visitors-7',generator:'uw-chibi-live3d-1.0.0',rendererHash:v7RendererHash};
+const v8Sources=['campus-visitor-v8.js','campus-avatar-renderer.js','campus-avatar-body-v8.js','campus-avatar-hair-v8.js','campus-avatar-materials-v8.js','campus-avatar-garment-v8.js','campus-avatar-garment-fit-v8.js','campus-avatar-bottom-v8.js','campus-avatar-bottom-fit-v8.js','art-v0130/visitor-v8-assets.json'];
+const v8RendererHash=protocol.digest(Object.fromEntries(await Promise.all(v8Sources.map(async file=>[file,await readFile(join(projectRoot,'public',file==='campus-avatar-renderer.js'?'campus-avatar-renderer-v8.js':file),'utf8')]))));
+const liveV8={version:'uw-visitors-8',generator:'uw-chibi-modular3d-2.0.0',rendererHash:v8RendererHash};
+const v9Sources=[...v8Sources.filter(f=>!['campus-visitor-v8.js','campus-avatar-body-v8.js','art-v0130/visitor-v8-assets.json'].includes(f)),'campus-visitor-v9.js','campus-avatar-body-v9.js','art-v0130/visitor-v9-assets.json'];
+const v9RendererHash=protocol.digest(Object.fromEntries(await Promise.all(v9Sources.map(async file=>[file,await readFile(join(projectRoot,'public',file==='campus-avatar-renderer.js'?'campus-avatar-renderer-v9.js':file),'utf8')]))));
+const liveV9={version:'uw-visitors-9',generator:'uw-chibi-modular3d-3.0.0',rendererHash:v9RendererHash};
+const v10Sources=[...v9Sources.filter(f=>!['campus-visitor-v9.js','campus-avatar-body-v9.js','art-v0130/visitor-v9-assets.json'].includes(f)),'campus-visitor-v10.js','campus-avatar-body-v10.js','art-v0130/visitor-v10-assets.json'];
+const liveV10={version:'uw-visitors-10',generator:'uw-chibi-modular3d-4.0.0',rendererHash:protocol.digest(Object.fromEntries(await Promise.all(v10Sources.map(async file=>[file,await readFile(join(projectRoot,'public',file==='campus-avatar-renderer.js'?'campus-avatar-renderer-v10.js':file),'utf8')]))))};
+const v11Sources=[...v10Sources,'campus-visitor-v11.js','campus-accessory-geometry-v11.js','campus-accessory-materials-v11.js','art-v0130/visitor-v11-assets.json'];
+const liveV11={version:'uw-visitors-11',generator:'uw-chibi-modular3d-5.0.0',rendererHash:protocol.digest(Object.fromEntries(await Promise.all(v11Sources.map(async file=>[file,await readFile(join(projectRoot,'public',file==='campus-avatar-renderer.js'?'campus-avatar-renderer-v11.js':file),'utf8')]))))};
+const v12Sources=[...v11Sources,'campus-visitor-v12.js','art-v0130/visitor-v12-assets.json'];
+const liveV12={version:'uw-visitors-12',generator:'uw-chibi-modular3d-6.0.0',rendererHash:protocol.digest(Object.fromEntries(await Promise.all(v12Sources.map(async file=>[file,await readFile(join(projectRoot,'public',file==='campus-avatar-renderer.js'?'campus-avatar-renderer-v12.js':file),'utf8')]))))};
+const v13Sources=[...v12Sources,'campus-avatar-renderer-v12.js','campus-visitor-v13.js'];
+const rendererHash=protocol.digest(Object.fromEntries(await Promise.all(v13Sources.map(async file=>[file,await readFile(join(projectRoot,'public',file),'utf8')]))));
+const versions=[{version,generator,rendererHash},liveV12,liveV11,liveV10,liveV9,liveV8,liveV7,pixelV6,detailed,pixel,rounded,paper,legacy];
 export const visitorCatalog={
   version,generator,rendererHash,skeletonVersion:original.SKELETON,
   defaultRecipe:adapt(original.defaultRecipe),skins:original.skins,
-  parts:original.parts.map(({id,slot,label})=>({id,slot,label})),
+  parts:original.parts.map(({id,slot,label})=>({id,slot,label,preview:'/art-v0130/wardrobe-thumbnails-v12/'+id+'.jpg'})),
   incompatible:original.incompatible,
   presets:original.presets.map(({id,label,recipe})=>({id,label,recipe:adapt(recipe)})),
-  author:'Hyper Campus · original UW school procedural artwork',license:'MIT',
-  scope:'signed-browser-visitor',style:'soft-eight-view-pixel',styleLabel:'柔和八向像素',frame:{width:48,height:64,sourcePixelRatio:2,directions:8},legacy,previous:paper,rounded,pixel,detailed,versions,
+  author:'Hyper Campus · modular Q character',license:'Code MIT; generated models carry per-asset provenance',
+  scope:'signed-browser-visitor',style:'live-3d-modular-q',styleLabel:'Q版三维搭配',frame:{width:48,height:64,sourcePixelRatio:2,directions:8},legacy,previous:paper,rounded,pixel,detailed,pixelV6,liveV7,liveV8,liveV9,liveV10,liveV11,versions,
 };
 Object.assign(visitorCatalog.defaultRecipe.colors,{top:'#8b79b3',bottom:'#556780',hair:'#51414b',shoes:'#eee7dc'});
 const presetColors={everyday:{top:'#8270a5',bottom:'#556480',hair:'#55454a',shoes:'#eee7dc'},library:{top:'#c2957b',bottom:'#708580',hair:'#624c50',shoes:'#e5dac8'},sports:{top:'#7b9d8b',bottom:'#65778b',hair:'#5c4547',shoes:'#eee7dc'},creative:{top:'#8c7e9b',bottom:'#5e6c81',hair:'#4f3f49',shoes:'#d6bda7'}};
 for(const p of visitorCatalog.presets)Object.assign(p.recipe.colors,presetColors[p.id]||presetColors.everyday);
+visitorCatalog.defaultRecipe.parts.accessory='accessory-none';
+visitorCatalog.defaultRecipe.skin='light';
+const conceptRecipe=structuredClone(visitorCatalog.defaultRecipe);
+Object.assign(conceptRecipe.parts,{hair:'hair-curly',top:'top-hoodie',bottom:'bottom-jeans',glasses:'glasses-none',accessory:'accessory-none'});
+Object.assign(conceptRecipe.colors,presetColors.everyday);
+conceptRecipe.skin='light';
+visitorCatalog.presets.unshift({id:'concept-student',label:'参考图 · Q版卫衣',recipe:conceptRecipe});
 visitorCatalog.hash=protocol.digest(visitorCatalog);
 export function validateVisitorRecipe(input){
   const selected=versions.find(v=>v.version===input?.catalogVersion&&v.generator===input?.generatorVersion);

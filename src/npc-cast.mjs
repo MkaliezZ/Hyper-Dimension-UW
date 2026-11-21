@@ -41,7 +41,9 @@ const stations={
   alex:{home:'red-square',goal:'从红场开始认识 UW，想先了解哪一处？',topics:['用一分钟介绍 Red Square 和周围建筑','帮我安排一条认识校园的参观路线'],feature:{label:'打开空间接待与导览',type:'reception',base:'base1'},options:[['guide','从红场介绍校园地标'],['meet','聊聊校园资源和学生日常'],['study','一起安排一条校园参观路线']]},
 };
 export const NPC_CAST=cast.map((p,i)=>{
-  const recipe=structuredClone(visitorCatalog.presets[p.preset].recipe);recipe.colors.top=p.color;
+  const presetId=['campus','library','sports','creative'][p.preset],preset=visitorCatalog.presets.find(v=>v.id===presetId);
+  if(!preset)throw Error('Missing stable NPC preset: '+presetId);
+  const recipe=structuredClone(preset.recipe);recipe.colors.top=p.color;
   recipe.colors.hair=['#4a3837','#332c31','#614b3c','#352e35','#443732','#654d3d'][i];const station=stations[p.id];
   return {...p,...station,stationId:station.home,options:station.options.map(([action,label])=>[action,station.home,label]),schedule:p.schedule.map(([start,end,action,_place,_label],j)=>[start,end,station.options[j%station.options.length][0],station.home,station.options[j%station.options.length][1]]),profile:{displayName:p.name.split(' ')[0],recipe:validateVisitorRecipe(recipe)},agentId:'uw-npc-'+p.id};
 });

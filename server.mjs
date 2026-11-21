@@ -4,7 +4,7 @@ import {resolve,join,extname,sep,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {randomUUID} from 'node:crypto';
 import {baseRoot,projectRoot,protocol,openStore,loadAccess,createGateway,createReception,configuredHermes,openKnowledge} from './src/base.mjs';
-import {createCampusNavigation,positionAlong} from './src/navigation.mjs';
+import {createCampusNavigation} from './src/navigation.mjs';
 import {WALK_SPEED,GUIDE_SPEED} from './public/campus-walking.js';
 import {loadCampusServices,createCampusServices} from './src/campus-services.mjs';
 import {visitorCatalog,createVisitorAvatars} from './src/visitor-avatar.mjs';
@@ -92,10 +92,11 @@ export async function startUw({port=Number(process.env.PORT||4190),dataDir=resol
   }
   const campusPrincipal=createCampusPrincipal({platform,visitorAccess,spaceId:pack.spaceId});
   const resolvePrincipal=(req,res,browser=false)=>campusPrincipal(req,res,{browser});
-  const position=(principal)=>positionAlong(store.read().positions?.[protocol.digest([principal.id,pack.spaceId])]) || [...nav.nodes[nav.landmark('red-square').arrivalNode]];
+  const savedMove=principal=>store.read().positions?.[protocol.digest([principal.id,pack.spaceId])];
+  const position=principal=>nav.readMovement(savedMove(principal)).point;
   const server=http.createServer(async(req,res)=>{
     res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','no-referrer');
-    res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'");
+    res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' blob:; object-src 'none'; frame-ancestors 'none'");
     try{
       if(!['127.0.0.1','localhost','[::1]',...(publicOrigin?[new URL(publicOrigin).hostname]:[])].includes(new URL('http://'+req.headers.host).hostname))throw Object.assign(Error('Unexpected host'),{status:403});
       const url=new URL(req.url,origin),method=req.method;
@@ -157,7 +158,10 @@ export async function startUw({port=Number(process.env.PORT||4190),dataDir=resol
             return json(res,200,await gateway.handle({agentId:person.agentId,principal,request,version:'1.0',origin}));
           }
         }
-        if(method==='GET'&&url.pathname==='/api/me')return json(res,200,{visitorId:principal.id,identityMode:principal.tenantBound?'member':'visitor',loginExpired:Boolean(principal.loginExpired),position:position(principal),move:store.read().positions?.[protocol.digest([principal.id,pack.spaceId])]||null,serverTime:Date.now(),walking:{speed:WALK_SPEED,maxIntentMs:500,collision:'campus-footprints-and-terrain'},provider:reception.provider,generalConversation:reception.general,baseVersion:protocol.BASE_VERSION});
+        if(method==='GET'&&url.pathname==='/api/me'){
+          const now=Date.now(),view=nav.readMovement(savedMove(principal),now);
+          return json(res,200,{visitorId:principal.id,identityMode:principal.tenantBound?'member':'visitor',loginExpired:Boolean(principal.loginExpired),position:view.point,move:view.move,serverTime:now,walking:{speed:WALK_SPEED,maxIntentMs:500,collision:'campus-footprints-and-terrain'},provider:reception.provider,generalConversation:reception.general,baseVersion:protocol.BASE_VERSION});
+        }
         if(method==='GET'&&url.pathname==='/api/avatar')return json(res,200,{catalog:visitorCatalog,profile:avatars.read(principal),presentation:avatars.presentation(principal),identityMode:principal.tenantBound?'member':'visitor'});
         if(method==='GET'&&url.pathname==='/api/avatar/history')return json(res,200,{profiles:avatars.history(principal)});
         if(method==='POST'&&url.pathname==='/api/avatar')return json(res,200,await avatars.save(principal,await body(req)));
@@ -171,7 +175,7 @@ export async function startUw({port=Number(process.env.PORT||4190),dataDir=resol
           return json(res,200,await store.command(principal,pack.spaceId,b.requestId,{action:'free-walk',...b},d=>{
             const key=protocol.digest([principal.id,pack.spaceId]),previous=d.positions[key];
             if((previous?.revision||0)!==b.expectedRevision)throw Object.assign(Error('移动状态已更新，请重新同步。'),{status:409,code:'movement_conflict'});
-            const from=positionAlong(previous)||position(principal),motion=nav.walking.step(from,b.direction,b.durationMs);
+            const from=nav.readMovement(previous).point,motion=nav.walking.step(from,b.direction,b.durationMs);
             const move={...motion,startedAt:Date.now(),mode:'free',stopped:motion.distance<.001,geometryHash,revision:(previous?.revision||0)+1};
             d.positions[key]=move;return move;
           }));
@@ -190,7 +194,7 @@ export async function startUw({port=Number(process.env.PORT||4190),dataDir=resol
           return json(res,200,await store.command(principal,pack.spaceId,b.requestId,{action:'stop',...b},d=>{
             const previous=d.positions[protocol.digest([principal.id,pack.spaceId])];
             if(b.expectedRevision!==undefined&&b.expectedRevision!==(previous?.revision||0))throw Object.assign(Error('移动状态已更新，请重新同步。'),{status:409,code:'movement_conflict'});
-            const point=positionAlong(previous)||position(principal);
+            const point=nav.readMovement(previous).point;
             const move={path:[{levelId:'outdoors',point}],startedAt:Date.now(),previewSpeed:0,distance:0,stopped:true,geometryHash,revision:(previous?.revision||0)+1};
             d.positions[protocol.digest([principal.id,pack.spaceId])]=move;return move;
           }));
@@ -221,8 +225,8 @@ export async function startUw({port=Number(process.env.PORT||4190),dataDir=resol
       }
       if(!['GET','HEAD'].includes(method))throw Object.assign(Error('Method not allowed'),{status:405});
       const pathname=decodeURIComponent(url.pathname);
-      // Historical renderers are packaged only for reproducible old avatar receipts/tests.
-      // Neither the map nor the wardrobe serves any 3D artwork in the pixel release.
+      // Historical renderer entrypoints remain offline for old receipt reproduction.
+      // Current 3D artwork uses the reviewed versioned art-v0120 asset namespace.
       const retired=['app-3d.js','art-scene.js','building-roofs.js','paper-fountain.js','paper-surfaces.js','campus-environment.js','visitor-camera.js','visitor-editor.js','visitor-model.js','visitor-model-v1.js','visitor-paper-model.js','visitor-chibi-model.js','visitor.css','ui-refresh.css'];
       if(retired.includes(pathname.slice(1))||pathname.startsWith('/vendor/three/'))throw Object.assign(Error('Retired renderer'),{status:404});
       let directory=join(projectRoot,'public'),relative=pathname==='/'?'index.html':pathname.slice(1);
@@ -232,7 +236,7 @@ export async function startUw({port=Number(process.env.PORT||4190),dataDir=resol
       const file=await realpath(resolve(directory,relative)).catch(()=>{throw Object.assign(Error('Not found'),{status:404});});
       if(!file.startsWith((await realpath(directory))+sep))throw Object.assign(Error('Path denied'),{status:403});
       const info=await stat(file);if(!info.isFile())throw Object.assign(Error('Not found'),{status:404});
-      const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.png':'image/png'};
+      const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.glb':'model/gltf-binary','.bin':'application/octet-stream'};
       if(platform&&relative==='index.html'){
         const html=(await readFile(file,'utf8')).replace('</head>','<script type="module" src="/native-navigation.js"></script></head>');
         res.writeHead(200,{'Content-Type':mime['.html'],'Content-Length':Buffer.byteLength(html),'Cache-Control':'no-cache'});return res.end(method==='HEAD'?undefined:html);

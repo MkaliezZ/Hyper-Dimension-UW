@@ -1,0 +1,20 @@
+{
+  "repository": "MkaliezZ/Hyper-Dimension-UW",
+  "visibility": "public",
+  "applicationVersion": "0.13.0-dev.124",
+  "deliveryArchiveSha256": "bcae27892fb439bc17590a0175612af24104f6bce1a5ad22f2d1652ae09c5b75",
+  "sourceTrackedPayloadCount": 1112,
+  "readmeLanguages": [
+    "zh-CN",
+    "en"
+  ],
+  "documentationScreenshots": [
+    "docs/screenshots/campus.jpg",
+    "docs/screenshots/visitor-comparison.jpg"
+  ],
+  "localArtManifest": "CAMPUS-ART-FILES.json",
+  "verificationScope": "staged source, known credential signatures, private-workspace paths, denied path components, binary and archive extensions",
+  "publishedLargeArt": false,
+  "publishedRuntimeData": false,
+  "publishedDeliveryArchive": false
+}

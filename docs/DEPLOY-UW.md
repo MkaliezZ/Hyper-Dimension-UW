@@ -1,10 +1,10 @@
 # UW 启动、部署与恢复
 
-适用 UW v0.10.1；进度见 CURRENT-DEVELOPMENT-0100.md。先读根 README；接手开发再读 AGENTS 与 COHERENT-CAMPUS-090。当前学校适配采用 `hyper-dimension.geo-campus/v1`，不是 Base 室内模型。当前人物使用像素部件和同一地图形象；原 Base 目录和旧 v1–v5 配方完整保留。镜像必须包含 compat 目录；当前 Dockerfile 与 .dockerignore 已包含它。旧 3D 美术文档不是当前实现入口。
+适用 UW dev.124 源码仓库和校园美术交付包。先读根 README 和 AGENTS。当前浏览器采用实时三维校园，使用 hyper-dimension.geo-campus/v1。保留 compat 目录以读取旧存档。完整版部署需要独立 Ubuntu、Docker Engine、Compose 和私有配置。参观模式的验收范围见根 README。
 
 ## 轻量参观
 
-完整解压后安装 Node 22.13+，运行 `node scripts/verify-package.mjs`、`node scripts/verify.mjs`、`node server.mjs`，打开 http://127.0.0.1:4190/ 。Windows 可双击 START-UW.cmd。包含首次建角、地图、路线与公开接待；校园账号、背包、论坛和运营需要下面的完整模式。
+从 Git 检出时先按根 README 安装依赖和恢复美术。完整交付 ZIP 解压后安装 Node 22.13+，运行 `node scripts/verify-package.mjs`、`node scripts/verify.mjs`、`node server.mjs`，打开 http://127.0.0.1:4190/ 。Windows 可双击 START-UW.cmd。包含首次建角、地图、路线与公开接待；校园账号、背包、论坛和运营需要下面的完整模式。
 
 运行数据默认在 `.local/uw-runtime`。更换实例时选新目录和新端口。不要复制他人的访问凭据，也不要清空旧目录来解决启动问题。
 
@@ -24,7 +24,7 @@
 
 需要 Linux amd64、Docker Engine、Compose v2、Python 3、网络和足够磁盘/内存。本机验证使用 WSL Ubuntu，约 6 GB 内存；这不是服务器负载容量承诺。所有服务在回环地址，生产通过 HTTPS 反向代理提供校园和身份域名。
 
-从完整 ZIP 构建固定服务依赖和 Hermes，再构建 UW 学校层：
+使用完整 ZIP，或从 Git 检出后按根 README 恢复美术，再按 [源码范围](REPOSITORY-SCOPE.md) 恢复固定服务依赖。构建顺序如下。
 
 ```sh
 docker build --network host -f base/deploy/Dockerfile -t hyper-campus:uw-core base
@@ -32,7 +32,7 @@ docker build --network host --build-arg HD_CORE_IMAGE=hyper-campus:uw-core -f ba
 docker build --build-arg UW_BASE_IMAGE=hyper-campus:uw-hermes -f deploy/Dockerfile -t hyper-campus:uw-native .
 ```
 
-嵌入的 `base/PACKAGE-MANIFEST.json` 是当前学校副本清单；原 Base 清单另存 `base/SEALED-BASE-MANIFEST.json`。当前清单明确记录 9 个学校适配源文件与新增模块（含 UW 回环 HTTP 论坛桥接），校验全部打包文件；原 Base 源目录、旧 ZIP 和许可证保留。
+嵌入的 `base/PACKAGE-MANIFEST.json` 是当前学校副本清单；原 Base 清单另存 `base/SEALED-BASE-MANIFEST.json`。当前副本清单校验学校适配、本机路径脱敏后的历史记录和其余文件。原 Base 清单、旧 ZIP 和许可证单独保留。
 
 先准备不在源码中的私有模型密钥文件。下面只建立全新的虚构测试实例；`--out`、project、namespace 都不能与已有实例重名：
 
@@ -64,7 +64,7 @@ HD_STACK_IMAGE=hyper-campus:uw-native docker compose --env-file /opt/uw-new/comp
 HD_STACK_IMAGE=hyper-campus:uw-native docker compose --env-file /opt/uw-new/compose.env -f deploy/compose.yaml run --rm --no-deps utility backup verify --backup /backups/NEW-NAME
 ```
 
-备份是私有资料，包含所有配置数据库、文件、户外空间数据与会话，不能放入公开 ZIP。恢复用同镜像 `/app/deploy/restore.mjs`，挂载本项目 runtime/backups 卷及私有 PostgreSQL 管理密码文件，目标选新的 `/runtime/NEW-ROOT` 与新 namespace。临时恢复容器以 root 运行时，需 CHOWN、DAC_OVERRIDE、FOWNER 三项文件权限；不需要 privileged。完整参数参考底座恢复工具与本次 `evidence/full-base-v0100-20261030/ACCEPTANCE.md`。
+备份是私有资料，包含所有配置数据库、文件、户外空间数据与会话，不能放入公开 ZIP。恢复用同镜像 `/app/deploy/restore.mjs`，挂载本项目 runtime/backups 卷及私有 PostgreSQL 管理密码文件，目标选新的 `/runtime/NEW-ROOT` 与新 namespace。临时恢复容器以 root 运行时，需 CHOWN、DAC_OVERRIDE、FOWNER 三项文件权限；不需要 privileged。完整参数参考底座恢复工具。
 
 恢复完成且服务二进制绑定成功后，设置 `UW_RESTORED_ROOT=/runtime/NEW-ROOT`，叠加 `deploy/compose.restore.yaml`，用 `up -d --no-deps --wait keycloak forum-uw nakama-uw` 启动恢复服务。**不要运行 init**。在恢复配置下执行 `/app/tools/m1-relocate-client.mjs`，再启动 base。必须核对稳定账号、人物、背包、原生正文、向量历史、账本、会话和权限后才考虑域名切换。
 
@@ -72,10 +72,4 @@ HD_STACK_IMAGE=hyper-campus:uw-native docker compose --env-file /opt/uw-new/comp
 
 ## 维护与续建
 
-日常代码验证：`node --test tests/*.test.mjs`、`node scripts/verify.mjs`。完整原生自动检查只用于独立虚构测试实例，入口 `scripts/verify-campus-live.mjs`；会创建帖子、邀请、计分规则和资料快照，禁止在用户实例随意运行。
-
-改嵌入 Base 源码后，先按 `scripts/verify-school-patch.py` 的明确适配范围核对差异，再更新当前学校清单；不能把所有漂移列入允许范围。新打包用 `python3 scripts/pack.py --out /absolute/NEW.zip`，不会覆盖旧 ZIP；检查 CRC、所有 payload SHA、解压启动及相关业务路径。源文件改动后旧包清单不再代表当前工作树。
-
-测试完成用 compose stop 停止本项目服务。不要全局 prune、终止其他 WSL 工作或删除用户数据。当前验收与未验证生产边界见根 README 和本次验收记录。
-
-本轮完整恢复还以 `tools/m1-snapshot.mjs` 对比全部源/目标表的计数和摘要。旧 `verify-restored-campus.mjs` 面向最初九条用例；增加原帖审核后可能出现零分审计行，应捕获真实冻结源库基准，不能为了满足旧的单行假定修改账本。当前例子见本轮 `verify-restored-current.mjs` 及其来源记录。
+Git 检出使用 npm run verify:source、npm run verify 和 npm run verify:models。完整 ZIP 使用 node scripts/verify-package.mjs 替换源码校验命令。原生功能验证入口为 scripts/verify-campus-live.mjs，仅在独立虚构测试实例运行。它会创建测试帖子、邀请和资料快照。验证完成可用 compose stop 停止本项目服务。恢复测试使用新目标和独立数据，源实例及备份单独保留。

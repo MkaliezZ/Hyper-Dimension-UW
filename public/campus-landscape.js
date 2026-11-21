@@ -28,7 +28,13 @@ export function campusLandscape(campus){
     const kind=/prunus.*(?:yedoensis|serrulata|sargentii|subhirtella)|cherry/i.test(t.species+' '+t.commonName)?'cherry':/conifer/i.test(t.treeType)&&!/deciduous/i.test(t.treeType)?'conifer':'broadleaf';
     // Coordinates never jitter. Canopy/height are illustrative, not source-height unit assumptions.
     const seed=Number(t.id.split('-').at(-1)),size=(seed%5)*.22;
-    return {...t,x:t.point[0],z:t.point[1],kind,crownWidth:(kind==='cherry'?8.4:kind==='conifer'?6.1:7.2)+size,height:(kind==='conifer'?13.2:kind==='cherry'?8.6:10.6)+size};
+    const crownWidth=(kind==='cherry'?8.4:kind==='conifer'?6.1:7.2)+size;
+    const height=(kind==='conifer'?13.2:kind==='cherry'?8.6:10.6)+size;
+    // This mapped Hinoki cypress sits in the Faculty Club's narrow
+    // ground-open lightwell. Retain the surveyed point and use a low crown
+    // for the planted opening instead of the default mature conifer.
+    const lightwellSpecimen=t.id==='uw-tree-3996284'&&t.species==='Chamaecyparis obtusa';
+    return {...t,x:t.point[0],z:t.point[1],kind,crownWidth:lightwellSpecimen?.94:crownWidth,height:lightwellSpecimen?1.28:height};
   });
   const benches=LANDSCAPE_SOURCE.benches.filter(b=>{
     if(b.status!=='Active'){rejected.push({id:b.id,reason:'not-active-in-public-snapshot'});return false;}return usable(b);

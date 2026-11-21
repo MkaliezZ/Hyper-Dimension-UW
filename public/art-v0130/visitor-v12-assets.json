@@ -1,0 +1,557 @@
+{
+  "schema": "uw.visitor-assets/v1",
+  "version": "uw-visitors-12",
+  "files": [
+    {
+      "path": "/art-v0130/models/visitor-hair-short-v1-fit-v2/model.glb",
+      "bytes": 4351580,
+      "sha256": "e46d133c3e94e5f923c8830ec9277946c42684e74d375f7ade8dd7a2b3105502"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-short-v1-fit-v2/asset.json",
+      "bytes": 930,
+      "sha256": "6021d945a64eee41d9de4055aab301ac2ecdd331412af8fad68e4d52637d4eb4"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-sidepart-v1-fit-v2/model.glb",
+      "bytes": 4265300,
+      "sha256": "66eea4a5bc65c691995e7327dda831cffa05d33301566fcafb438bc64f0b1605"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-sidepart-v1-fit-v2/asset.json",
+      "bytes": 932,
+      "sha256": "8d4db6f7c0561395f8a8339af4596c36a09d4f5e4c8998a4258d3547ab69cb54"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-bob-v1-fit-v2/model.glb",
+      "bytes": 4761240,
+      "sha256": "c5a92f7a4e44c38c2566014041ea079c0dca266d28541386c39210e1c84ebefc"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-bob-v1-fit-v2/asset.json",
+      "bytes": 907,
+      "sha256": "bbbee3aca6bbdfa14b88b567026250007ee9f134330138c61fddc727ae73d018"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-ponytail-v1-fit-v2/model.glb",
+      "bytes": 4084408,
+      "sha256": "976d602b193c10d9db0d9ca95bd8fc57b96c734f82ccba11f85db1fdd581743b"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-ponytail-v1-fit-v2/asset.json",
+      "bytes": 954,
+      "sha256": "efea6b1b6c579accd70fb30bf1b2158d2de68a1297165ab2b0bdb8577d769bde"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-curly-v1-fit-v2/model.glb",
+      "bytes": 4635580,
+      "sha256": "832bf449f133f4bdc1aa99d3ba5c528527dfe63cc4f5b77c83e2b0787b5418b1"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-curly-v1-fit-v2/asset.json",
+      "bytes": 909,
+      "sha256": "6ca2702843b359d22482414f7b856733704545da170af231a30514e74528f2dc"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-braids-v1-fit-v2/model.glb",
+      "bytes": 4093056,
+      "sha256": "35e2e6198dc00909481f43a35093e17dd14c6e70f5e74f40bbf0cb7c675dccc6"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-braids-v1-fit-v2/asset.json",
+      "bytes": 932,
+      "sha256": "ab313b7d3e9e9311758f95a85beabd775ec4bcb99032c4b68568bff7b5caffef"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-bun-v1-fit-v2/model.glb",
+      "bytes": 4776184,
+      "sha256": "6202735f293ed20613c858997c09cd244e29794245989a63f5e71d25313b7a28"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-bun-v1-fit-v2/asset.json",
+      "bytes": 946,
+      "sha256": "98e6200dade08453de24db2b112445707d9997a85af316df74d9c8e9f3340f67"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-long-v1-fit-v2/model.glb",
+      "bytes": 4275804,
+      "sha256": "b5d2b55c41da3b4cb425fa265835d49df8b5d5f67470e3592723132a88e6576f"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-long-v1-fit-v2/asset.json",
+      "bytes": 950,
+      "sha256": "ee729badcb6f037ebead9d7e81c9c0153d98279c2e2dad64570677f67a2f876a"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-tee-v1/model.glb",
+      "bytes": 3577608,
+      "sha256": "889de461cc66089d0a40af5365a3a79b95bd551d3916b374b0fcc00da439c98a"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-tee-v1/asset.json",
+      "bytes": 1021,
+      "sha256": "8254288be2c59dfbd929a8b1a9c94519dd80601860baff0f4247284305064183"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-tee-v1/sleeve-influence.json",
+      "bytes": 1129,
+      "sha256": "32f9f6ad3544185e009f9ce9f59853021566d4186a8c1617c7a6297d6d5e0d0d"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-tee-v1/sleeve-influence.bin",
+      "bytes": 70968,
+      "sha256": "2d65d0dd1769014dfaf0121726dd55bf66b686b75ade463fe65051fada4d2fd5"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-varsity-v1/model.glb",
+      "bytes": 4071432,
+      "sha256": "84bca97e6927fad71794e4291d14b4ac20ba9b832683231a37098c98433d7d20"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-varsity-v1/asset.json",
+      "bytes": 1033,
+      "sha256": "1459cf77382617218911fabbcb8f3ad55f44cefb12f5d9bc5cdeab523043fff8"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-varsity-v1/sleeve-influence.json",
+      "bytes": 1429,
+      "sha256": "50eed1a0cf307a80b7ccb0cd1aba347a21c417a59b9ba8ba59299ef120cda0e6"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-varsity-v1/sleeve-influence.bin",
+      "bytes": 70540,
+      "sha256": "44fa68028f03c224607693efcb738035379435391353bd7383bb9a94564d4217"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-hoodie-v1/model.glb",
+      "bytes": 3466436,
+      "sha256": "606cdaa192665a7f0cdadfca5a8a11a8ce8a5db8a21130cb3f6238465784e456"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-hoodie-v1/asset.json",
+      "bytes": 1030,
+      "sha256": "e1aa2d6486418432ff76cb6d3e448384ea1cd753de307e1c4e896a0b269684d1"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-hoodie-v1/sleeve-influence.json",
+      "bytes": 1107,
+      "sha256": "dff41cc1625b52115bf47f1ec8e94acaa1ab40db3a435f04008f69300640fd0f"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-hoodie-v1/sleeve-influence.bin",
+      "bytes": 68924,
+      "sha256": "e47be6febbf356d03ce0e474ad3d98c1f232a7dff66912ec4edef13b01826029"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-polo-v1/model.glb",
+      "bytes": 3844316,
+      "sha256": "779c6b01fc6553486f7762acdc9364b06855b3dd1000ede1fc294c87cf1e7c81"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-polo-v1/asset.json",
+      "bytes": 1024,
+      "sha256": "7dc66a93a0d16bf8949aa816a7100f10fdf5507b2de6e94d9778cdee5df6dedc"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-polo-v1/sleeve-influence.json",
+      "bytes": 1133,
+      "sha256": "500b33275de761fa702695bedfe17410330a5266123330507a80d96e2a7e01bf"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-polo-v1/sleeve-influence.bin",
+      "bytes": 67644,
+      "sha256": "ab53c0f4388cdc13b82f4dc64ff8d1b224630c5b9f0c473862b718ea24c9899d"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-cardigan-v1/model.glb",
+      "bytes": 4372956,
+      "sha256": "8307867908a6d49f58eed0c69aa034e46c50d1c3c7162535d26819474d082a7d"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-cardigan-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "b4ace8bf081992bebd5fc38e6fdacfa2d707e7766c7b6bb5dddb0bb7252c4149"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-cardigan-v1/sleeve-influence.json",
+      "bytes": 2403,
+      "sha256": "8cbf6958274abbb82f6a9a4ce892646e5bf7d29dbca6b250ab0df8a8fea5c9b0"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-cardigan-v1/sleeve-influence.bin",
+      "bytes": 71604,
+      "sha256": "aaef849ece895c7dbb5ddd8988f482e739945701dc6e418efe2616bec76ad48e"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-vest-v1/model.glb",
+      "bytes": 4379500,
+      "sha256": "3574ec8a77e1402e7ffa50e327613b9b658cbd022a7e7f0b8c59a348ca5fe052"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-vest-v1/asset.json",
+      "bytes": 1024,
+      "sha256": "193e0949685279fbc2dc2046538b507c54f8f4f34b109ff09d85aa112dda2892"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-vest-v1/sleeve-influence.json",
+      "bytes": 1130,
+      "sha256": "2d9b875d6861a6f44d63df8d07ffdc352d894d85aba9eb7f8988169cc19717e6"
+    },
+    {
+      "path": "/art-v0130/models/visitor-top-vest-v1/sleeve-influence.bin",
+      "bytes": 65308,
+      "sha256": "7abdaf22e3667192bb217cb671d0646b01e422224b8de6d607be68fa426951a8"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-trousers-v1/model.glb",
+      "bytes": 4432856,
+      "sha256": "11b20046a351b27a0d2d55393d8b69225bf9d44a02f17c0926a49fbe6802f011"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-trousers-v1/asset.json",
+      "bytes": 1045,
+      "sha256": "c18efefc5a7f5d67c517a993893345833476a10d41e17276c87ddc61b62754d5"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-skirt-v1/model.glb",
+      "bytes": 4404716,
+      "sha256": "bcb74f5abb4147f1ea9c38e9f5d6de589635e5ed1c45dc30e1249285e065a305"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-skirt-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "d92e36cc2d3de3c58751dc58b54a871579412733c4b350b0f30d89e2c4a73d8a"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-shorts-v1/model.glb",
+      "bytes": 4363008,
+      "sha256": "9ce3014d72a5c080979cb252d104e3a49e89164e108b304ea7e0eb04c75c3e5f"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-shorts-v1/asset.json",
+      "bytes": 1039,
+      "sha256": "83e63e3d8660369b9d2bec0c72be44ddb167bffb89bac3feedc9779d1f4da8a1"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-jeans-v1/model.glb",
+      "bytes": 4644600,
+      "sha256": "60a805d70c1a1a03bf976df0e9953aefeaefd5423ad9e503c5f74e890af3015f"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-jeans-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "2bc424eb5331610d315db894d2b2d4254cb930389f5f7dc22d321b838e815721"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-cargo-v1/model.glb",
+      "bytes": 4190060,
+      "sha256": "f9c6b470dbdb98a09016c1bfa7c66a5aebc7ad42b42946416f7eb68204993ef9"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-cargo-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "84f1613e4f8e83efc755976385933efc35436d50b99c1d1d91d6a4662fd5d229"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-culottes-v1/model.glb",
+      "bytes": 4411364,
+      "sha256": "116db769b8f190ddebfdecb033b0bf4ca9de78c79421a2206704dafe8f83f20e"
+    },
+    {
+      "path": "/art-v0130/models/visitor-bottom-culottes-v1/asset.json",
+      "bytes": 1045,
+      "sha256": "af61b354bcbee3acefb579261b10ce02587463cf9362bc4944dada36baa22d81"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hand-v9/model.glb",
+      "bytes": 9431364,
+      "sha256": "4feb6baf8dee1e8e5224c0bcc1d3ddeb2e697eed59e793060387c1802a2948eb"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hand-v9/asset.json",
+      "bytes": 774,
+      "sha256": "8f44c603ce83863ada1a2018cb8fa66dd66d8c3864c18efe6862d1b54ccee9c0"
+    },
+    {
+      "path": "/art-v0130/models/visitor-shoe-v9/model.glb",
+      "bytes": 9456316,
+      "sha256": "8544f2a8d6dc4bad64b49474400a157516865e8d17d5686e7bf8aa0a9b86e12f"
+    },
+    {
+      "path": "/art-v0130/models/visitor-shoe-v9/asset.json",
+      "bytes": 757,
+      "sha256": "3a363c83d0d13fe6e0264768f6ca9f90a852458e1d6144d7bb863c5455f9caee"
+    },
+    {
+      "path": "/art-v0130/models/visitor-npc-quality-head-v2/model.glb",
+      "bytes": 7177368,
+      "sha256": "873e919c64c80aa8ef1451dd46d2f33461232e5aef235b19f26fb12f38b563a8"
+    },
+    {
+      "path": "/art-v0130/models/visitor-npc-quality-head-v2/asset.json",
+      "bytes": 1341,
+      "sha256": "c2dc84edb1ab69211d1883f3231b3e97b2474672b4a94f59c8b1462629660afe"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-root-v10/model.glb",
+      "bytes": 4020344,
+      "sha256": "588960cd477ca4e9ecafc96cb1616de552acc4d4e8a1713afe0c476ac6194f89"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-root-v10/asset.json",
+      "bytes": 626,
+      "sha256": "231c25ed3851cd499291937da504ad864233f9b406caa1ab143250786ca6f64e"
+    },
+    {
+      "path": "/campus-accessory-materials-v11.js",
+      "bytes": 1510,
+      "sha256": "1a10fb628fa97f56c983597cea82edea1e7461e074c1a6788928c126c04f987d"
+    },
+    {
+      "path": "/campus-accessory-geometry-v11.js",
+      "bytes": 15902,
+      "sha256": "9bb4f1ac1c8f77f3099c2f0b5717eec4a056cd7771b22e557fe30ae0db676529"
+    },
+    {
+      "path": "/campus-visitor-v11.js",
+      "bytes": 2478,
+      "sha256": "6c24a58d726328ffbc5b065b5d1e3270cf1f606c220266132272c10163669ef0"
+    },
+    {
+      "path": "/art-v0130/materials/visitor-accessories-v11.png",
+      "bytes": 2603800,
+      "sha256": "14556ae1a74606a1a39c2f701c37cd6fbb05f6a562db61f0e2b5dbf457bb5ff5"
+    },
+    {
+      "path": "/campus-visitor-v12.js",
+      "bytes": 4809,
+      "sha256": "aed358fd297f2eba1f31d4bc8cee100fbc6dbabadceabe4a0b1530dd5e8e4043"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-ponytail-clean-v12/model.glb",
+      "bytes": 4084428,
+      "sha256": "8f9d7862b3b1d2156aa17927879a35a6dbbabe21555b8f4671fe435288ac5cc1"
+    },
+    {
+      "path": "/art-v0130/models/visitor-hair-ponytail-clean-v12/asset.json",
+      "bytes": 1295,
+      "sha256": "7a5d0f4d4fd29ef4e9928d9bd2abaf535896bb77518c7771d7fc1047d4e914e2"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/body-regular.jpg",
+      "bytes": 12410,
+      "sha256": "1f981d346a1f1e99ddde737080fc89b93fbbde60390f729cf94c54386fc7f93e"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/body-slim.jpg",
+      "bytes": 11916,
+      "sha256": "b90bb61c81bbf2fa48bf5410304bab34322d80f4320b5a62ecb3dd23c69ce851"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/body-athletic.jpg",
+      "bytes": 12739,
+      "sha256": "6ddedb2acb37f922d179245a7f3963b668b1ce2b27590904f14082e70f81b4ad"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-short.jpg",
+      "bytes": 13889,
+      "sha256": "4c50a903e197701c1a345e009a7048fd91c944a07fe0d9bcf26cf4ac6bde6c45"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-sidepart.jpg",
+      "bytes": 14516,
+      "sha256": "6037229d5ae23d5ad38dfbd4a50042543dc448e0de4e87325552cc9046a43f16"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-bob.jpg",
+      "bytes": 14445,
+      "sha256": "0e0698a06e54847297a74f2f5bd1fc3d94ee11bbf5138c39e53f9c2db85c37f4"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-ponytail.jpg",
+      "bytes": 14671,
+      "sha256": "3a1cc284b61726ef6e06747c113cb18a3b7ddcdebb2156e7565d84837432e26e"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-curly.jpg",
+      "bytes": 15795,
+      "sha256": "77dd217e0b59d8a4a17f6d8d58a903e2dd8e62ae233b1f577c0cda2eb2a70925"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/top-tee.jpg",
+      "bytes": 17105,
+      "sha256": "0cad29e4e19e23caa1a8f519eb03ecb929c41fc487f18aa5c52275ea505a333e"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/top-varsity.jpg",
+      "bytes": 20611,
+      "sha256": "66698af676a994f39a9f4b4e74b11b8cfd204b1b367d7682dc5f3ea7f3954d92"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/top-hoodie.jpg",
+      "bytes": 18204,
+      "sha256": "ebfda29414095c01e33504eed274f2eefe857239725fa517bfc8b4802e4e9193"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/bottom-trousers.jpg",
+      "bytes": 15370,
+      "sha256": "d62b92c909fd9d0062254d68091a793ba6d69f8127f1d15f3d5bcad62373046e"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/bottom-skirt.jpg",
+      "bytes": 16698,
+      "sha256": "9bfe20a4ff7d0edcc361d63985eb7073cee2550b50e1b94bfecd65f578338aac"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/bottom-shorts.jpg",
+      "bytes": 16697,
+      "sha256": "00e5a2d6dd69b3299709de51b1fdbffe6aaecdb9966d290f65d00e77bbfa3111"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/shoes-sneakers.jpg",
+      "bytes": 10747,
+      "sha256": "1877e44fb893f66981aea5e295ab31f635956bd91dcdcfd7cd140622ca2f72e4"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/shoes-high.jpg",
+      "bytes": 11330,
+      "sha256": "eb45366146c44448ea4db81b00f57cfc33abd060a09a28c3c7fad39b35290b3d"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/shoes-loafers.jpg",
+      "bytes": 9356,
+      "sha256": "212269dcc47380ab4e1bd3f5f4117447665e9534154e944b5af26bc5f008ca79"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/glasses-none.jpg",
+      "bytes": 18982,
+      "sha256": "1ef0803896e01fdd6ca504983c854cbcd35c1aced6057f39443b95dd88d95ae1"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/glasses-round.jpg",
+      "bytes": 21171,
+      "sha256": "7d69d5921e81042da6019db56f732980ee41f2dda69dfdfbbcda281fc16e78c9"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/glasses-square.jpg",
+      "bytes": 20522,
+      "sha256": "48398ebc7a78734a92813c4733f7fca699ec0210e4508adb3737bb5d5186db56"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-none.jpg",
+      "bytes": 18700,
+      "sha256": "95c1dc9d57e95aeaad500fd33a2ca78951b9dc1f477102aa0fa939f78581c2b4"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-satchel.jpg",
+      "bytes": 19083,
+      "sha256": "03ee463744d2f8725225ac56d88a17b6294c0754d0a6200c251fd1a3710fda26"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-scarf.jpg",
+      "bytes": 18650,
+      "sha256": "4dfa15cdd90bff71895d3093f91c1fee70a245247214300d68ae06f422c44755"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-cap.jpg",
+      "bytes": 15583,
+      "sha256": "95804ba2c34907323d05707f53dca24ffb7f2ec2ea8062e60f50e24068a1e5d8"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-braids.jpg",
+      "bytes": 15351,
+      "sha256": "683c3a9b8adc28ecb7f6ab1264c8c147923284bab53e668675b6a3645b47c1be"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-bun.jpg",
+      "bytes": 15917,
+      "sha256": "575bb51499ed423bb23492e436e32f47fd8c6241cc2fd817bb4eb48067d40b3b"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/hair-long.jpg",
+      "bytes": 17138,
+      "sha256": "0fe07db5ae3d6b51d8347079b2e502af93b830532b0c0c68a5b58cea6fabb85d"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/top-polo.jpg",
+      "bytes": 17571,
+      "sha256": "7c88f787ca4d1b8da44000bab52f93bb14fd335bf6970e0f4af1f0f62a74e4f5"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/top-cardigan.jpg",
+      "bytes": 20151,
+      "sha256": "c186e1dda0e493f646435aa74504ac21c2d982a685719e55f828824a40f9b03b"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/top-vest.jpg",
+      "bytes": 20199,
+      "sha256": "3ba5bf3b5d9abba2dd107e5631eb085180cb58d57d3d7fcebbc11bacc8e983d8"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/bottom-jeans.jpg",
+      "bytes": 17294,
+      "sha256": "1756f25ae5591fa36e5b2af31e9569f4bf5acd11aaaaf124233fc909af07652c"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/bottom-cargo.jpg",
+      "bytes": 18090,
+      "sha256": "dfe176b3eb91d7084df38cb6e9790a89d391f709fc51dacafd1c2f84afae4171"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/bottom-culottes.jpg",
+      "bytes": 17021,
+      "sha256": "5737d366d394a19a277d0f231b7257dff810f7507db0981e81f32ac25963ca4e"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/shoes-boots.jpg",
+      "bytes": 9981,
+      "sha256": "47513ef6e27fa2a199971d874a0ab7d2d6c1b891667634492266719f06fbd9e3"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/glasses-oval.jpg",
+      "bytes": 20428,
+      "sha256": "dc73ce74595cd35cfc9c5a833111fcd532e11d5dd07a506f05fef56fbc8a5243"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-headphones.jpg",
+      "bytes": 16739,
+      "sha256": "8782e08c9ac59ea4307b495075286b4df48246f1941d316b914d58ed4b92445e"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-backpack.jpg",
+      "bytes": 13212,
+      "sha256": "74c29741310d4513478975bc8d6d0f9523dab3bbfc5ec55f98493388ca1aa443"
+    },
+    {
+      "path": "/art-v0130/wardrobe-thumbnails-v12/accessory-bow.jpg",
+      "bytes": 14759,
+      "sha256": "e8a07ad1762b3d35bd44af34bda4788a0eb3b9102bf3fc64ef1a72a084940491"
+    }
+  ],
+  "purpose": "Complete NPC-quality head, crown and posterior hair root, smooth blended gait",
+  "originalCharacterSource": "Meshy v10 head/hair/garments and v9 anatomical assets unchanged",
+  "newAccessoryImplementation": {
+    "type": "original procedural UV-mapped textured 3D geometry",
+    "ids": [
+      "shoes-loafers",
+      "shoes-boots",
+      "glasses-round",
+      "glasses-square",
+      "glasses-oval",
+      "accessory-satchel",
+      "accessory-backpack",
+      "accessory-scarf",
+      "accessory-cap",
+      "accessory-headphones",
+      "accessory-bow"
+    ],
+    "material": "four tile generated leather/rubber/canvas/knit atlas",
+    "paidMeshyJobs": 0
+  },
+  "scope": "All38 actual model thumbnails and reviewed source-PBR ponytail derivative;existing11detailedaccessories,all11oldrendereridentities preserved",
+  "provenance": {
+    "geometry": "Prior approved models;self-developed UV/PBR accessories;reviewed derivative removes generated forehead/nape remnants",
+    "thumbnails": "38 actual Three.js model captures,JPEG384x384,fixed studio lighting andslot framing",
+    "newPaidMeshyJobs": 0
+  }
+}

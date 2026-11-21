@@ -31,7 +31,7 @@ try{
   const me=await get(a,'/m0/me');assert.deepEqual(me.schools.map(s=>s.school_id),['uw']);
   assert(me.extensions.includes('community')&&me.extensions.includes('m2'));
  });
- await check('owner-only organizations, last-owner protection and nine real outdoor places',async()=>{
+ await check('owner-only organizations, last-owner protection and all 77 public outdoor places and matching map geometry',async()=>{
   assert.equal((await api(a,school+'/organizations',{requestId:randomUUID(),orgId:org,name:'Denied',kind:'student'})).status,403);
   await post(owner,school+'/organizations',{orgId:org,name:'虚构 UW 自动联调 '+run,kind:'student'});
   const invite=await post(owner,organization+'/invitations',{email:'alice@m0.invalid',role:'member'});
@@ -41,8 +41,15 @@ try{
   const members=await get(owner,school+'/members'),m=members.members.find(x=>x.user_id===owner.userId);
   assert(m,'owner membership');
   assert.equal((await api(owner,school+'/members',{requestId:randomUUID(),userId:m.user_id,role:'student',active:true,expectedRevision:m.revision})).status,409);
-  const network=await get(a,'/network/schools/uw/bootstrap');assert.equal(network.places.length,9);
-  assert(network.places.every(p=>p.sceneId==='uw-outdoors'));assert(network.places.some(p=>p.entityId==='hub'));
+  const network=await get(a,'/network/schools/uw/bootstrap');
+  const campus=await get(a,'/api/campus');
+  const {campusPlaces}=await import('../public/campus-places.js');
+  const expected=campusPlaces(campus);
+  assert.equal(campus.buildings.length,74);
+  assert.equal(expected.length,77);
+  assert.deepEqual(network.places.map(p=>p.entityId).sort(),expected.map(p=>p.id).sort());
+  assert(network.places.every(p=>p.sceneId==='uw-outdoors'&&p.geometryHash===campus.geometryHash));
+  assert(network.places.some(p=>p.entityId==='hub'));
  });
  await check('Nakama private messages require consent and reject non-participant owner access',async()=>{
   const croot='/contacts/schools/uw';

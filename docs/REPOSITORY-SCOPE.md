@@ -1,24 +1,13 @@
-# 私有源码仓库与脱敏范围
+# 公开源码仓库范围
 
-此仓库保存UW v0.11.3的学校应用、Base源码、运行素材和可续建文档。应用开发保持暂停；本次仅准备Git源码副本与维护文档。
+此仓库跟踪 UW dev.124 的学校应用、内嵌 Base 源码、公开地理场景、轻量素材、依赖锁、验证和部署工具。保留原封存交付包和独立的运行数据。原始资料、账号凭据、聊天、数据库、存档、运行日志、私有配置、测试产物和第三方模型缓存由本地部署方管理。
 
-## 排除的数据
+## 完整校园美术
 
-- `.local`、`.private-inputs`、`.tooling`、原始`sources`、运行配置、密钥、Cookie/Token、数据库、用户会话、聊天、存档和备份。
-- 根目录及Base的历史`evidence`正文、日志、截图、测试运行产物和开发机器路径记录。
-- 用户上传的图纸、原始运营文件、私有转换稿和个人资料；保留通用导入代码与原创虚构示例。
-- 完整交付ZIP、`node_modules`、模型权重、Hermes源码缓存及uv安装轮子。公开依赖保留固定来源、版本、许可证和哈希，可由工具恢复。
+`CAMPUS-ART-FILES.json` 记录只在本地恢复的模型、纹理、概念图和艺术资产元数据。使用 `python scripts/restore-campus-art.py --delivery /path/to/Hyper-Dimension-UW-dev.124.zip` 从匹配的完整交付包恢复。工具验证 ZIP 和逐项 SHA-256，保护已有同名文件。源码 Git 历史只保留必要的运行代码、经署名许可的轻量素材和文档截图。
 
-虚构测试账号标识、明确的`.invalid`/`example`邮件、占位密码、回环地址和公开UW/照片署名属于测试/公开来源。正式校方、组织和合作方资料须在部署后由负责人录入。
+## 完整服务
 
-## 源码一致性
+`SOURCE-DEPENDENCIES.json` 记录 Hermes 源码缓存、uv 安装轮子和 ONNX 模型权重的固定摘要。用 `python scripts/restore-source-artifacts.py --delivery /path/to/Hyper-Dimension-UW-dev.124.zip` 恢复，或用该工具的 `--fetch` 选项按上游固定版本获取。完整服务还依赖部署环境自备的配置，见 [部署手册](DEPLOY-UW.md)。
 
-所有UW运行源码与当前v0.11.3交付的对应文件保持字节一致。新增内容仅为本仓库的README、私有项目许可声明、Git忽略/字节保留规则、源码校验与公开依赖恢复工具。旧的本机绝对路径文档改为通用占位路径；原本地项目、封存包、用户数据和配置不改动。
-
-`base/SEALED-BASE-MANIFEST.json`保留原Base来源清单；它描述原交付，不是当前Git树。Git树的当前清单为`SOURCE-MANIFEST.json`，使用`node scripts/verify-source.mjs`核对。历史技术验收与本次源码检出验证分别记录。
-
-## 依赖和许可证
-
-`SOURCE-DEPENDENCIES.json`只列3个固定公开依赖；恢复工具逐文件验证体积与SHA-256，遇到已存在的不同文件直接停止，不覆盖。
-
-仓库私有不改变Base的MIT、NodeBB等组件的原有许可。原许可证、源码锁、图片署名与来源清单保留。项目自有代码的私有许可声明仅作用于自有部分。
+`SOURCE-MANIFEST.json` 对应本次 Git 源码。通过 `npm run verify:source` 验证。早期版本文档对应各自版本，当前入口为根 README 和部署手册。项目权利和第三方许可见 [项目声明](../LICENSE) 及 [来源与许可](../LICENSES.md)。

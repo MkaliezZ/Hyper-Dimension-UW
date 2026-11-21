@@ -1,0 +1,20 @@
+#campus-canvas{image-rendering:auto!important;touch-action:none}.visitor-stage canvas{image-rendering:auto!important;max-width:100%;width:100%;height:100%}.visitor-stage{min-height:340px}.visitor-part canvas{image-rendering:auto!important}.map-controls-help{max-width:calc(100% - 30px)}
+
+body{font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}.topbar{background:#fafbf6}.quiet-button,.map-toolbar button,.art-views button,.map-label,.npc-marker{border-radius:7px;box-shadow:none}.map-title,.walk-controls,.minimap,.npc-world-status,.building-inspection,.chat-launch{border-radius:12px;box-shadow:0 5px 24px #263d2e12}.gallery-card img{width:100%;height:170px;object-fit:cover;border-radius:8px}.gallery-credit{font-size:10px;color:#6d7968}.npc-portrait{flex:0 0 122px}.npc-portrait canvas{width:122px;height:164px;image-rendering:auto!important}.visitor-part-symbol{font-size:26px;display:block;color:#7d6a92}
+@media(max-width:700px){.npc-portrait{flex-basis:94px}.npc-portrait canvas{width:94px;height:126px}}
+.npc-dialog{box-sizing:border-box;height:min(820px,calc(100dvh - 44px));max-height:calc(100dvh - 44px);overflow:hidden}.npc-dialog[open]{display:flex;flex-direction:column}.npc-dialog .npc-heading,.npc-dialog .npc-intro{flex-shrink:0}.npc-dialog .npc-layout{flex:1;min-height:0;overflow:hidden;align-items:stretch}.npc-dialog .npc-roster{min-height:0;max-height:none;height:100%;overflow:auto}.npc-dialog .npc-main{min-height:0;overflow:auto;padding-right:6px}
+@media(max-width:700px){.npc-dialog .npc-layout{grid-template-rows:140px minmax(0,1fr)}.npc-dialog .npc-roster{max-height:140px}}
+
+/* Keep the fitted 3D preview inside the editor; controls remain reachable. */
+.visitor-editor{box-sizing:border-box;height:min(820px,calc(100dvh - 32px));max-height:calc(100dvh - 32px)}
+.visitor-editor .visitor-heading,.visitor-editor .visitor-footer{flex:0 0 auto}
+.visitor-editor .visitor-layout{flex:1;min-height:0;max-height:none;overflow:hidden;grid-template-columns:minmax(240px,310px) minmax(0,1fr)}
+.visitor-editor .visitor-studio{min-height:0;overflow:auto}
+.visitor-editor .visitor-stage{min-height:160px;flex:1 1 0}
+.visitor-editor .visitor-stage canvas{width:100%;height:100%;min-height:0;object-fit:contain}
+.visitor-editor .visitor-view-controls,.visitor-editor .visitor-swatches{flex:0 0 auto}
+.visitor-editor .visitor-options{min-height:0;overflow:auto}
+@media(max-width:760px){.visitor-editor .visitor-layout{display:block;overflow:auto}.visitor-editor .visitor-studio{min-height:400px}.visitor-editor .visitor-stage{height:270px;flex:none}.visitor-editor .visitor-options{overflow:visible}.visitor-editor .visitor-footer{flex-wrap:wrap}}
+
+/* Actual model captures; keep image space stable while changing wardrobe tabs. */
+.visitor-part-thumbnail{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;image-rendering:auto;background:#e8e9df;border-radius:5px}.visitor-part{padding:5px;gap:6px}.visitor-part>span:not(.visitor-part-check){font-size:13px;line-height:1.45}

@@ -1,5 +1,4 @@
 import {protocol} from './base.mjs';
-import {positionAlong} from './navigation.mjs';
 export const UW_SCENE='uw-outdoors';
 
 export function createCampusWorld(campus, nav, pack, receptionSessions) {
@@ -9,8 +8,7 @@ export function createCampusWorld(campus, nav, pack, receptionSessions) {
     kind:'outdoor-landmark',geometryHash:campus.geometryHash,
   }));};
   const position=(state,principal)=>{
-    const move=state.positions?.[protocol.digest([principal.id,campus.id])];
-    const point=positionAlong(move)||[...nav.nodes[nav.landmark('red-square').arrivalNode]];
+    const {move,point}=nav.readMovement(state.positions?.[protocol.digest([principal.id,campus.id])]);
     const last=move?.path?.at(-1)?.point;
     const moving=Boolean(move&&!move.stopped&&last&&Math.hypot(...point.map((v,i)=>v-last[i]))>.01);
     return {sceneId:UW_SCENE,levelId:'outdoors',point,moving};

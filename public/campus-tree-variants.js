@@ -1,0 +1,1 @@
+export function treeShape(id){let seed=2166136261;for(const c of id)seed=Math.imul(seed^c.charCodeAt(0),16777619)>>>0;const shape=seed%4;return {shape,angle:(seed%6283)/1000,heightFactor:[.72,.91,1.08,1.29][shape],widthFactor:[.82,1.13,.96,1.07][(seed>>>4)%4],depthFactor:[1,.84,1.11,.95][(seed>>>7)%4]};}

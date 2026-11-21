@@ -1,0 +1,3642 @@
+{
+  "format": "hyper-dimension.uw-local-art/v1",
+  "sourceApplication": "0.13.0-dev.124",
+  "deliveryArchiveSha256": "bcae27892fb439bc17590a0175612af24104f6bce1a5ad22f2d1652ae09c5b75",
+  "files": [
+    {
+      "path": "public/art-v0120/concepts/campus-broadleaf.png",
+      "bytes": 2481220,
+      "sha256": "5d12e39a246cffdeb72c792a1c7200303663328e7e70d6619d7308313474b53c"
+    },
+    {
+      "path": "public/art-v0120/concepts/campus-douglas-fir.png",
+      "bytes": 1998795,
+      "sha256": "01c06f6d157341811ed67aa36b8aa2a89520f32e580ba50666790634025c8378"
+    },
+    {
+      "path": "public/art-v0120/concepts/campus-student-q-front.png",
+      "bytes": 1853730,
+      "sha256": "1e9830c1bf3cf55388c01dcab670eba1934b204126955e8870fc8239941cc237"
+    },
+    {
+      "path": "public/art-v0120/concepts/denny-hall.png",
+      "bytes": 2503065,
+      "sha256": "711377926e63d2d44e62a03e370bb3ffc215f4a9e7e4a8e42044b8a2781ce999"
+    },
+    {
+      "path": "public/art-v0120/concepts/provenance.json",
+      "bytes": 5211,
+      "sha256": "0b81ec2dca0f48a38c55d04533f88f86a0d837239fec334d668a41272252fa31"
+    },
+    {
+      "path": "public/art-v0120/concepts/quad-yoshino-cherry.png",
+      "bytes": 2731317,
+      "sha256": "d6f0c4f8b42037cfa5e22a7816adbb2f938fff3aa4f4d4f5b986bee51c34c75f"
+    },
+    {
+      "path": "public/art-v0120/concepts/raitt-hall.png",
+      "bytes": 2698684,
+      "sha256": "2eaf2df79fb8bb9eb75319d74a8123a980e4bc98306943e3507afecc8bfbe55b"
+    },
+    {
+      "path": "public/art-v0120/concepts/savery-hall.png",
+      "bytes": 2900087,
+      "sha256": "73646930b8b0253dead13c8fcd5cfe3ee87af50a1c001ce77210d07b75639b84"
+    },
+    {
+      "path": "public/art-v0120/concepts/suzzallo-west-wing.png",
+      "bytes": 2747415,
+      "sha256": "6b425cc0255265a69144b92b9b2c4ce1e1c0f574bbc02b86a7ecfc6ff69aa362"
+    },
+    {
+      "path": "public/art-v0120/concepts/vegetation-and-building-prompts.json",
+      "bytes": 10981,
+      "sha256": "2203b7cccf8283b152c540f02b023217dbf86fc68ef3f2ea4c3afc222297ccb0"
+    },
+    {
+      "path": "public/art-v0120/concepts/yoshino-blossom-spray.png",
+      "bytes": 1969150,
+      "sha256": "a55c2be761efc8bff96818e6eb360299847ebe469529ddb1c271090eaa3a955e"
+    },
+    {
+      "path": "public/art-v0120/materials/campus-materials.png",
+      "bytes": 3536285,
+      "sha256": "5009bbf58abfc2f5fe8565bcfc5031797a174e603ce3be9be4a6a8c4af22f914"
+    },
+    {
+      "path": "public/art-v0120/materials/character-fabrics.png",
+      "bytes": 3730234,
+      "sha256": "587b9fad72afdfba2b1340840f6b10c2218ed320f9b19ec4706746b88510263a"
+    },
+    {
+      "path": "public/art-v0120/materials/provenance.json",
+      "bytes": 3228,
+      "sha256": "55abe98c331ae8674887bda0c1325fb9ede35cb8853dc5f87620a3ca804ab732"
+    },
+    {
+      "path": "public/art-v0120/materials/q-tree-atlas.png",
+      "bytes": 1889130,
+      "sha256": "d1c2bfa2fe625e7574c7f3920540ff76f8d6e9102e8d064f333608fc1d852a6d"
+    },
+    {
+      "path": "public/art-v0120/materials/q-tree-provenance.json",
+      "bytes": 1433,
+      "sha256": "8b81df9de228a10dbf8281c864e32073ffcb1334e469494d60949f62613fc2d3"
+    },
+    {
+      "path": "public/art-v0120/models/campus-broadleaf-v1/asset.json",
+      "bytes": 1014,
+      "sha256": "501ed322bf2fe2c1108bac68e44385d8c93855258a8bedf1052f7d964ec690d9"
+    },
+    {
+      "path": "public/art-v0120/models/campus-broadleaf-v1/lods.json",
+      "bytes": 3921517,
+      "sha256": "0ea45c9a69d81f0a9c1d97f1315a86930897b471e246118673a0f38432e31d7e"
+    },
+    {
+      "path": "public/art-v0120/models/campus-broadleaf-v1/model.glb",
+      "bytes": 15475640,
+      "sha256": "211d5ca79a950f1f08b6ec889fb093c5ccc536122b1a65a2e2a7d8783a1c1b54"
+    },
+    {
+      "path": "public/art-v0120/models/campus-douglas-fir-v1/asset.json",
+      "bytes": 1019,
+      "sha256": "13f27808e283e9466f5d40518fbedc07a19162f024a1340ee1adf1958149218d"
+    },
+    {
+      "path": "public/art-v0120/models/campus-douglas-fir-v1/lods.json",
+      "bytes": 3986912,
+      "sha256": "f54032ff2d1b7d4c7a6f07177099a794d3c90e3c3f4c5d691c7efed4f8ff9655"
+    },
+    {
+      "path": "public/art-v0120/models/campus-douglas-fir-v1/model.glb",
+      "bytes": 8092416,
+      "sha256": "ed6c5273a81757c1a4bd322dfa48c9b1fe55f309e462bd89564dd69c66d20b46"
+    },
+    {
+      "path": "public/art-v0120/models/campus-student-premium-v1/model.glb",
+      "bytes": 11346108,
+      "sha256": "3aaaac2b0b70856dd76cd079b05c0cc8feb4dd9557604d204f4070069afaa0cc"
+    },
+    {
+      "path": "public/art-v0120/models/campus-student-premium-v1/motions.json",
+      "bytes": 261749,
+      "sha256": "fa3f112d61207df630fd3b05fc38f5d4112e8fa9aa6e18610d5106a9edb2961f"
+    },
+    {
+      "path": "public/art-v0120/models/denny-hall-v1/asset.json",
+      "bytes": 1482,
+      "sha256": "94998405e3a755f80b8ff4fa8573966dc0d159ad274f0a6efb010616417dcc65"
+    },
+    {
+      "path": "public/art-v0120/models/denny-hall-v1/model.glb",
+      "bytes": 15319012,
+      "sha256": "06f519c7671c76c3293f0f0f3954b546d2581a78dd1b114137343b4e475fc4ae"
+    },
+    {
+      "path": "public/art-v0120/models/q-broadleaf-v1/asset.json",
+      "bytes": 434,
+      "sha256": "7b517f6e55bee8af889289b7d5d11c25fa14d78f870353a870a53f283927b739"
+    },
+    {
+      "path": "public/art-v0120/models/q-broadleaf-v1/lods.json",
+      "bytes": 3347784,
+      "sha256": "1b35aabbac4211c7d33b3f41e050591b59fabe0c306a766d62dfe2e153fa57d6"
+    },
+    {
+      "path": "public/art-v0120/models/q-broadleaf-v1/model.glb",
+      "bytes": 2211316,
+      "sha256": "d63597146fd0b8cbefac33dbc528df3fac80030991cbe0bdf19d764ae37b0d11"
+    },
+    {
+      "path": "public/art-v0120/models/q-cherry-v1/asset.json",
+      "bytes": 431,
+      "sha256": "bd5a8e32323da38ca1a1d11d0b0c9f76041f2315c22c36208f484bbcd8e36d1d"
+    },
+    {
+      "path": "public/art-v0120/models/q-cherry-v1/lods.json",
+      "bytes": 4332398,
+      "sha256": "ed8e58bd9f4de62152f5ae2b99252355c1a5df815769db76b2e59b96faa6bad0"
+    },
+    {
+      "path": "public/art-v0120/models/q-cherry-v1/model.glb",
+      "bytes": 2312696,
+      "sha256": "b18e74f3abb82e22dd1d5b5941dcbe91032391a9bad03fd674642b9cc00394eb"
+    },
+    {
+      "path": "public/art-v0120/models/q-conifer-v1/asset.json",
+      "bytes": 432,
+      "sha256": "2ce6922fa35ac9deb1341edec2ad1aedaac5812be7cb83d8f0492d19ce678ab4"
+    },
+    {
+      "path": "public/art-v0120/models/q-conifer-v1/lods.json",
+      "bytes": 7788430,
+      "sha256": "abc3b617a3e34b98f85808742e4bd55d90d276b5c9761ba4abdd45a2f8e95342"
+    },
+    {
+      "path": "public/art-v0120/models/q-conifer-v1/model.glb",
+      "bytes": 2701308,
+      "sha256": "42fa8d8e52257c54b22b413bbeb30dee7893b40e60d60ab5cc15c0209d932beb"
+    },
+    {
+      "path": "public/art-v0120/models/quad-yoshino-cherry-v1/asset.json",
+      "bytes": 1575,
+      "sha256": "e9066ae73e14ffdc15dc088cfc852dfd49ec5fd4f27c8c57e29e13162fd36319"
+    },
+    {
+      "path": "public/art-v0120/models/quad-yoshino-cherry-v1/lods.json",
+      "bytes": 1740865,
+      "sha256": "08f2c1ba748e0269342b6cfb4565a0fe8b5da7f9d99fbbca3d658a940505f5ef"
+    },
+    {
+      "path": "public/art-v0120/models/quad-yoshino-cherry-v1/model.glb",
+      "bytes": 14667544,
+      "sha256": "62a9aae27ad6f6b01997506c0832b14ed79c1cbe8d273601b8d85bf405fa06dd"
+    },
+    {
+      "path": "public/art-v0120/models/raitt-hall-v1/asset.json",
+      "bytes": 1473,
+      "sha256": "7e719e9f2a34015b34cec1eef4f3f664e2b6270e786565616694feae1c021f7d"
+    },
+    {
+      "path": "public/art-v0120/models/raitt-hall-v1/model.glb",
+      "bytes": 15898384,
+      "sha256": "1705d3982c973e1933465e79e7d58ac6384a322c7507c6e8327cdef07929fd14"
+    },
+    {
+      "path": "public/art-v0120/models/savery-hall-v1/asset.json",
+      "bytes": 1506,
+      "sha256": "8c202af42fbb53b7a25344068eb2f6a8e172c772c4e721c1656669001ef771b7"
+    },
+    {
+      "path": "public/art-v0120/models/savery-hall-v1/model.glb",
+      "bytes": 16911120,
+      "sha256": "be7e9b5de88ab7b67fd97875ecdc0e5901d254ff8a01c95d8eabc9a35614902f"
+    },
+    {
+      "path": "public/art-v0120/models/suzzallo-west-wing-v1/asset.json",
+      "bytes": 1023,
+      "sha256": "b33281b8c9027c8c3937c19abd9deb183a8a15125c16158665da70f63e1b8487"
+    },
+    {
+      "path": "public/art-v0120/models/suzzallo-west-wing-v1/model.glb",
+      "bytes": 16617164,
+      "sha256": "89cb8429d35edbe68c26a457f4a8c7e85a915e9f83b22db29157729f21b94f96"
+    },
+    {
+      "path": "public/art-v0120/models/yoshino-blossom-spray-v1/asset.json",
+      "bytes": 1041,
+      "sha256": "53b6a7067d1d746c3e35ea38c79a6c33b090d3d6682462fe58dedc890d9e2a36"
+    },
+    {
+      "path": "public/art-v0120/models/yoshino-blossom-spray-v1/lods.json",
+      "bytes": 759951,
+      "sha256": "d5a635ce701643660cd9eb80902675c1460689685ef8d774ebb388e4e86c4603"
+    },
+    {
+      "path": "public/art-v0120/models/yoshino-blossom-spray-v1/model.glb",
+      "bytes": 4610384,
+      "sha256": "19b256ced6e7952a62074cb5f2fb900f1f803039fb0e8126ca67127c2d9c00da"
+    },
+    {
+      "path": "public/art-v0130/building-audit.json",
+      "bytes": 11515,
+      "sha256": "ec7ddf1be68e0ad96853673fe107577acf0b250e68354937015b58225c1932bf"
+    },
+    {
+      "path": "public/art-v0130/building-calibrations.json",
+      "bytes": 72117,
+      "sha256": "e952b42c1cdd1ede861b9a73b768278372cd6a79e02702bffca3dd46113de64a"
+    },
+    {
+      "path": "public/art-v0130/building-integration.json",
+      "bytes": 155872,
+      "sha256": "388843664fa6325aaa4ce45ac5ae9443f24b0dfccd469a2ef16b072709517a2b"
+    },
+    {
+      "path": "public/art-v0130/building-quality.json",
+      "bytes": 378506,
+      "sha256": "244bb66de24c0a240994ec47741267517c2f2f33039321ea804f30026111fe5b"
+    },
+    {
+      "path": "public/art-v0130/campus-perimeter-ground-v1.json",
+      "bytes": 406089,
+      "sha256": "1902fe4b52fc2671e9fecf2ede644d1d6abbaa3dae02106381cf58c593cf72d3"
+    },
+    {
+      "path": "public/art-v0130/campus-perimeter-ground-v2.json",
+      "bytes": 541086,
+      "sha256": "38b5b8a34ee6de10d64968b1996a67bfa755d24f7a3841bcdbc9964a46609a87"
+    },
+    {
+      "path": "public/art-v0130/concepts/aerospace-research.png",
+      "bytes": 2653309,
+      "sha256": "83a448c0ef45c8b799b4564de6873f3cd04c33a99364b09b00b9d905e0236e54"
+    },
+    {
+      "path": "public/art-v0130/concepts/architecture-hall.png",
+      "bytes": 2406232,
+      "sha256": "4a9611864b12e6843e5f499f2d4d81df8fdf00082571f04597a0bfd7ef72b014"
+    },
+    {
+      "path": "public/art-v0130/concepts/art-building.png",
+      "bytes": 2772092,
+      "sha256": "4070ce9ea821764614b52061ba434d6144a97298db63f79fa1df38eb65174a2c"
+    },
+    {
+      "path": "public/art-v0130/concepts/benson-complete-back-v2.png",
+      "bytes": 2410264,
+      "sha256": "7b0ac2ea31cac8d27e58c5fa4e880ba0122c0ba158ae313655a9f1049237208f"
+    },
+    {
+      "path": "public/art-v0130/concepts/benson-complete-front-v2.png",
+      "bytes": 2529995,
+      "sha256": "09d4ea86eecfb77bc618295e01f71389b191b8c152b3cf74b919fc18585ccb65"
+    },
+    {
+      "path": "public/art-v0130/concepts/benson.png",
+      "bytes": 2516456,
+      "sha256": "fd7da1f8373c564789d37ba5d4d4f776b258b62c5ddfdc7a053b18814890e138"
+    },
+    {
+      "path": "public/art-v0130/concepts/clark.png",
+      "bytes": 2541536,
+      "sha256": "277b3c165dc81f633e53d5efe0eeb48bcb1b290712d12ba3c28c2f157bd02658"
+    },
+    {
+      "path": "public/art-v0130/concepts/communications.png",
+      "bytes": 2612864,
+      "sha256": "fec0bc232ea46dc018a72ea69901e64db7f84f56335cba36d287b71529ef4326"
+    },
+    {
+      "path": "public/art-v0130/concepts/cse2-complete-back-v2.png",
+      "bytes": 1986187,
+      "sha256": "4abd178e331249cd43806b78ff772feb71d070f27d1e7fcd22f433ca9f34268c"
+    },
+    {
+      "path": "public/art-v0130/concepts/cse2-complete-front-v2.png",
+      "bytes": 2008342,
+      "sha256": "5d60eb834db94f47d5787f724aef8987bd01de44059ea13609f020982ecfcb54"
+    },
+    {
+      "path": "public/art-v0130/concepts/cse2.png",
+      "bytes": 2001993,
+      "sha256": "79139a8ec36d051f1dbc507d7b7c532d0ae771fc9a28f364f35e47fdaf2ac1fa"
+    },
+    {
+      "path": "public/art-v0130/concepts/denny-complete-back-v2.png",
+      "bytes": 2345976,
+      "sha256": "3e5312351a5cc42af9e03012775f2ef1270b92c9ec4854650264051eedf6540e"
+    },
+    {
+      "path": "public/art-v0130/concepts/denny-complete-front-v2.png",
+      "bytes": 2355796,
+      "sha256": "8d756f8f0764eb500fc95657362f4123d65e7396254026fe71ba439e9574ebf1"
+    },
+    {
+      "path": "public/art-v0130/concepts/ece.png",
+      "bytes": 2427162,
+      "sha256": "35a53e4f28eeb108b20624cb9ca37aaae35aa45ceefb601a2ce2e350b1e07cd0"
+    },
+    {
+      "path": "public/art-v0130/concepts/engineering-library.png",
+      "bytes": 2953739,
+      "sha256": "8bf7553c9aa3c1d7953c1be4219a6db2aa5b6f88c5947b81692f92013b618cf3"
+    },
+    {
+      "path": "public/art-v0130/concepts/faculty-club.png",
+      "bytes": 2127163,
+      "sha256": "1f133d17ba616662d340e09c4240df8ddc0850c9b267f9a6cafb15541f252fc3"
+    },
+    {
+      "path": "public/art-v0130/concepts/faculty-complete-back-v2.png",
+      "bytes": 2060708,
+      "sha256": "e5fa2480e984581c1e764c4fac7cc9f8b945cc4b2fcdb875e4da26a2411f97ab"
+    },
+    {
+      "path": "public/art-v0130/concepts/faculty-complete-front-v2.png",
+      "bytes": 1964602,
+      "sha256": "90738ca5beb37ffafdce4b07ee48274e5bf9abeebd43ae0124ad580a85ba3bc4"
+    },
+    {
+      "path": "public/art-v0130/concepts/fluke-two-wing-back-v3.png",
+      "bytes": 2431441,
+      "sha256": "861b7c9d1e0c5a4dc17ce1ef0406ef383c51cd5024c3dec3798afe35c5a45c66"
+    },
+    {
+      "path": "public/art-v0130/concepts/fluke-two-wing-front-v3.png",
+      "bytes": 2462934,
+      "sha256": "f56f59b4a1c74d20c15da49e1275a9dae2de226a404a8a0737d1cb92f1c05f86"
+    },
+    {
+      "path": "public/art-v0130/concepts/fluke-v2-back.png",
+      "bytes": 2397772,
+      "sha256": "79dd633703ab4639b014bb1f00ac002fc3512e1d9b18d99b4cd0beb14273ba81"
+    },
+    {
+      "path": "public/art-v0130/concepts/fluke-v2-front.png",
+      "bytes": 2659794,
+      "sha256": "9131524d54c99d665bbb7e7a8cb2c7fc987be5479ff097e0c3bdf4f0eb6f51fd"
+    },
+    {
+      "path": "public/art-v0130/concepts/fluke.png",
+      "bytes": 2444043,
+      "sha256": "a240494a386668101593c94c10bf8ad189eb8b705b5b4a743a6b1c440b3003e0"
+    },
+    {
+      "path": "public/art-v0130/concepts/founders-back-v1.png",
+      "bytes": 2617012,
+      "sha256": "1ad416b6bd4518b2219765bd9d0cf6a3a5b796b7181359149f1134ca05637dc0"
+    },
+    {
+      "path": "public/art-v0130/concepts/founders-front-v1.png",
+      "bytes": 2433335,
+      "sha256": "ab217344f1eb748e753aea8f6058387f23b60dcde714715afd2b874637d88689"
+    },
+    {
+      "path": "public/art-v0130/concepts/gerberding.png",
+      "bytes": 2386820,
+      "sha256": "110442c866e8ca9ac64fca72e0895ff3ea85a83b28d0e2f76a622175a0381093"
+    },
+    {
+      "path": "public/art-v0130/concepts/guggenheim.png",
+      "bytes": 2593340,
+      "sha256": "8fe801ecae4d5c7d5232873a69a3d3a478de82e9d7d6a365c96deb0184d7cb22"
+    },
+    {
+      "path": "public/art-v0130/concepts/hrc-complete-back-v2.png",
+      "bytes": 2074718,
+      "sha256": "2589d9eb04353ce2403a064779b895ca1905fb907c5ffad007c08b9c754c637a"
+    },
+    {
+      "path": "public/art-v0130/concepts/hrc-complete-front-v1.png",
+      "bytes": 2057627,
+      "sha256": "b3cddde0b7d8684f43bf93384063aa1e2cb47a25c1d2f175422e0d8363c68c26"
+    },
+    {
+      "path": "public/art-v0130/concepts/hub.png",
+      "bytes": 2618679,
+      "sha256": "a2dc051736c588499a1d40eda6c6838edb9330d3a1c71a7da1c433a0d38458ec"
+    },
+    {
+      "path": "public/art-v0130/concepts/hutchinson.png",
+      "bytes": 2513266,
+      "sha256": "58c77e24f24ccc313f51c478c29b0114fe169ca061919b1032ca1ffd27956f96"
+    },
+    {
+      "path": "public/art-v0130/concepts/johnson-rebuild-back-v3.png",
+      "bytes": 1733176,
+      "sha256": "7d65c491eb3c6e4bcc4a9750219c79860540b120794cbd937d9555f5cdc4c47b"
+    },
+    {
+      "path": "public/art-v0130/concepts/johnson-rebuild-front-v3.png",
+      "bytes": 1773987,
+      "sha256": "aca63d7d51c07a02130595e2a14ae6b24d813394aa2093ff3c483b4d13fde57b"
+    },
+    {
+      "path": "public/art-v0130/concepts/johnson.png",
+      "bytes": 2292067,
+      "sha256": "1954de6719d5024a884b25f34a18940dfc57482e934afc0c3fd0f77747250bcb"
+    },
+    {
+      "path": "public/art-v0130/concepts/kane-complete-back-v2.png",
+      "bytes": 2466788,
+      "sha256": "b71471f3031c24680a6bbd45ef1f1dec7fbb8399be2e5dfd95158c60ec921186"
+    },
+    {
+      "path": "public/art-v0130/concepts/kane-complete-front-v2.png",
+      "bytes": 2654511,
+      "sha256": "18b0bce6ab95492da2eb14c38af6ad8147e2da055ba8259e20478cad1d0e4671"
+    },
+    {
+      "path": "public/art-v0130/concepts/kane-hall.png",
+      "bytes": 2210388,
+      "sha256": "4ca9ddd28b4536dd7b604b440b9f5c44684ad432af367cfec858a312bedced77"
+    },
+    {
+      "path": "public/art-v0130/concepts/kirsten-wind-tunnel.png",
+      "bytes": 2571125,
+      "sha256": "c59b23c48443406cd036e9e9fc0c53b1186fae921868eb765f4e5be3d77167f1"
+    },
+    {
+      "path": "public/art-v0130/concepts/law-gates.png",
+      "bytes": 2277077,
+      "sha256": "a79fd0f4c744ad2d22fd393c061a5385c2909a558045acb23678455d6dc5343a"
+    },
+    {
+      "path": "public/art-v0130/concepts/lewis.png",
+      "bytes": 2407152,
+      "sha256": "1237eded184d5d385e645354b3f2e324d19f12956fde9677f132c3de7f200c4c"
+    },
+    {
+      "path": "public/art-v0130/concepts/life-sciences-back-v1.png",
+      "bytes": 2046335,
+      "sha256": "8c9e617aa76d75149e4acbdd460c4d14acd75bc000a1595b16fc9a0e7332e3c7"
+    },
+    {
+      "path": "public/art-v0130/concepts/life-sciences-front-v1.png",
+      "bytes": 2221342,
+      "sha256": "326a39b2b1acc4f08d4bcbc0580e8c772353100a4fd131baf26f3262a0991856"
+    },
+    {
+      "path": "public/art-v0130/concepts/loew.png",
+      "bytes": 2573201,
+      "sha256": "38400978d5858f36559792a00bb1b116a20bf01c576c6afcdf05aaee89a0d724"
+    },
+    {
+      "path": "public/art-v0130/concepts/mary-gates.png",
+      "bytes": 2828301,
+      "sha256": "ab9ac410b349419a235e4348eab81b6927670952863b1b95395d49257beb993b"
+    },
+    {
+      "path": "public/art-v0130/concepts/meany-complete-back-v1.png",
+      "bytes": 2059721,
+      "sha256": "e364ef5b22df8e7bfad90a78fbe96ef8b5bd8012c64f54b1b427517e6506c605"
+    },
+    {
+      "path": "public/art-v0130/concepts/meany-complete-front-v2.png",
+      "bytes": 2269500,
+      "sha256": "3b1b6991473cebe7fa570e1ecd8cc3d84388a4bcdcda2b55ff6586b8cf84df55"
+    },
+    {
+      "path": "public/art-v0130/concepts/meany.png",
+      "bytes": 2366431,
+      "sha256": "b898884f15d7065d5450e0ff678218024f2c5e3baa0f50e14cf69f9e4cb4cea7"
+    },
+    {
+      "path": "public/art-v0130/concepts/mechanical-engineering.png",
+      "bytes": 2480424,
+      "sha256": "dbdbb50fe19188eea2b7e294d4f89b6417490911f66f5c61f1d6080d3d7f8435"
+    },
+    {
+      "path": "public/art-v0130/concepts/miller.png",
+      "bytes": 2724211,
+      "sha256": "07fecf6f26c275f352bb1ba01f2d9d9f7bbfa0fc792dc3b615c0f70d1080b652"
+    },
+    {
+      "path": "public/art-v0130/concepts/molecular-engineering.png",
+      "bytes": 2014020,
+      "sha256": "7b9e09dd5e2280bafddcb618121b8be6e56db000956924902b04d412bbadb8c6"
+    },
+    {
+      "path": "public/art-v0130/concepts/more-hall.png",
+      "bytes": 2691486,
+      "sha256": "31e0a799bddbfb7c3db6a358e8f58d6ca338ba861fa3bb4004668957aa31ad23"
+    },
+    {
+      "path": "public/art-v0130/concepts/music-complete-back-v2.png",
+      "bytes": 2484334,
+      "sha256": "a68446ca1dbe138048b57ae94c3772e1e870f63d7d561efe7c9356b96b65dea9"
+    },
+    {
+      "path": "public/art-v0130/concepts/music-complete-front-v2.png",
+      "bytes": 2467788,
+      "sha256": "f1d59a881db2edec7535f205a76209658cc2f0bc85edfaf75d0980499451ad5f"
+    },
+    {
+      "path": "public/art-v0130/concepts/music.png",
+      "bytes": 2217450,
+      "sha256": "137d38b0a8584643a9104d84afa75232589e29683eee654cfbad7d0b65f11a16"
+    },
+    {
+      "path": "public/art-v0130/concepts/npc-aiko.png",
+      "bytes": 2015047,
+      "sha256": "2ab620aa9280c10b9f5317cb3a28a0af25f0f7ebef640b10f18e1fe7cff60933"
+    },
+    {
+      "path": "public/art-v0130/concepts/npc-alex.png",
+      "bytes": 1932643,
+      "sha256": "395555138b30b1289614c63ddcf06ef8993978ff5ddad744d82cd5e6fe6e9e93"
+    },
+    {
+      "path": "public/art-v0130/concepts/npc-jordan.png",
+      "bytes": 1971637,
+      "sha256": "c8a8c812275b9f130810114d8fc2deb3ba0b90e99708aded70c401330150063e"
+    },
+    {
+      "path": "public/art-v0130/concepts/npc-leo.png",
+      "bytes": 1927596,
+      "sha256": "4a9de0f56800fcaf7675336a0a283295a2a05acce9e49c0a1af0b613d972b10a"
+    },
+    {
+      "path": "public/art-v0130/concepts/npc-maya.png",
+      "bytes": 1995674,
+      "sha256": "e759c152e4f505bf5fca477ef12ed932f715066653938310596f1c68038a2952"
+    },
+    {
+      "path": "public/art-v0130/concepts/odegaard-complete-back-v2.png",
+      "bytes": 2332547,
+      "sha256": "ce3c7826949e8c5c9764953a41de7211a2d0cc47063365027782dd4d3fd45847"
+    },
+    {
+      "path": "public/art-v0130/concepts/odegaard-complete-front-v2.png",
+      "bytes": 2425132,
+      "sha256": "a6142d053196f6574952a5ba70358717ef2ec72855da0d4266d6a0a93556edf3"
+    },
+    {
+      "path": "public/art-v0130/concepts/odegaard.png",
+      "bytes": 2441196,
+      "sha256": "36e2e14b3580258e559692874c17b846f94e0aafc8183221eeeba5842c26cbe2"
+    },
+    {
+      "path": "public/art-v0130/concepts/paccar.png",
+      "bytes": 2008597,
+      "sha256": "7f3897c4a64bc2c4ec02b533e6fb52a2e3a3b7064129a09a3f05c682f1be77a5"
+    },
+    {
+      "path": "public/art-v0130/concepts/parrington-complete-back-v2.png",
+      "bytes": 2506763,
+      "sha256": "7b6905d9e70893ab85ee6afc1f7f6392f65a5ea198f5f0117bc21ee55a3c614b"
+    },
+    {
+      "path": "public/art-v0130/concepts/parrington-complete-front-v2.png",
+      "bytes": 2483895,
+      "sha256": "119f27663db1a980c34ca314a4486d08c9c6f1d4e78f1f59d0b5ef958c1a5870"
+    },
+    {
+      "path": "public/art-v0130/concepts/parrington.png",
+      "bytes": 2759228,
+      "sha256": "49b5e32cee21b433aca0d899624bcd748270449a2f6ab2629a16e96d7f23327c"
+    },
+    {
+      "path": "public/art-v0130/concepts/raitt-complete-back-v2.png",
+      "bytes": 2587075,
+      "sha256": "1df34d646751ffd5c2c8ccf1a088f5721c074b26c67d943e6d27d97775bc7ea8"
+    },
+    {
+      "path": "public/art-v0130/concepts/raitt-complete-front-v2.png",
+      "bytes": 2354961,
+      "sha256": "1f1a76c6309d11930f8a4dd707693c06ddc54ed44af0c12cd01b97f241734a70"
+    },
+    {
+      "path": "public/art-v0130/concepts/savery-complete-back-v3.png",
+      "bytes": 2471162,
+      "sha256": "9036bec46d307e22d13910bcc22ed2f4855eb5a8410be9e4859036f8c751ff9d"
+    },
+    {
+      "path": "public/art-v0130/concepts/savery-complete-front-v2.png",
+      "bytes": 2524901,
+      "sha256": "8cf1a4aaea6bbe8ef2162826a9b12ea11178f2a6f4d48ec4fca4e66cac626643"
+    },
+    {
+      "path": "public/art-v0130/concepts/sieg.png",
+      "bytes": 2547603,
+      "sha256": "bf4f07843162809cf853b6452f3893c06defeb1283688686469cbf7eca8d485c"
+    },
+    {
+      "path": "public/art-v0130/concepts/smith.png",
+      "bytes": 2354711,
+      "sha256": "f79f41d0476125552973e68587284097e08d45ddb48d2fe900fc23fd40336bd7"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-bald-head.png",
+      "bytes": 1645052,
+      "sha256": "96fd1df98a59fe6e87e574ce7e68d94f12ac9fef38865191edab1920f8472235"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-bob.png",
+      "bytes": 1870914,
+      "sha256": "b17f63980e4d7494f53f4979d24c12255030b3c5081ad30bb200aacf023a1036"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-braids.png",
+      "bytes": 1699888,
+      "sha256": "7cf06557a9ff9889ffad3f603b9c5845b1c5365ff697870e07cf75b96a471333"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-bun.png",
+      "bytes": 1587540,
+      "sha256": "fcef030f2c99282a34e6b9b9f90a59f31e0dfcaffb895df7351fdbefd4228cda"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-curly-rejected-v1.png",
+      "bytes": 1930048,
+      "sha256": "8515e3d4f36ad203717d5d64adfcf9fc58863eb687e8c329fe9b06a371d20066"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-curly.png",
+      "bytes": 1961784,
+      "sha256": "855c0e54fa7a31fa9265fb442c78b5ed0936e78b7c04470e8d2bcffc7e711da2"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-long.png",
+      "bytes": 1869479,
+      "sha256": "71364af78eb1c50b7755699b208515e0a6281863f94c8e7a2022a1ca573432ec"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-ponytail.png",
+      "bytes": 1804576,
+      "sha256": "4d02e63ed10f9ac4509ec82224d02833faeb0a7b5984ec51e05e89e1a8a9cebb"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-short.png",
+      "bytes": 1689986,
+      "sha256": "3b8dd9e62b3302b4060ac89df7681cfba0146cfc25ab3bf6c39431e0604a7e3d"
+    },
+    {
+      "path": "public/art-v0130/concepts/visitor-hair-sidepart.png",
+      "bytes": 1918310,
+      "sha256": "982e857cf9630ecd7d274318878130a34f83d5a4b7d2c773a1454c1a8b4234aa"
+    },
+    {
+      "path": "public/art-v0130/materials/allen-arcade-brick-v1.json",
+      "bytes": 1299,
+      "sha256": "4b925e1365b3c8c13e5f7e11e59e435dccb027bd6763bea0c312221336a8b148"
+    },
+    {
+      "path": "public/art-v0130/materials/allen-arcade-brick-v1.png",
+      "bytes": 3129793,
+      "sha256": "0bbfd22c5bde6c443db31c45cf3099db0e2441b21067f97250fd94180170725c"
+    },
+    {
+      "path": "public/art-v0130/materials/art-russet-brick-albedo-v1.json",
+      "bytes": 1704,
+      "sha256": "f72d9a6fbe407d7983b915eabac0f5f67255ad6494648a263b0f17ecde02e97a"
+    },
+    {
+      "path": "public/art-v0130/materials/art-russet-brick-albedo-v1.png",
+      "bytes": 3087002,
+      "sha256": "38afb5ba065b63f2e06d5f32b2cb3134b0919bb8142c4abc84f0432d87455f2c"
+    },
+    {
+      "path": "public/art-v0130/materials/cunningham-shingles-albedo-v1.json",
+      "bytes": 1518,
+      "sha256": "3e4a2de9f4a03516465b8066ea9e2127b69395c4bff425924c9db5d12d494f63"
+    },
+    {
+      "path": "public/art-v0130/materials/cunningham-shingles-albedo-v1.png",
+      "bytes": 4109740,
+      "sha256": "e3aab4a641d6b3cfd38a077754da0193d2f38a997bc6c350c3c6131ebb54664c"
+    },
+    {
+      "path": "public/art-v0130/materials/gug-buff-brick-albedo-v1.json",
+      "bytes": 2390,
+      "sha256": "e1cbcbaabb1e2b80acaa4150c5a546c42f5fdcd51cdbfd393c79d8eba91cfc5b"
+    },
+    {
+      "path": "public/art-v0130/materials/gug-buff-brick-albedo-v1.png",
+      "bytes": 3130775,
+      "sha256": "016e35302abc9432f3ad4f39ca43f989fbe8e4a8f0ad2aadbfbc0705e52bda7d"
+    },
+    {
+      "path": "public/art-v0130/materials/johnson-window-bay-v1.png",
+      "bytes": 2531953,
+      "sha256": "ed8dc9e316eb5d079376414b72b8643cb5770a7fbb76db58ff312476c4e0cfca"
+    },
+    {
+      "path": "public/art-v0130/materials/johnson-window-bay-v1.provenance.json",
+      "bytes": 2096,
+      "sha256": "fbc0345f063353ffc601e46be97b1422372f81d660c89a21bd24a8d344220e16"
+    },
+    {
+      "path": "public/art-v0130/materials/kane-brick-v2.png",
+      "bytes": 3024319,
+      "sha256": "4e3ad3963dc24a85a26d2a9c3cdee94b04c55be5e08669e2666af62ff076c9d8"
+    },
+    {
+      "path": "public/art-v0130/materials/kane-concrete-v3.png",
+      "bytes": 2280601,
+      "sha256": "1415dc546cc03a21422667284ecb9091f94056558fc86b65034864245bb72547"
+    },
+    {
+      "path": "public/art-v0130/materials/kane-gravel-v2.png",
+      "bytes": 4351348,
+      "sha256": "01d3397dc8d141a2b83e8b69a01960f336d26b626e34bd02d2bd9badb1f3de3b"
+    },
+    {
+      "path": "public/art-v0130/materials/law-grass-albedo-v1.json",
+      "bytes": 1486,
+      "sha256": "0c60ed59f67ccf6b317b81e596abeab8d77c93ae7f84216466030ef8be07a8af"
+    },
+    {
+      "path": "public/art-v0130/materials/law-grass-albedo-v1.png",
+      "bytes": 3691813,
+      "sha256": "dd7e20625c0137e3f8eb591014641af6dbb7066ce93b000a7eb7654457a6aca9"
+    },
+    {
+      "path": "public/art-v0130/materials/mineral-flat-roof-v1.json",
+      "bytes": 1294,
+      "sha256": "616dd17b3e087c7b5a62bd0dbd461d3c721ae09d4cd5b03f119908afdc75637b"
+    },
+    {
+      "path": "public/art-v0130/materials/mineral-flat-roof-v1.png",
+      "bytes": 4057669,
+      "sha256": "bde1f8d7d83f3ecaf58fe566f53c5eda1cc031b1afed0da6e93adf91b7f19cd8"
+    },
+    {
+      "path": "public/art-v0130/materials/music-slate-albedo-v1.png",
+      "bytes": 3089850,
+      "sha256": "3c750b1286ac713482230f385eece6c05a51fb90d5f062fae0176cd86db44ab6"
+    },
+    {
+      "path": "public/art-v0130/materials/pab-plaza-paving.png",
+      "bytes": 109889,
+      "sha256": "6177fb7eea81c9181573f5b7bf9cbbe9f05e066da60f2923dd561f7e96c38714"
+    },
+    {
+      "path": "public/art-v0130/materials/sieg-exposed-aggregate-v1.jpg",
+      "bytes": 20791,
+      "sha256": "eacd34058e2875350f212912716adb78a2507902d30ea9f92020c1a9d99c467a"
+    },
+    {
+      "path": "public/art-v0130/materials/slate-roof-v1.json",
+      "bytes": 748,
+      "sha256": "259df36d7aedf4223bc03ae378df21cbd9eda7a11cad5f2e860af031ddf60a61"
+    },
+    {
+      "path": "public/art-v0130/materials/slate-roof-v1.png",
+      "bytes": 2762238,
+      "sha256": "30eedda120bbc122cf5df70e18890c14640f298708144d1f1d9edad68959c936"
+    },
+    {
+      "path": "public/art-v0130/materials/standing-seam-zinc-v1.json",
+      "bytes": 1473,
+      "sha256": "efc84e2da9ab63c6a82a8b7f1abead37908b0bee4b2083a12db5484c459a25d8"
+    },
+    {
+      "path": "public/art-v0130/materials/standing-seam-zinc-v1.png",
+      "bytes": 2054422,
+      "sha256": "72d031d20dce5828c4e13074c31c163dd77aa42a36c309182be60226d3bbe26f"
+    },
+    {
+      "path": "public/art-v0130/materials/visitor-accessories-v11.png",
+      "bytes": 2603800,
+      "sha256": "14556ae1a74606a1a39c2f701c37cd6fbb05f6a562db61f0e2b5dbf457bb5ff5"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/asset.json",
+      "bytes": 1480,
+      "sha256": "a4f1cc894bdf1268e106170db02ba1eec0e3d2419602a6769e368cc6e74c7a9a"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/far-whole-v7.glb",
+      "bytes": 2683596,
+      "sha256": "7b6dac7609135a9d66d81da17e70223c184760f22ce0a8abda0112d8b6e45c29"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/far.glb",
+      "bytes": 1578232,
+      "sha256": "433678c22cb68e708be0ffbe25d4a089023f6348699951f2f62475bdc46857ac"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/lod.json",
+      "bytes": 1412,
+      "sha256": "607f697d861c9210801ae8225a4655538a89b607cb6f184d56379273d9055adf"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/model.glb",
+      "bytes": 16077260,
+      "sha256": "72288e30c1cb07c4140436d5cbd6514adcc8916fa39f68743bbf935a1b372612"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/near-whole-v3.glb",
+      "bytes": 18024736,
+      "sha256": "302108e05fdd9be89f705707223edb9a88245e7264f2bae3aaed2d6096cc6d48"
+    },
+    {
+      "path": "public/art-v0130/models/aerospace-research-q-v1/whole-source-production-v3.json",
+      "bytes": 21425,
+      "sha256": "9559a7a2d6af2da15e57b144153f6e0aa473d8a6ffa7ff6296ed4a4e1f42c2c4"
+    },
+    {
+      "path": "public/art-v0130/models/architecture-hall-q-v1/asset.json",
+      "bytes": 1427,
+      "sha256": "d4acf981618f4655527f159b868853bf402957d8aaa57b0a3302313171b3e1e2"
+    },
+    {
+      "path": "public/art-v0130/models/architecture-hall-q-v1/far-clean-v14.glb",
+      "bytes": 2204388,
+      "sha256": "afef35b766a34758f34694b41e6e14c50e536e93562012b3331f4979cc846917"
+    },
+    {
+      "path": "public/art-v0130/models/architecture-hall-q-v1/lod.json",
+      "bytes": 1103,
+      "sha256": "75f9385cd74ab2795b462683365218336ddbcc7538926a8a9d7b3f32879a66fe"
+    },
+    {
+      "path": "public/art-v0130/models/architecture-hall-q-v1/model.glb",
+      "bytes": 15072412,
+      "sha256": "0831d2f56764c95f6a150718df6059305da9d34f5ffea3c123694f56491eb5e8"
+    },
+    {
+      "path": "public/art-v0130/models/architecture-hall-q-v1/near-metric-v3.glb",
+      "bytes": 18250804,
+      "sha256": "58f3f873c9f3f64221c321c4f5f26dec044bb79a532b25e80aac5345c8e7b90c"
+    },
+    {
+      "path": "public/art-v0130/models/art-building-complete-q-v2/far-architecture-v9.glb",
+      "bytes": 2634384,
+      "sha256": "2154195029925111fbf2e8802079793b9c5a2fc243ab7128a8901e89bc485c00"
+    },
+    {
+      "path": "public/art-v0130/models/art-building-complete-q-v2/lod.json",
+      "bytes": 770,
+      "sha256": "dea672d1ed39756d62f4af96937b48487e61e6559935923cf861b3bf6f740cdd"
+    },
+    {
+      "path": "public/art-v0130/models/art-building-complete-q-v2/near-architecture-v8.glb",
+      "bytes": 33274308,
+      "sha256": "f7c6d2c95d72143455363174bb4d3d88834e44d8690a2e46b4a123842b9a8ed2"
+    },
+    {
+      "path": "public/art-v0130/models/art-building-complete-q-v2/production-v57.json",
+      "bytes": 7524,
+      "sha256": "1b1a8fc3970b74973e7b6dde01e4832df052f744af8fe9e37712e960d0ca9923"
+    },
+    {
+      "path": "public/art-v0130/models/art-building-q-v1/asset.json",
+      "bytes": 1401,
+      "sha256": "42999046002a597222ce267f900fb799e89b53fd9abbc78a2cdb99980b177d06"
+    },
+    {
+      "path": "public/art-v0130/models/art-building-q-v1/model.glb",
+      "bytes": 16392992,
+      "sha256": "1df04679e4690dc487e96882961c1dba9f93fcd2169a1cc1e083bd7b9b6475c7"
+    },
+    {
+      "path": "public/art-v0130/models/atg-q-v1/model.glb",
+      "bytes": 15023984,
+      "sha256": "8b3e80cb081b1ccb04e3d2dcd6e243a6ffc6a76af2791c008c05a1a358110fda"
+    },
+    {
+      "path": "public/art-v0130/models/bagley-chemistry-v92-near.glb",
+      "bytes": 21011692,
+      "sha256": "f1453f5c68baa04f988c31a28353fbeb26167fa7aee839f3474c107aa7720814"
+    },
+    {
+      "path": "public/art-v0130/models/bagley-chemistry-v94-far.glb",
+      "bytes": 2495868,
+      "sha256": "b2098e3986f0804dbd059b33c782c2028a005bd7f0a7c727a236f4539fd1d835"
+    },
+    {
+      "path": "public/art-v0130/models/benson-complete-q-v2/asset.json",
+      "bytes": 6184,
+      "sha256": "bfecd1b8ea7af07e0f0907a1f7a74fb3c147f28ba1d9495e7daefd1f2508923e"
+    },
+    {
+      "path": "public/art-v0130/models/benson-complete-q-v2/far-baked-v2.glb",
+      "bytes": 2074680,
+      "sha256": "b2588c70eea612e49b0c9c34d86d1f5c27d043ed1bf91622e8dc9afa57e66593"
+    },
+    {
+      "path": "public/art-v0130/models/benson-complete-q-v2/lod.json",
+      "bytes": 1175,
+      "sha256": "680165eacbba2edc996a607f00492f586db0ff2c600e03b3af7780cfca42e34e"
+    },
+    {
+      "path": "public/art-v0130/models/benson-complete-q-v2/model.glb",
+      "bytes": 14734184,
+      "sha256": "ca3877765a580e77cd93b137c4948d8bbd5d7749f311b30ca8c259d8f9310353"
+    },
+    {
+      "path": "public/art-v0130/models/benson-complete-q-v2/near-source-bays-v2.glb",
+      "bytes": 19283184,
+      "sha256": "a791370288841b539e86dfe3dcb7cfc18020f0a9892cebe8e81fd56ffee834d9"
+    },
+    {
+      "path": "public/art-v0130/models/benson-q-v1/asset.json",
+      "bytes": 1405,
+      "sha256": "3939043e1304eedb3b8a725fa84fb009676f9e969d09edcce8c786dea631a99c"
+    },
+    {
+      "path": "public/art-v0130/models/benson-q-v1/model.glb",
+      "bytes": 16764272,
+      "sha256": "2c14e71d2739b3bc5412f624891557bce1103b0293503663dc8ffd4e4de96372"
+    },
+    {
+      "path": "public/art-v0130/models/bike-houses/a04-far-v2.glb",
+      "bytes": 169972,
+      "sha256": "f2e278d271267666ba7c0b4c0669c02cd8e31269014ef17b87ed02e2b6f34614"
+    },
+    {
+      "path": "public/art-v0130/models/bike-houses/a04-near-v2.glb",
+      "bytes": 403168,
+      "sha256": "e4a0237de53979d5fcd6b8dd70148b1e66e6a9717688cd531ce5db22f09db835"
+    },
+    {
+      "path": "public/art-v0130/models/bike-houses/a13-far-v2.glb",
+      "bytes": 256792,
+      "sha256": "4042cece51b6bc89b7e6648abb63846faad8c260c93cf37a4ff32a5202e99204"
+    },
+    {
+      "path": "public/art-v0130/models/bike-houses/a13-near-v2.glb",
+      "bytes": 521048,
+      "sha256": "73d114f8a2ecd974df66488865422f861228acc76027e5c14138973101fccd44"
+    },
+    {
+      "path": "public/art-v0130/models/bike-houses/a15-far-v2.glb",
+      "bytes": 361128,
+      "sha256": "26c53772152c8a69ca7ec2af4f741de700990e3a012e612142c4f90eeebf2e29"
+    },
+    {
+      "path": "public/art-v0130/models/bike-houses/a15-near-v2.glb",
+      "bytes": 728088,
+      "sha256": "cadca55111d5f09b740f59f8e6f8213c3645c50647cd9e6b0bbc5bdfba25dfa6"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/ATGC-far-v2.glb",
+      "bytes": 170964,
+      "sha256": "0eb8c5cccbf46d0f95a80e3dd3987aa9ed6a5fc544b3e465e646248219b561e2"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/ATGC-near-v2.glb",
+      "bytes": 344056,
+      "sha256": "db5fa8694434902471e7994474deccb2b4ec14188ec02417f50385bcb036da60"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/KIRC-far-v2.glb",
+      "bytes": 108012,
+      "sha256": "09bf24be502449b5ab37bcea533ff055a5e9bd9c0456a3b8e8c282889fd287aa"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/KIRC-near-v2.glb",
+      "bytes": 277800,
+      "sha256": "69d294d926489daf55e0b9707a5872785095981214f04566ad1cb55744fdee95"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/MOLC-far-v2.glb",
+      "bytes": 114632,
+      "sha256": "a47a4c3622cd0efed53b9180db61491fc2829aa3a67c5d2a34ce94ff38d0caec"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/MOLC-near-v2.glb",
+      "bytes": 310912,
+      "sha256": "5836977de24af5636665991c7be8b23635ebb57b9467d4f2bb1e21289e0a3c17"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/STWH-far-v2.glb",
+      "bytes": 101384,
+      "sha256": "7c1d8c7f63d81f814184c304fb68115a24b5e07bf98866161c161ac044bfdecd"
+    },
+    {
+      "path": "public/art-v0130/models/campus-canopies/STWH-near-v2.glb",
+      "bytes": 266208,
+      "sha256": "5a39ef69a4133927891a718f60bc0958b4ca27c173efd0737941d2775658618e"
+    },
+    {
+      "path": "public/art-v0130/models/clark-q-v1/asset.json",
+      "bytes": 1377,
+      "sha256": "882bc28693f25976f2e959fe2b20672e2a92a4e349e7f811f4e73eb50a2f6b31"
+    },
+    {
+      "path": "public/art-v0130/models/clark-q-v1/derivative.json",
+      "bytes": 10777,
+      "sha256": "126ffd5869c3302f117b3168aa80da73101a09b2c717f5a6c4022424b06163a0"
+    },
+    {
+      "path": "public/art-v0130/models/clark-q-v1/far-baked-v14.glb",
+      "bytes": 1951580,
+      "sha256": "1020208c94fe1a6fa329163cc97f51092b3668110dea57d42bc4f15bfba3ae64"
+    },
+    {
+      "path": "public/art-v0130/models/clark-q-v1/lod.json",
+      "bytes": 1046,
+      "sha256": "e222df6e6d688eea63907dbc6c8bc086247b0c18e9cceee1e587bd2f3c1ef9ec"
+    },
+    {
+      "path": "public/art-v0130/models/clark-q-v1/model.glb",
+      "bytes": 15407676,
+      "sha256": "027cbb92011738293d6f3b7488dc2821624f903788b53c8828fc5801f130f8a2"
+    },
+    {
+      "path": "public/art-v0130/models/clark-q-v1/near-full-gis-v14.glb",
+      "bytes": 21772884,
+      "sha256": "ee8470c8dbdb6145688093bd719fb633abf97d2b527e486f86f65ee07f38680a"
+    },
+    {
+      "path": "public/art-v0130/models/communications-q-v1/asset.json",
+      "bytes": 1432,
+      "sha256": "fd978cf8e3df1f818791cee648bc9959dda4e34167db14124e74eaf29fc8a124"
+    },
+    {
+      "path": "public/art-v0130/models/communications-q-v1/model.glb",
+      "bytes": 16034084,
+      "sha256": "70900de0f6bb86271f4a6863619b5ef386b0179540772368c59f2b7426093255"
+    },
+    {
+      "path": "public/art-v0130/models/communications-thomson-complete-q-v2/far-architecture-v14.glb",
+      "bytes": 2652228,
+      "sha256": "1c228ff81e4c2cc74690ea037e9be0c94731005ca49d085a76096bbad888913b"
+    },
+    {
+      "path": "public/art-v0130/models/communications-thomson-complete-q-v2/lod.json",
+      "bytes": 803,
+      "sha256": "e13efaa301624b96f40e6af84223ae31aacd5b04802f83b1accf4b1020f5eb4a"
+    },
+    {
+      "path": "public/art-v0130/models/communications-thomson-complete-q-v2/near-architecture-v30.glb",
+      "bytes": 24405428,
+      "sha256": "baec1a8f89363a7c2096420f085e64fd2f561f8cb9ac83e2b641ce5c502a16c1"
+    },
+    {
+      "path": "public/art-v0130/models/communications-thomson-complete-q-v2/production-v63.json",
+      "bytes": 461485,
+      "sha256": "254ae9ff8330fd5125a125debc746510d638c2b41fb0616b3559328247e54ead"
+    },
+    {
+      "path": "public/art-v0130/models/cpg-entry/CPG-whole-entry-far-v4.glb",
+      "bytes": 458956,
+      "sha256": "ad56d8c9115d2429dc4d975782ef71f2748ca29769b9ec50ce28bdc901f32694"
+    },
+    {
+      "path": "public/art-v0130/models/cpg-entry/CPG-whole-entry-near-v4.glb",
+      "bytes": 1583976,
+      "sha256": "3df564a169e00bc68c7d888e189f1de1801e234f7145517a18269158504b41ca"
+    },
+    {
+      "path": "public/art-v0130/models/csb-construction/CSB-construction-far-v1.glb",
+      "bytes": 669188,
+      "sha256": "119ccd185aa67462acd206e9c812a4bd655b56dc2732cdf69bfcb503618503f9"
+    },
+    {
+      "path": "public/art-v0130/models/csb-construction/CSB-construction-near-v1.glb",
+      "bytes": 1104632,
+      "sha256": "dffafb08370bd6fd7cdfc60c184a3fbdd269b581aa170a44aaab35898a8962dc"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-complete-q-v2/asset.json",
+      "bytes": 7303,
+      "sha256": "7d6adb70b90829b592bb4693e73d725b18e7f1ad6da5ecaa3eb355e58582363d"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-complete-q-v2/far-baked-v2.glb",
+      "bytes": 1868184,
+      "sha256": "49eded122bd140ddc93b31d55f9d3efc5653fad477910cfdbc9e0b5587e2c9cb"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-complete-q-v2/lod.json",
+      "bytes": 966,
+      "sha256": "d27344ce2cefc1a9b595a195a4212de6b2ab5cc83e282051179e51bca52fff81"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-complete-q-v2/model.glb",
+      "bytes": 16213244,
+      "sha256": "2958316433521629beb530aa9b3dd4d01df8cb9993bdf75668ad5f23bbb65e1d"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-complete-q-v2/near-calibrated-v2.glb",
+      "bytes": 17265120,
+      "sha256": "e87dc2e81e6f9c154c305619aba6a22a55b881afd85cf63cd49648619199f247"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-q-v1/asset.json",
+      "bytes": 1417,
+      "sha256": "248ee525f776fffe0cc8e73e5b8a637b4718c37bacc268afee77f90209e596ba"
+    },
+    {
+      "path": "public/art-v0130/models/cse2-q-v1/model.glb",
+      "bytes": 14834780,
+      "sha256": "51cc75a87e713d331c86555c17325e3af632120f1d8b9ef62ae2773663f137d2"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/asset.json",
+      "bytes": 1511,
+      "sha256": "f877e199be2821f6095a7dd4a89dd632f19cabf528dbf32ea5f1db8db4fa1a52"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/derivative-v6.json",
+      "bytes": 44834,
+      "sha256": "7b9348b18ac8fe58d74440adbb176373d97f966a85c754cfde5faadb4cd55e1d"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/derivative-v7.json",
+      "bytes": 45737,
+      "sha256": "b5c2e6430cce43a4787f16bcc0f4ac0170ff161c4a509e312518aff267fb8cfa"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/far-entry-v6.glb",
+      "bytes": 1861552,
+      "sha256": "7da335337cab4de1f953642c761f90424622fe32790876e39133f8d5b290e2c5"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/far-entry-v7.glb",
+      "bytes": 1861560,
+      "sha256": "75a39b6c13ecd9aa0dc694931dc348f67a9af856b6bb470f4d02f900d6a3576e"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/lod.json",
+      "bytes": 1057,
+      "sha256": "e8f5b11a60f7b24246d56caa77fd44872974e15f5708d00b98a3318f5412bc70"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/model.glb",
+      "bytes": 14286188,
+      "sha256": "5dcc0e392b6a2f16f0816e89ad47ff28a97d3c2f5a881817ab0e405a8aba8afd"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/near-entry-v6.glb",
+      "bytes": 22984916,
+      "sha256": "c84a66899f7c4a37b05389eda6e9f4ebea203f70f7fa389e1a1767756d23d520"
+    },
+    {
+      "path": "public/art-v0130/models/cunningham-q-v1/near-entry-v7.glb",
+      "bytes": 22984924,
+      "sha256": "a45a0608421d6b62dbfd0a54f0b51a572ef0e7ec6b2648f17c789b9c608c7fa2"
+    },
+    {
+      "path": "public/art-v0130/models/denny-complete-q-v2/asset.json",
+      "bytes": 6739,
+      "sha256": "0933a7ac6df4c4724d233c4e2158d15300531176abca1cb7f3bb8655bf161dc6"
+    },
+    {
+      "path": "public/art-v0130/models/denny-complete-q-v2/far-baked-v3.glb",
+      "bytes": 1896872,
+      "sha256": "0759d25e07437045b4b14ddbe43b92cdc6a2e9f74a46e9268b475f2f24a78312"
+    },
+    {
+      "path": "public/art-v0130/models/denny-complete-q-v2/lod.json",
+      "bytes": 1039,
+      "sha256": "b7e85bf783d7b14d30a62f908be4f4faf6df65590c873228262517eee724c6e3"
+    },
+    {
+      "path": "public/art-v0130/models/denny-complete-q-v2/model.glb",
+      "bytes": 15464612,
+      "sha256": "fa2e3632cc5b8a8a32a51122e396183cdb25326a99798c2f0aa90e457ed9fedf"
+    },
+    {
+      "path": "public/art-v0130/models/denny-complete-q-v2/near-components-v3.glb",
+      "bytes": 21163700,
+      "sha256": "fa2a6bd00c80525753a8870550060e9db0fc2049b0247839064d1f7bd91b31e5"
+    },
+    {
+      "path": "public/art-v0130/models/denny-hall-v1/far.glb",
+      "bytes": 1540236,
+      "sha256": "6c85f78cfbfb1c6bfba836ee4628de834e5ac8820ff179da19d7fa535a33acfd"
+    },
+    {
+      "path": "public/art-v0130/models/denny-hall-v1/lod.json",
+      "bytes": 1348,
+      "sha256": "3766a58d518f73c32edefce6786e2e0f2b64b6dc141c23fb4cc7a88d97be048d"
+    },
+    {
+      "path": "public/art-v0130/models/ece-cse-complete-q-v2/far-architecture-v12.glb",
+      "bytes": 2007096,
+      "sha256": "b5809209c50d98855e8bf07a29d30e8cbcd46d65797e184fd05a03fdd4083247"
+    },
+    {
+      "path": "public/art-v0130/models/ece-cse-complete-q-v2/lod.json",
+      "bytes": 751,
+      "sha256": "062debd97b3465a3d59fd475a0fefea1ecd7a8b2e9704cd0e552a588e66b20f7"
+    },
+    {
+      "path": "public/art-v0130/models/ece-cse-complete-q-v2/near-architecture-v14.glb",
+      "bytes": 26729380,
+      "sha256": "971a34e39fc879a8b4366f96c99b822c6350ff4cd8dc790f011c4d8071830001"
+    },
+    {
+      "path": "public/art-v0130/models/ece-cse-complete-q-v2/production-v64.json",
+      "bytes": 2480015,
+      "sha256": "9967e00a64180a52347ee85d936b526fce5afb1bb862b676140f7551fc3bb41d"
+    },
+    {
+      "path": "public/art-v0130/models/ece-q-v1/asset.json",
+      "bytes": 1414,
+      "sha256": "85b515182a9c904745a024340bc7e6340b2c5519190e39d23682b9c6f64065e6"
+    },
+    {
+      "path": "public/art-v0130/models/ece-q-v1/model.glb",
+      "bytes": 19858856,
+      "sha256": "3d56a9e567fa0195c14e5a009b0c4eca174a43da9b780ccc83028acc15d1c872"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-q-v1/asset.json",
+      "bytes": 1483,
+      "sha256": "954d465defc4ceeb1292cf0ecaa4339ce814c0cba333a2a2e6cdcf7a09de3943"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-q-v1/far.glb",
+      "bytes": 1262156,
+      "sha256": "4cf25c40b1826e3be6ad31051078169632aed7d4f242e83c04717efe5b74acc8"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-q-v1/lod.json",
+      "bytes": 1436,
+      "sha256": "ceb8054f63029d6aa1af16f783ebb84774974ce6196eaf2b04a21e859c1c64c4"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-q-v1/model.glb",
+      "bytes": 17390888,
+      "sha256": "e2040a9d6f7e513ae640a72a3ccd9ccb578afafba90f775f2e90763d061a41f9"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-survey-roof-v2/far-survey-v2.glb",
+      "bytes": 2888920,
+      "sha256": "dfea2b8ad6df28847c4fb48ea4f7279c4b9dc90db85b9f26c69989e83ccd7ac7"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-survey-roof-v2/near-survey-v2.glb",
+      "bytes": 22346728,
+      "sha256": "e1e9950e263c6307b129afecef23efc042a04e44a34360f03a7fd600d87d3d73"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-west-portal-v2/far-full-v1.glb",
+      "bytes": 2733104,
+      "sha256": "25d3afffc3cd3de14079176f2fe6b01ab0685ac0ece1e1e3ff9e5df38ce1be48"
+    },
+    {
+      "path": "public/art-v0130/models/engineering-library-west-portal-v2/near-full-v1.glb",
+      "bytes": 19396044,
+      "sha256": "adc5e4fb4481eebe037cf89ee74b766584b71d554d7db9f2a9d4a3a529716b30"
+    },
+    {
+      "path": "public/art-v0130/models/ers-survey-v1/far.glb",
+      "bytes": 67172,
+      "sha256": "9f52169e93fe33193f1cdaeaaa848852a8ea83f68988236e828d9b695d023724"
+    },
+    {
+      "path": "public/art-v0130/models/ers-survey-v1/near.glb",
+      "bytes": 572796,
+      "sha256": "110265ed363fbeb1feb139b9fdde4822d13e64c7c57283fdeb5e913c0adb9206"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-complete-q-v2/asset.json",
+      "bytes": 6474,
+      "sha256": "d484fb4e1440a240a4c15458ea07eac342da791eb51eac50d80fb67784d3d4b6"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-complete-q-v2/far-baked-v2.glb",
+      "bytes": 1960468,
+      "sha256": "26aab7246e2b2d001ad89569c43929d0114820dc38e1fc2761ae7716be5a4020"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-complete-q-v2/lod.json",
+      "bytes": 1388,
+      "sha256": "28716dcae9a129f46375e0f3e1c909bf968c17958d0d07c08fc131a23c99cd15"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-complete-q-v2/model.glb",
+      "bytes": 15919388,
+      "sha256": "2a2f1929d4622e3064ecf0222c27aecc2f08b3ed0fba49d0555fcd0a9312142a"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-complete-q-v2/near-calibrated-v2.glb",
+      "bytes": 23534984,
+      "sha256": "5a14ce652d89efe60bc9007c74dba9812b1c58da1a59f1047fac97d911acd507"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-q-v1/asset.json",
+      "bytes": 1406,
+      "sha256": "ed35779c2dace13c9cf830277d35c9e1940f0e1c989ae3d331514525329ea365"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-q-v1/far.glb",
+      "bytes": 2609060,
+      "sha256": "efa5e86c179cb8a5b69cdb17586feb290c62caa96c391bb12f0c09d3c057e439"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-q-v1/lod.json",
+      "bytes": 1379,
+      "sha256": "31cb57aa88a3cfbaf3173c491e411fd0c98f0f428f66d9248169c80f6bb6140a"
+    },
+    {
+      "path": "public/art-v0130/models/faculty-club-q-v1/model.glb",
+      "bytes": 14590404,
+      "sha256": "a71fd4fed11c477626a11e7944ec1d63eb4dcd6c14b1ad685b19c7d2b74b5f8e"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-q-v1/asset.json",
+      "bytes": 1403,
+      "sha256": "4bfbe042f7ce66324a312b102628de33c0f8beeea205bbb0e3b854b196662900"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-q-v1/model.glb",
+      "bytes": 15446872,
+      "sha256": "9a9cae894ee87112f2e9e52e5173fb8ebefbe8c4cb210fe2a0c3a69e15335d9c"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-q-v2/asset.json",
+      "bytes": 1764,
+      "sha256": "b29b9bcca997bc21d1ebb8ba2c1efbdc5b28e5a973d5401e9c7285c2ceb7235e"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-q-v2/model.glb",
+      "bytes": 14131932,
+      "sha256": "7ebd2dcbb7d994e9109b1b17b04a0432f7c6a42f979020d23b9328382a32b9c2"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-two-wing-q-v3/far-architecture-v47.glb",
+      "bytes": 1289144,
+      "sha256": "15f0b4ab8c3567b50b7d9f98d7ad5ec71121ee366215ddcda0d497a474df4120"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-two-wing-q-v3/lod.json",
+      "bytes": 693,
+      "sha256": "9b999919a64404e156a8a6bf00bc257b7874c5a7fc922818f113cabf9940d45a"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-two-wing-q-v3/model.glb",
+      "bytes": 14464272,
+      "sha256": "1bf8195ed12b3b6bc76d03e4b2384f794fbc084c30c29bc14d05a215a7eeeec6"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-two-wing-q-v3/near-architecture-v45.glb",
+      "bytes": 35161272,
+      "sha256": "636f5bb5eb8bb685922fa76744468c2b84f7982df67e4c090ff93879fbceff3e"
+    },
+    {
+      "path": "public/art-v0130/models/fluke-two-wing-q-v3/production-v54.json",
+      "bytes": 5182,
+      "sha256": "af6541b1ebcea650c131a2d334689e7fc5f733f11815bb1d74d92836f14b63bd"
+    },
+    {
+      "path": "public/art-v0130/models/foege-survey-v3/far.glb",
+      "bytes": 784424,
+      "sha256": "4321fc09428b06cdc13bda63f97926acada1c79c874906e209517d2837dc8e7e"
+    },
+    {
+      "path": "public/art-v0130/models/foege-survey-v3/near.glb",
+      "bytes": 2941976,
+      "sha256": "c63ac8b116d358d582020b87841939e47d7c6e31cf2c1c86601e974a6384ad36"
+    },
+    {
+      "path": "public/art-v0130/models/foster-core-far-v1.glb",
+      "bytes": 1758352,
+      "sha256": "a80f9dbb009442d7929d3cf8c7e3c91bcc2ea5a479046ca79cc37d807c42fc19"
+    },
+    {
+      "path": "public/art-v0130/models/foster-core-source-v1.glb",
+      "bytes": 22620476,
+      "sha256": "d70a935c7cdfce3732879cc3ee23a7aa35c66a48417f75a9a78b61bc2d92cca9"
+    },
+    {
+      "path": "public/art-v0130/models/foster-library-skylight-far-v1.glb",
+      "bytes": 1608404,
+      "sha256": "bafa6a2eaa1c594bf82e96d890f1c066141d903345d9733c88f25d30531f8302"
+    },
+    {
+      "path": "public/art-v0130/models/foster-library-skylight-source-v1.glb",
+      "bytes": 5547232,
+      "sha256": "210cc8b7e2a1a30b669fb276ae7cca07b060e5012b1a36933262a4e79bee1a17"
+    },
+    {
+      "path": "public/art-v0130/models/founders-whole-q-v1/asset.json",
+      "bytes": 6177,
+      "sha256": "9c1565ced407c16ac66a424b441acc8f3087a90e7e9ff27e33c20d3cdec6654d"
+    },
+    {
+      "path": "public/art-v0130/models/founders-whole-q-v1/far-baked-v1.glb",
+      "bytes": 1943232,
+      "sha256": "d67759f07245491ebe386d350ba702f5088d7b563d942c789a2d0719b8a6784c"
+    },
+    {
+      "path": "public/art-v0130/models/founders-whole-q-v1/lod.json",
+      "bytes": 1563,
+      "sha256": "e0ae7c6a34d7da84b6d3746286625d49c45485805f27148e5c28ee0845138ce6"
+    },
+    {
+      "path": "public/art-v0130/models/founders-whole-q-v1/model.glb",
+      "bytes": 15775624,
+      "sha256": "f993b04a51009b393342763d4ae14675a2b8e4263fb62bd1f8409937fa6ed33a"
+    },
+    {
+      "path": "public/art-v0130/models/founders-whole-q-v1/near-calibrated-v1.glb",
+      "bytes": 24286548,
+      "sha256": "4105851de97e850d7a6ac8eff8f1a7e43b0e6da1193266d0bdf3d59b979206c8"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/far-photo-v45.glb",
+      "bytes": 2089384,
+      "sha256": "7dbe0d88b42a3a772e6f16194a69e6dae0fb1f76b0fcb2add04e7a309b6e2c1e"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/far-photo-v53.glb",
+      "bytes": 1969772,
+      "sha256": "cb1901eff87eb91a8d8475b25bdb0af7ac43945a223a5b5261c58cbdb254e34f"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/GRB-far-original-uv-v67.glb",
+      "bytes": 6330084,
+      "sha256": "e52066ad9bca6f28334eab7d096287550dad0f8de8507630c784a94838b95b8c"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/GRB-far-roof-transfer-v72.glb",
+      "bytes": 1879644,
+      "sha256": "65f84379d2d97ca4c0f673550647c85c7187a24d7e52450874473dac48ebe194"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/lod.json",
+      "bytes": 1700,
+      "sha256": "05da45b456930714fd3d43a238b908ebaf3738bc785da5c2443e8f5b2a5b04d6"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/model.glb",
+      "bytes": 16115784,
+      "sha256": "42cdc8e4c25dd66c0608058e4a91b8a4da5ee349f0ac3c0fabc1ee301db64381"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/near-photo-v26.glb",
+      "bytes": 22654360,
+      "sha256": "ea7c6d6a844b6e72245fcf76031205a9c23c32f5448f4749c46385878f52576d"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-main-q-v2/production-v48.json",
+      "bytes": 11381,
+      "sha256": "9b156a6657009a69dfe8108e94ae8f0c8d7f86e4f2bdd1a6c832578d31219069"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1-clean-v1/asset.json",
+      "bytes": 896,
+      "sha256": "1aa0414dddf7930696ffab69f037f1b3b5e6d2038e2dd95720325e5e81fa3e4f"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1-clean-v1/far.glb",
+      "bytes": 2827344,
+      "sha256": "a53e7d9375c76f77d661c1e404bf22e0bdb60f6314b31c02b52854a3a1bda366"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1-clean-v1/lod.json",
+      "bytes": 1400,
+      "sha256": "220a2620a4ecb65f11ac79b4489cc2949e2fe8c461d0c8f90ecf5cac30bedec0"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1-clean-v1/model.glb",
+      "bytes": 17444352,
+      "sha256": "2bcf4ffaa6ff498be01d9d6ee678611382bba92a5cf2ee46e29fd6d0cda6fc15"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1/asset.json",
+      "bytes": 1003,
+      "sha256": "d5b0db83a5d7dfe374f5275fcc46f0f7ab86e8ee6f7920311a86101d614bf3d9"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1/far-component-v19.glb",
+      "bytes": 1576164,
+      "sha256": "51b0c42d269d9456b171fb71453becee9aae078d12693b69db4dcce7830f0b7c"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1/lod.json",
+      "bytes": 907,
+      "sha256": "17733e759e4e347986a0e91372c8e506f665ea34432159581881f4ba647dd1b7"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1/model.glb",
+      "bytes": 16718564,
+      "sha256": "c7039d25f3f303426636a7e3586656e25c26b58289e6e75d1d873d8c1772e289"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1/near-two-wings-v17.glb",
+      "bytes": 25573216,
+      "sha256": "95c012395a031b2fe18c413701b2e4d5db927a9fd7739b883d522ce42b86ae84"
+    },
+    {
+      "path": "public/art-v0130/models/gerberding-q-v1/production-v46.json",
+      "bytes": 11406,
+      "sha256": "bdc1b22c4e542bb8fc2964b8411ad82f83dfbc83fd573a0d17179f104132e3bd"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-annex/gua-far-v62.glb",
+      "bytes": 135248,
+      "sha256": "450d1081939a232b6183ab4bb57fb97a3fff59b655ddb2d62038a8e6c1599973"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-annex/gua-near-v58.glb",
+      "bytes": 696380,
+      "sha256": "72b76b5e817b4d7c6e236bf34092e11138ad7effcd52d188de9828ef029c8f81"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-complete-q-v2/far-architecture-v15.glb",
+      "bytes": 2780304,
+      "sha256": "b20056340a6b158d20c18a113ca08ee3291ef15853db1cba84296c31d05dd01e"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-complete-q-v2/lod.json",
+      "bytes": 782,
+      "sha256": "cc822400408950ad316866afe7a776aa4c2bbbf1464731ea4426e3effd51031b"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-complete-q-v2/near-architecture-v14.glb",
+      "bytes": 38016448,
+      "sha256": "710d3a4cc817a680b6cc8bb82ee8c9adb69adcc50587037a0ab43aeea5a1944f"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-complete-q-v2/production-v56.json",
+      "bytes": 5879,
+      "sha256": "18b804772a0174810ddccb00ace8f4a7b8af8b78c94e5c54f2fbb748bdee06ed"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-q-v1/asset.json",
+      "bytes": 1402,
+      "sha256": "eeb4d5c8fd185b57191d99b9483d77af2f16f486dc77a091b1fd6b6d79006578"
+    },
+    {
+      "path": "public/art-v0130/models/guggenheim-q-v1/model.glb",
+      "bytes": 15781160,
+      "sha256": "78232bb4c274c2ef73f45848713524c25393e509cbfdfa9e51306a634ef7c6b2"
+    },
+    {
+      "path": "public/art-v0130/models/guthrie-v143-near.glb",
+      "bytes": 13917868,
+      "sha256": "144edd90bee71f0d324715f5ce650d36b8126df65866bc0eb24c84f6fa76026d"
+    },
+    {
+      "path": "public/art-v0130/models/guthrie-v144-far.glb",
+      "bytes": 2806280,
+      "sha256": "232dad367712b91d4e5b6370ed3e95bc61838e3b1ea8627a19a037235e2af9fa"
+    },
+    {
+      "path": "public/art-v0130/models/haggett-far-v5.glb",
+      "bytes": 1183096,
+      "sha256": "74b69f857665b5607466817dca1086c35ed7b2fc6e929a8223983c499fc97af3"
+    },
+    {
+      "path": "public/art-v0130/models/haggett-near-v5.glb",
+      "bytes": 5892740,
+      "sha256": "eca886c632d811937cc4a6914ba495adf0bf21fa339756543f614c893444d8e2"
+    },
+    {
+      "path": "public/art-v0130/models/hall-health-v1/far-v3.glb",
+      "bytes": 286480,
+      "sha256": "70457a3a7f5e7698a788f2cc55fae79534d0574009551015438710307979ac13"
+    },
+    {
+      "path": "public/art-v0130/models/hall-health-v1/near-v3.glb",
+      "bytes": 2535584,
+      "sha256": "be88626ffc61c34fcec0ab576bb83c1cb2aabc0d1c93148cf7ec28849ecf9b94"
+    },
+    {
+      "path": "public/art-v0130/models/henry-allen-v3/far.glb",
+      "bytes": 1018616,
+      "sha256": "7edfeda4337e4fb26f3a3106460fb6a51b669bbafed2b5e559a678f2dbad4733"
+    },
+    {
+      "path": "public/art-v0130/models/henry-allen-v3/near.glb",
+      "bytes": 2419728,
+      "sha256": "4d120d0e76ebfdcb3c5fc2967f65a4bb91a0840d0c51f273dede9272f69df576"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/asset.json",
+      "bytes": 6526,
+      "sha256": "1f14484f7b4311d9be40af4b9fd127a121495f367d5971da3a38812e84a960a4"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/complete-plan-v18.json",
+      "bytes": 2060,
+      "sha256": "5beed3aabced20024e4bbbd78b301e0fd5533b02684fe85c14bce230e2a5d5db"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/far-complete-v18.glb",
+      "bytes": 902732,
+      "sha256": "969a0a7a7e6439ba76fa86fc374a61d285c2f6303b84a8c1b4594959bd161359"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/geometry-review-v18.json",
+      "bytes": 2358,
+      "sha256": "cb2cbc251826af5ee25d708b6aa1de5bbb2380ad44e8ed2a4ebb96a644bb20e3"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/lod.json",
+      "bytes": 1022,
+      "sha256": "952a306e594fc139aa07471e08bbeb131abd87eee6d4d054096e0d8fa947006e"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/model.glb",
+      "bytes": 15677164,
+      "sha256": "bc930c04d6cba63ccce6f306de4a739c1b6f9b2f37a2f95cffd6a02964526379"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/near-full-gis-v18.glb",
+      "bytes": 23955960,
+      "sha256": "b82ecb5423c926b98288f46ad7f4122859f810be6cd509201ebd103e0ef78330"
+    },
+    {
+      "path": "public/art-v0130/models/hrc-complete-q-v1/production-review-v18.json",
+      "bytes": 7965,
+      "sha256": "d606729b3379dc2c29ad5305857986806ca34049ad4ebf8a9834350257d068fb"
+    },
+    {
+      "path": "public/art-v0130/models/hub-q-v1/asset.json",
+      "bytes": 982,
+      "sha256": "0b7bb1936a0313d4e5909f7b36f9a5846f31dd97047ffc9cca5d909358e28a6a"
+    },
+    {
+      "path": "public/art-v0130/models/hub-q-v1/far.glb",
+      "bytes": 1590108,
+      "sha256": "e84cc57bbf7c7ce89efd2faca345a0cd3b04674a66b4c8f8341586720940b15e"
+    },
+    {
+      "path": "public/art-v0130/models/hub-q-v1/lod.json",
+      "bytes": 1358,
+      "sha256": "e9347a9f2818e5093f35bce6bc3a308298de901e6f37d163cf2e2bb6f1c3c072"
+    },
+    {
+      "path": "public/art-v0130/models/hub-q-v1/model.glb",
+      "bytes": 16001912,
+      "sha256": "f03a942bdb45779f263b14d727a684ac1c23848657797d2c3f25610cd70e98c4"
+    },
+    {
+      "path": "public/art-v0130/models/hub-survey-v20/HUB-measured-far-v20.glb",
+      "bytes": 1715504,
+      "sha256": "0285f68e2612e82250aec3f73d56c3bdcbdf32038d1d0e82dac48de9c2a348f9"
+    },
+    {
+      "path": "public/art-v0130/models/hub-survey-v20/HUB-measured-near-v20.glb",
+      "bytes": 2235380,
+      "sha256": "bd950780d7b0a1909f428c24bce01e0778bae3cca6f1b0d26b1c8179069689c7"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-complete-q-v2/far-component-v53.glb",
+      "bytes": 1745068,
+      "sha256": "2e294310611575805f4a8888d47d6f537f392241ef8b1e43df5d2e65dad3b9c5"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-complete-q-v2/lod.json",
+      "bytes": 888,
+      "sha256": "2f9708c839ae05372dbe792505491581709d7e87b05844641b7130170935d15d"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-complete-q-v2/model.glb",
+      "bytes": 13500732,
+      "sha256": "3b29d8edaf506057eb5f5bb995a9b180ed0a8742d6fb1ba40b2f75364afd58bb"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-complete-q-v2/near-plan-v17.glb",
+      "bytes": 24415776,
+      "sha256": "4ceaa13a18bff0f964a5a0424085820c4036e73ee51e8d2514c465f45dbde456"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-complete-q-v2/production-v47.json",
+      "bytes": 14239,
+      "sha256": "2634b60299c207bb7adcef5c5823741c851f2527399050d6ee60e6c7be79a53e"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-q-v1/asset.json",
+      "bytes": 1406,
+      "sha256": "181dbba1c8c5fc1491652f039a3327da9128ce41d0ac0857faa08db893bf8cf1"
+    },
+    {
+      "path": "public/art-v0130/models/hutchinson-q-v1/model.glb",
+      "bytes": 16438112,
+      "sha256": "f1638389d90211541d8fba1f7ab31ab1e4f04bd752fc028e1d693aaab596a20e"
+    },
+    {
+      "path": "public/art-v0130/models/intellectual-house-v59-near.glb",
+      "bytes": 2806176,
+      "sha256": "3bfc09e894060c3b6432b3888c9dc4df08a0465a2d4dffa3afc01e2b174a7763"
+    },
+    {
+      "path": "public/art-v0130/models/intellectual-house-v60-far.glb",
+      "bytes": 373708,
+      "sha256": "6d6c3f2215e3205cf7045f871405eee264f78f22197972fd387aca715394512c"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/far-architectural-v1.glb",
+      "bytes": 1629820,
+      "sha256": "0a1755139bc79fe048994a7a69eeefe3f37d35baa252dc851d235588a2d0660d"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/far-v81.glb",
+      "bytes": 1881108,
+      "sha256": "b9caa1083ab817b6d2cd1c384895caca1e6667397ba86c0de088939c002534fa"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/lod.json",
+      "bytes": 986,
+      "sha256": "05378a09b973002147e70864d694dda9340572cf6d96850713b71622c0d988f8"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/near-architectural-v1.glb",
+      "bytes": 14226664,
+      "sha256": "164e612ba6eee51da52c054d36e801e0ff9a58e79dcbcd50662f3f98df76b1a3"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/near-v65.glb",
+      "bytes": 58031740,
+      "sha256": "1c26703107df066572fdf15df3e8c16a064f7535459b103194af3f6c7d0fbd5c"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/production-v49.json",
+      "bytes": 89615,
+      "sha256": "b6b27c3335ac3657fadf6e338ac7d40fae191ed830119244d561a018c81d0fbb"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-atg-composite-v1/production-v53.json",
+      "bytes": 16245,
+      "sha256": "e6e1819731122a3fcc6a879774355a378e9a19de638478501fcea2c0ea2af9a1"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-q-v1/asset.json",
+      "bytes": 1409,
+      "sha256": "9c448af64d2e17316a44f392654ea4848cd9d95e217b0824b2a6a287fbd9abfa"
+    },
+    {
+      "path": "public/art-v0130/models/johnson-q-v1/model.glb",
+      "bytes": 15992388,
+      "sha256": "880339baf64557a67f2600d834f53e206b5610aaf6ec4067a38f13356d95d04f"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/asset.json",
+      "bytes": 10199,
+      "sha256": "8fd65f1aaeda38b7d6ad2604e20a5a6b96ea16987a1c7b9c82c887958eb385d9"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/derivative.json",
+      "bytes": 18097,
+      "sha256": "35417cdf12ff18f93f034a8a91c6c0165ac537a5d71898f9d4ae091848720188"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v10.glb",
+      "bytes": 1781076,
+      "sha256": "ba2f69caa8b9a8ac8e658d889d3c5c52ef6874cce9f44c3816e246946bf26077"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v3.glb",
+      "bytes": 1376720,
+      "sha256": "e1f8c09a76ae02d111c3c8dd69c3fa8c304041654d1828095f1d793e7b575aa8"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v4.glb",
+      "bytes": 1632136,
+      "sha256": "979cb4338594ea129041c82b88ce564704852df76954364adb0c9bf9ce24c1d9"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v5.glb",
+      "bytes": 1747504,
+      "sha256": "5aa694d1f18349e7959dbe755d97d6a32826e9b69f3e6044e92007beb220ce71"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v6.glb",
+      "bytes": 1704856,
+      "sha256": "1c8a161aa7a2ec0ac4e41d18e027c2a85636b7c95ea5f231c4e05137c811df8a"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v7.glb",
+      "bytes": 1734704,
+      "sha256": "4d3311ff734dad663cd0e22be3ec648f4f7dd13888417b1231867e2d6303d641"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-front-v8.glb",
+      "bytes": 1769484,
+      "sha256": "60ef5b7b5c51d6f386b69e6b5dc2899d3a6119a45e37cc98651302cf2e85d9c1"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/far-materials-v2.glb",
+      "bytes": 2535728,
+      "sha256": "c33bd5b1069b139b0e589efad81e8dabd97ed95e2861bd72c1a3a59d826014de"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v10-production.json",
+      "bytes": 49333,
+      "sha256": "83d31bc6d14e43ae969049c4ef1209228c9fe04f9fc9c01e66364cfeedf8b727"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v3-production.json",
+      "bytes": 21368,
+      "sha256": "aaa445aa007163fd29b49c0a1e9da5a03abdab3bea644272b1c71ea6ec33c05d"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v4-production.json",
+      "bytes": 48816,
+      "sha256": "a6fd99a8ea5496b3714e36232726574674cc15c3d7d8f580afc65e92cfde8e9f"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v5-production.json",
+      "bytes": 49024,
+      "sha256": "2448d9e9f7cf2fffacc89f77f4f8da15be58548ab8e9053f7c326c85a3e84116"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v6-production.json",
+      "bytes": 43765,
+      "sha256": "2a43269b6ecc0455a343012cc580e0a2cac266986fd958a19e881f3b1f0632a4"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v7-production.json",
+      "bytes": 48840,
+      "sha256": "ad4cb4b49444d2535c526a5eb875e06e0b9ed432c7e22f02b6302837fa30b596"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/front-v8-production.json",
+      "bytes": 48586,
+      "sha256": "14b3bb62d93bf127a3e21a51bb34ad9bac06b88dd5cd030fa7df8baa7bbf34a2"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/KNE-far-original-uv-v67.glb",
+      "bytes": 1821072,
+      "sha256": "76ac7bb86be1d963c1a0bee4327c5b112a8249f339aab54088ba6c55eaab8a99"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/KNE-far-textures-roof-aligned-v76.glb",
+      "bytes": 1152900,
+      "sha256": "c3dbbb48496588bab3edabae577ed91aea10d3d758b3dedefe87914e5dd99ef2"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/lod.json",
+      "bytes": 1836,
+      "sha256": "77803c8195852af7f6990892d4b0c8b677f50e125d487b431518e1ad9cc0cf3c"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/model.glb",
+      "bytes": 13477096,
+      "sha256": "88587eebd44ef3fc1fb910dfe42cd0dc05d0fc644b51c47638ff404e04969a5c"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v10.glb",
+      "bytes": 10734392,
+      "sha256": "3705803c9eda3edd1c0c81f5a68cfc696a3d1213b7050f607621a13ca2271535"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v3.glb",
+      "bytes": 10330028,
+      "sha256": "4ea54367240b7e09ae8bb05ae81f0b2e6b46673862edffa7b424e0992112f3f7"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v4.glb",
+      "bytes": 10585444,
+      "sha256": "24941332c989aeaeacabe877e89c4e8cf1c210fe9f510846ba6935a4f2d6b23c"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v5.glb",
+      "bytes": 10700812,
+      "sha256": "527665e44307a22ec33e3559888139366ecc26c94810919899f80e693144c5e1"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v6.glb",
+      "bytes": 10658164,
+      "sha256": "acceb3e0213b76fba72bfe87ceca3f6459df238266be885eb7a23add14b56e11"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v7.glb",
+      "bytes": 10688012,
+      "sha256": "b4c0d15a356f3cbfdff4b95daab4675b1cadbf7e536f17a5b0a9798f704dd440"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-front-v8.glb",
+      "bytes": 10722800,
+      "sha256": "1171183d22cb324499b208698c3a67578edc65524fa52852a284c335909d7ec0"
+    },
+    {
+      "path": "public/art-v0130/models/kane-complete-q-v2/near-full-gis-v2.glb",
+      "bytes": 21327680,
+      "sha256": "6e9a41f748c4b9e0719a64bc0af85e3083a3064e0afaa35be984c3dc584a3334"
+    },
+    {
+      "path": "public/art-v0130/models/kane-hall-q-v1/asset.json",
+      "bytes": 1000,
+      "sha256": "3591195cabb8f07a4a9f43ba1117de0d2410d3dc54c17d85d97336b92907dcd2"
+    },
+    {
+      "path": "public/art-v0130/models/kane-hall-q-v1/far.glb",
+      "bytes": 1819456,
+      "sha256": "9ae56b883aa0e8741097a0788922d4e31fe120e0155ad216d46d3dc4c66fc1d1"
+    },
+    {
+      "path": "public/art-v0130/models/kane-hall-q-v1/lod.json",
+      "bytes": 1374,
+      "sha256": "173e1cfa21d4968f28de4e0a0bbc4b9ea429ace287d76da2b3398e8fe03617aa"
+    },
+    {
+      "path": "public/art-v0130/models/kane-hall-q-v1/model.glb",
+      "bytes": 13727108,
+      "sha256": "2e47d3b40de555812508b1f549c7d56d0bac5e65499b8869ce3867323250f516"
+    },
+    {
+      "path": "public/art-v0130/models/kincaid-survey-exterior-v1/far.glb",
+      "bytes": 602228,
+      "sha256": "05a620dd4a2036e68989b86b9af9918add0a1acff2c30bf2003aa3335bb9b845"
+    },
+    {
+      "path": "public/art-v0130/models/kincaid-survey-exterior-v1/near.glb",
+      "bytes": 3033756,
+      "sha256": "962094eb4d5feeaf076d22b05d6a5f504777c3c6e8a2c6d02ad3ac76b52e307a"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-east-v2/far.glb",
+      "bytes": 1583900,
+      "sha256": "331364551debe00c6f4c7e88c7c42392aacbf7db20b67a1adb515715061bc8ba"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-east-v2/near.glb",
+      "bytes": 14253380,
+      "sha256": "d2376830c16cea4b30cc85348d9569b2af451122c1de2419410025dd33fcdacb"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-frontage-v1/far-frontage-v1.glb",
+      "bytes": 1338492,
+      "sha256": "bd3ac6fe74c5234b5274794855d404507c0fb1883477e63f68073060f91f9d1a"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-frontage-v1/near-frontage-v1.glb",
+      "bytes": 14007960,
+      "sha256": "ecddad61b35604c541ad7644bd87fc1a2d716ca6a14aaa2fd2c5d82a8a7c801d"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-q-v1/asset.json",
+      "bytes": 1483,
+      "sha256": "9e2f74dbf743da269875a8785d51a0754556da737e3c24a5d44c291e58d45eca"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-q-v1/far.glb",
+      "bytes": 1037176,
+      "sha256": "1a84f4a71b9dc76ca2d7733420a9bb99cd13253487d3fbc59f7f958d3fdce78d"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-q-v1/lod.json",
+      "bytes": 1437,
+      "sha256": "1e7b7c11bce2ebecdb5da44273a4cb95db8e2a9c3bffbd99e74e607fc4b12eb8"
+    },
+    {
+      "path": "public/art-v0130/models/kirsten-wind-tunnel-q-v1/model.glb",
+      "bytes": 14218864,
+      "sha256": "a45797549ef1a88f5a634677c74e8fff3c14b7dfc58dc25c4aa5fc2b1d6dd7be"
+    },
+    {
+      "path": "public/art-v0130/models/l125-survey-v3/far.glb",
+      "bytes": 392332,
+      "sha256": "2e2fc1e2de30dde715e23e846ccd7b92c72971b3d3d272248984e2b3575fe238"
+    },
+    {
+      "path": "public/art-v0130/models/l125-survey-v3/near.glb",
+      "bytes": 1140652,
+      "sha256": "6845165e486e4e65787b1338804725effa0bbaa47d4d44dbfde7caad28b20de8"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-complete-q-v2/far-architecture-v3.glb",
+      "bytes": 2197184,
+      "sha256": "f8e63ce4e4566d55dd397473727a96921c38ce8a7d751a57107674bf635dfe06"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-complete-q-v2/lod.json",
+      "bytes": 774,
+      "sha256": "39185a9b9a010883101498d2c3ede58f7a96a72ea7efe88cc9d63ac638c232d4"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-complete-q-v2/near-architecture-v8.glb",
+      "bytes": 26465724,
+      "sha256": "6afe5a4a11307f13a72278f9866dd69b3ca0829cf3f7158835ff1077eaf2ce26"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-complete-q-v2/north-usgs-1m-source.json",
+      "bytes": 56269,
+      "sha256": "4b39bd6fd387e760b83233ed10eac6c0c4c466ae028849362575b8f689d9225f"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-complete-q-v2/north-usgs-1m.tif",
+      "bytes": 8169,
+      "sha256": "ad6beaba16283c23bd1ee733cd8dbeb50629fa5d2c139cd8ee5b6395a0f92698"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-complete-q-v2/production-v58.json",
+      "bytes": 29391,
+      "sha256": "95b92002d9ba9316ea708c41694c1f52795c1b7b06f2b080a6fa7c13c0570376"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-q-v1/asset.json",
+      "bytes": 1427,
+      "sha256": "bad1e44a37b3e61c8d60efb0635ed55fa8270a52a1d621b3453cbec43153f132"
+    },
+    {
+      "path": "public/art-v0130/models/law-gates-q-v1/model.glb",
+      "bytes": 15410888,
+      "sha256": "3e4a8d991478aa53d2a0c2c56dcbe409bdf5932f7e6375614b35cba3debf0ee4"
+    },
+    {
+      "path": "public/art-v0130/models/lewis-q-v1/asset.json",
+      "bytes": 1377,
+      "sha256": "e31894d28a8a91713ed641ab86cb24085353b782376c3f6c78bdfcaa7545a98b"
+    },
+    {
+      "path": "public/art-v0130/models/lewis-q-v1/far-t-body-v7.glb",
+      "bytes": 1694828,
+      "sha256": "66f8d3a9f019627a98a7476eaf3919e7a0982417517eda3bb580811224b80b93"
+    },
+    {
+      "path": "public/art-v0130/models/lewis-q-v1/lod.json",
+      "bytes": 841,
+      "sha256": "976aaceccc5c5f1edc4500366e67cb40da4d1047067222395fc04aad4d470137"
+    },
+    {
+      "path": "public/art-v0130/models/lewis-q-v1/model.glb",
+      "bytes": 16060644,
+      "sha256": "d0f17e431fb6a357812bd2aa281cdbe616af69646633775d72ed5d82a5696dfa"
+    },
+    {
+      "path": "public/art-v0130/models/lewis-q-v1/near-t-body-v7.glb",
+      "bytes": 22503700,
+      "sha256": "e6cfb83c361c131919e6ec25193d343a408811ed25474a871f4f59d502e4ede6"
+    },
+    {
+      "path": "public/art-v0130/models/lewis-q-v1/production-v45.json",
+      "bytes": 9557,
+      "sha256": "cdd5b9284f958b9021e63cd7451aad4b088c6925d4246a013902f91081a876d9"
+    },
+    {
+      "path": "public/art-v0130/models/life-sciences-whole-q-v1/asset.json",
+      "bytes": 5795,
+      "sha256": "6c5f32a5f1c4b47aedd18cb227a0633376aa949db2031de25bb9df2c5f632ccb"
+    },
+    {
+      "path": "public/art-v0130/models/life-sciences-whole-q-v1/far-baked-v2.glb",
+      "bytes": 1637964,
+      "sha256": "d42644b25bdccdcea99f5deeb6bd22d4ade14766453d8f9f48caaa00723c1667"
+    },
+    {
+      "path": "public/art-v0130/models/life-sciences-whole-q-v1/lod.json",
+      "bytes": 1215,
+      "sha256": "ab3a072c3a16b2e2bd605a2289a364f0ee7742398e89b98fb8127038dd5211f9"
+    },
+    {
+      "path": "public/art-v0130/models/life-sciences-whole-q-v1/model.glb",
+      "bytes": 16784744,
+      "sha256": "bee079e2b998708f9565ac67f4123effff9937b604675caeb426617c4e231690"
+    },
+    {
+      "path": "public/art-v0130/models/life-sciences-whole-q-v1/near-full-gis-v2.glb",
+      "bytes": 25060408,
+      "sha256": "cd7edc41f54dcab417c5abbd5c3660c76abdac2c4746deaafd656bbbb19cb6bd"
+    },
+    {
+      "path": "public/art-v0130/models/loew-complete-q-v2/far-architecture-v8.glb",
+      "bytes": 2212036,
+      "sha256": "af436c68360bd3fe0d56bd6663ce98df6929d69c3ddcf9257adac51513d9a907"
+    },
+    {
+      "path": "public/art-v0130/models/loew-complete-q-v2/lod.json",
+      "bytes": 723,
+      "sha256": "1a8d59b7838571b06cbc33c86b331386cb5ef13ffc1493b7c1c7f83dedda361e"
+    },
+    {
+      "path": "public/art-v0130/models/loew-complete-q-v2/near-architecture-v8.glb",
+      "bytes": 13582580,
+      "sha256": "344da17ba9a90863a3ed71803fadc651672812c5f28da278a8734625355f1cf7"
+    },
+    {
+      "path": "public/art-v0130/models/loew-complete-q-v2/production-v55.json",
+      "bytes": 3482,
+      "sha256": "03f52ec8c58d35bebb43e19d88c83dd164702281b116ad940ce78656ba105cb0"
+    },
+    {
+      "path": "public/art-v0130/models/loew-q-v1/asset.json",
+      "bytes": 1439,
+      "sha256": "b32297b61e874948b1abfc1b238ef7efdb321943062ab9cf3d71c45c20d89ea1"
+    },
+    {
+      "path": "public/art-v0130/models/loew-q-v1/far.glb",
+      "bytes": 982384,
+      "sha256": "e67bec147428e09b034b7c73d69a8193efcd73caa6c662eb86bf76b6ac8b43ff"
+    },
+    {
+      "path": "public/art-v0130/models/loew-q-v1/lod.json",
+      "bytes": 1389,
+      "sha256": "aa42326ef8ca90c6553c2cc8f66c915347882e7297bf41f36efe4ed98f85a465"
+    },
+    {
+      "path": "public/art-v0130/models/loew-q-v1/model.glb",
+      "bytes": 13037804,
+      "sha256": "276577f72611269f47c9379b7dddde22399420a997164e064120eb5b478b93e3"
+    },
+    {
+      "path": "public/art-v0130/models/mary-gates-q-v1/asset.json",
+      "bytes": 1003,
+      "sha256": "8ae0db1ca6d77f354c5d5c381c5d0a1a9c3077f85daf1b54fbb86f622d74ca4a"
+    },
+    {
+      "path": "public/art-v0130/models/mary-gates-q-v1/far.glb",
+      "bytes": 2386784,
+      "sha256": "4e0dbf265ad12805d5be289f4e988101692d57f34531a94177f2d84c620182d7"
+    },
+    {
+      "path": "public/art-v0130/models/mary-gates-q-v1/lod.json",
+      "bytes": 1373,
+      "sha256": "82c30ae40fc332458181888b7adaa71fc89efd65bd58e97bf84cfe1c24451e33"
+    },
+    {
+      "path": "public/art-v0130/models/mary-gates-q-v1/model.glb",
+      "bytes": 17336848,
+      "sha256": "2b1ee89b616da551494e3eed4f9a688b9085bc82db2e2530290e72b0b6211eaf"
+    },
+    {
+      "path": "public/art-v0130/models/mary-gates-survey-v6/MGH-survey-far-v6.glb",
+      "bytes": 764048,
+      "sha256": "ad3ed4234932248f3adc292f4034710514573c8289180e25ac4f6729e1746121"
+    },
+    {
+      "path": "public/art-v0130/models/mary-gates-survey-v6/MGH-survey-near-v6.glb",
+      "bytes": 3612260,
+      "sha256": "299cd0e54f70edac4d90ecb5459b6f8e29516fdbd7b6dd71ed517c3f1795e400"
+    },
+    {
+      "path": "public/art-v0130/models/mcmahon-hall-v1/far-v75.glb",
+      "bytes": 520172,
+      "sha256": "c64912518729225ffe1e98b38f7ec8a56903f60ffa0e103c60da1c30ed240f8d"
+    },
+    {
+      "path": "public/art-v0130/models/mcmahon-hall-v1/near-v74.glb",
+      "bytes": 4278148,
+      "sha256": "3ff784fa1bf73534320414832c7edf35e34fdc9277dc2116c0223a253792c47a"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/asset.json",
+      "bytes": 6680,
+      "sha256": "906c411007772cc62e252297bb4a94d7c6fae8f6e341d60a0cefaa89c464cc5d"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/complete-plan-v24.json",
+      "bytes": 8715,
+      "sha256": "975e66f8b98128a3a1be17c6541a2d55545ddd40d1fd276d8bac29f104260ff3"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/far-complete-v24.glb",
+      "bytes": 1992424,
+      "sha256": "35527f682b071ee7d174d4357f3b67ffb4a6527ad7f3d0c1d1fc8471bc3c9848"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/geometry-review-v24.json",
+      "bytes": 2317,
+      "sha256": "66429601af62e7edbbe9f85af097b08d0361336e6c0a33d4afe914d3810ee1cb"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/lod.json",
+      "bytes": 1042,
+      "sha256": "fc147843ccc8194e2e3f6d0d5f8d3f930cdefc417940cea7694f4770449038d6"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/model.glb",
+      "bytes": 14072872,
+      "sha256": "6692ff90cfc4c1ccaee09015651db94b81c6f3883514bcb227abacddd27b826b"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/near-full-gis-v23.glb",
+      "bytes": 36647820,
+      "sha256": "6a8357db0d9620d3dc5a7dc6fe9adfc94a1d973605b5d064074e3e2b614cd5d0"
+    },
+    {
+      "path": "public/art-v0130/models/meany-complete-q-v2/production-review-v24.json",
+      "bytes": 9956,
+      "sha256": "78e8779f88542b33bc7c17078de8c5fe8a6f255707b8dc2bd524d360318dcb3c"
+    },
+    {
+      "path": "public/art-v0130/models/meany-q-v1/asset.json",
+      "bytes": 1395,
+      "sha256": "5d742b87a4f291f729c3b6909feb3c79e53ea9f172b865361c802c6094ffffb7"
+    },
+    {
+      "path": "public/art-v0130/models/meany-q-v1/far.glb",
+      "bytes": 1547780,
+      "sha256": "c36f74dab17ecf2935bd6b8890fe7e4234df217cf4c265f8dc9605e9e12c5ad6"
+    },
+    {
+      "path": "public/art-v0130/models/meany-q-v1/lod.json",
+      "bytes": 1360,
+      "sha256": "df8b239a5e52e805d32e9ef751540da84eec07acc3cba1c89636da8ae5335160"
+    },
+    {
+      "path": "public/art-v0130/models/meany-q-v1/model.glb",
+      "bytes": 14719756,
+      "sha256": "245ecef7accf42a3cdd43b1e59be7475dd9326a5a99ee3a175122a37427d6b90"
+    },
+    {
+      "path": "public/art-v0130/models/meb-ega-complete-q-v2/far-architecture-v1.glb",
+      "bytes": 2100268,
+      "sha256": "d4606091773c23e7de2e36e4fe71bb1ead66c92a3cb9397901e1109fa5c361d5"
+    },
+    {
+      "path": "public/art-v0130/models/meb-ega-complete-q-v2/lod.json",
+      "bytes": 800,
+      "sha256": "008e7050e7c8de595dcc17084774e8efbcec5f7b152afcca7d7f114fa6999dae"
+    },
+    {
+      "path": "public/art-v0130/models/meb-ega-complete-q-v2/near-architecture-v9.glb",
+      "bytes": 24510816,
+      "sha256": "40ab83c7d0ae16246c9815e3d20e122eae4caa9c7bf0e5c120e6fb979be1efe1"
+    },
+    {
+      "path": "public/art-v0130/models/meb-ega-complete-q-v2/production-v60.json",
+      "bytes": 47646,
+      "sha256": "2b050a67bfb192b0438264a303a5e497e6733a60f1e3a1f11a03030cbd8f688a"
+    },
+    {
+      "path": "public/art-v0130/models/mechanical-engineering-q-v1/asset.json",
+      "bytes": 1492,
+      "sha256": "f64413dffa612c02d69b86dad9c69ba824d8f39bbd1290208a8232c60fa8803a"
+    },
+    {
+      "path": "public/art-v0130/models/mechanical-engineering-q-v1/model.glb",
+      "bytes": 15789608,
+      "sha256": "9dced5a8290c9d47c62bc8aa2f8a51d22bee088973fead44b5e0855c308898b0"
+    },
+    {
+      "path": "public/art-v0130/models/metro11352-survey-v1/far.glb",
+      "bytes": 39872,
+      "sha256": "baa35211ef728b1a7cf264fb5bd1c30bc5f519f2762547b2c047ca611b74a887"
+    },
+    {
+      "path": "public/art-v0130/models/metro11352-survey-v1/near.glb",
+      "bytes": 126712,
+      "sha256": "4493f08e8b3642e5e1b8db452384736e191ce7944e2ed13faf8e5abbfb550a68"
+    },
+    {
+      "path": "public/art-v0130/models/miller-hall-southwest-coping-v3/far.glb",
+      "bytes": 2683460,
+      "sha256": "38ad5b8673a8109c701da5f3696e85d4b3d6f30eeb7d1efd5c871de689529030"
+    },
+    {
+      "path": "public/art-v0130/models/miller-hall-southwest-coping-v3/near.glb",
+      "bytes": 16593816,
+      "sha256": "3eeb37303199266a4a8e5dc7e38a68f780f186b7556950a766070c0356134ee0"
+    },
+    {
+      "path": "public/art-v0130/models/miller-q-v1/asset.json",
+      "bytes": 991,
+      "sha256": "19585d9b6fe97127e793c75a121149f691e121578bd5b9c5152469d1c8a1d8d6"
+    },
+    {
+      "path": "public/art-v0130/models/miller-q-v1/far.glb",
+      "bytes": 2216068,
+      "sha256": "311834178e794413268b42f903804a42ff3b12c68bde8079a877be65f2a8c51f"
+    },
+    {
+      "path": "public/art-v0130/models/miller-q-v1/lod.json",
+      "bytes": 1365,
+      "sha256": "2bcf84f35eb6a99e3ee06742b8ac2d0f7930ab49639779b5dc516b612816d55d"
+    },
+    {
+      "path": "public/art-v0130/models/miller-q-v1/model.glb",
+      "bytes": 16299916,
+      "sha256": "1b3dbfe3d0b0a447272abeecd3322a71a386f41accff64ac064a5186ddb7577b"
+    },
+    {
+      "path": "public/art-v0130/models/mol-nano-complete-q-v2/far-architecture-v1.glb",
+      "bytes": 1930828,
+      "sha256": "ae35df0fc9415f89d36883599f9bc16834c79c725712c31deaadf589fa783da0"
+    },
+    {
+      "path": "public/art-v0130/models/mol-nano-complete-q-v2/lod.json",
+      "bytes": 772,
+      "sha256": "a2f683e1615ff104793271c2dd606cf66d1fd9806ca6e6f4014c6a4aec4687be"
+    },
+    {
+      "path": "public/art-v0130/models/mol-nano-complete-q-v2/near-architecture-v4.glb",
+      "bytes": 19390948,
+      "sha256": "668d3f3a498cb28e77cbbc40009fc4f0e05eeaee813867ca69d867c8a381ea1c"
+    },
+    {
+      "path": "public/art-v0130/models/mol-nano-complete-q-v2/production-v62.json",
+      "bytes": 91042,
+      "sha256": "19be5890b7c7d11ad601f6a63461a728c31affccbcfefdddbc2142512ce96ddd"
+    },
+    {
+      "path": "public/art-v0130/models/molecular-engineering-q-v1/asset.json",
+      "bytes": 1489,
+      "sha256": "a49feba047f290982cef9eaad299ecaa182cbe9d942875b59c92e19af0344428"
+    },
+    {
+      "path": "public/art-v0130/models/molecular-engineering-q-v1/model.glb",
+      "bytes": 14943676,
+      "sha256": "aed10c1894e38f349d10bf12819193662c8bf8b164bdccb87f135ba958f445dc"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/asset.json",
+      "bytes": 1453,
+      "sha256": "b9bb2d200f90e7842733118fceea40d3983e50ddd2a6cd8d1694b3e855352400"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/far-whole-v7.glb",
+      "bytes": 2501376,
+      "sha256": "8ed3dee521b78513ca39a9d3b6a49d8e2221cdad161efd41ea519f226652b7b5"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/far.glb",
+      "bytes": 1371020,
+      "sha256": "4613df96359d6bc2ec8e76faf9890b1308e9e469615802ac9c1405a3e1aed43b"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/lod.json",
+      "bytes": 1385,
+      "sha256": "bf55d08c3245e621ecd2160501cd177f4b1858215fbc4117eb163f97894dc809"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/model.glb",
+      "bytes": 14920880,
+      "sha256": "480920209704f9ec9a3463e21f5f63e4b1ff1650de4be3e41ba24aaeb0f41ce8"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/near-whole-v3.glb",
+      "bytes": 16674320,
+      "sha256": "54b7f41137ac969b2c66bf2bc101c8e36b12b82c3f6754f3eaa299851b393e5a"
+    },
+    {
+      "path": "public/art-v0130/models/more-hall-q-v1/whole-source-production-v3.json",
+      "bytes": 31503,
+      "sha256": "f136c2e5a48238e78ffc0f090eb9fac00cebb76b158ac1f18462ddde8dfee53c"
+    },
+    {
+      "path": "public/art-v0130/models/music-complete-q-v2/asset.json",
+      "bytes": 6446,
+      "sha256": "b708faeeaab1d77bef1c0073c60c97d7e98e525fba4c5ae3925e13ed7fa5366e"
+    },
+    {
+      "path": "public/art-v0130/models/music-complete-q-v2/derivative.json",
+      "bytes": 12978,
+      "sha256": "49eddbefa5bde49e9dba85a14f08f39514919893ef867d68efc2fa5876234661"
+    },
+    {
+      "path": "public/art-v0130/models/music-complete-q-v2/far-materials-v12.glb",
+      "bytes": 2359008,
+      "sha256": "c8809cb6daef8991dd33b222638675164b553d53e1ba82293154f77177b02790"
+    },
+    {
+      "path": "public/art-v0130/models/music-complete-q-v2/lod.json",
+      "bytes": 1147,
+      "sha256": "9f6e59cc4cd9752c8685aa7ae05dad9b2725ed7320d5214c67e2bb440fd42fd7"
+    },
+    {
+      "path": "public/art-v0130/models/music-complete-q-v2/model.glb",
+      "bytes": 14938580,
+      "sha256": "e148c6c440e1e5566618e3276b306fd8d2bfb15ad8cf852589a5dea126f0206a"
+    },
+    {
+      "path": "public/art-v0130/models/music-complete-q-v2/near-whole-v11.glb",
+      "bytes": 27806728,
+      "sha256": "9eeadf0bea916195f19eb7d8edce5b830c2dc0ef979f53c2027c209a6d3cdcae"
+    },
+    {
+      "path": "public/art-v0130/models/music-q-v1/asset.json",
+      "bytes": 1382,
+      "sha256": "cce2d84b97caf5cf11aaaae29a4a23f06ab9d79ce8a38535751fa7ec53948550"
+    },
+    {
+      "path": "public/art-v0130/models/music-q-v1/model.glb",
+      "bytes": 15863008,
+      "sha256": "75b570e2b3741c313237f3a7bdb04c5dce222d3f6754efa17c4b7a494ccb2a9b"
+    },
+    {
+      "path": "public/art-v0130/models/npc-aiko-q-v1/asset.json",
+      "bytes": 994,
+      "sha256": "24e302b774f7f5b2d5f329a5a11afcdf48258dcf4076bde9f0a729fcb3cb5f15"
+    },
+    {
+      "path": "public/art-v0130/models/npc-aiko-q-v1/model.glb",
+      "bytes": 11761936,
+      "sha256": "33ec3effc14189e5109bc125ee887b1ad40c6409f08cc72f82985cc800ba6cd0"
+    },
+    {
+      "path": "public/art-v0130/models/npc-aiko-rig-v1/asset.json",
+      "bytes": 885,
+      "sha256": "ad8c4e3b9b1fa2126e9fe41789aac04bbfbfbce7776742699aea63b3594b1e9d"
+    },
+    {
+      "path": "public/art-v0130/models/npc-aiko-rig-v1/model.glb",
+      "bytes": 12849600,
+      "sha256": "fb082e2e9c8d88aaa797d3c975a9792d05f56449a0a9f4ab84dacc8b5fed2cb5"
+    },
+    {
+      "path": "public/art-v0130/models/npc-alex-q-v1/asset.json",
+      "bytes": 994,
+      "sha256": "123dc6e69eb6da92770a4035a162632cb584cc53b54285dbf33e0047bcaeffa8"
+    },
+    {
+      "path": "public/art-v0130/models/npc-alex-q-v1/model.glb",
+      "bytes": 12080044,
+      "sha256": "f48f00143fe167306c0be084e227c59de65c6058a3ff6dfd970c84adb6205dc8"
+    },
+    {
+      "path": "public/art-v0130/models/npc-alex-rig-v1/asset.json",
+      "bytes": 885,
+      "sha256": "25afdf0850e8b90a1d75e4f2ceb659034d3f9f8b3fa6bd029a9a528b85ff3d49"
+    },
+    {
+      "path": "public/art-v0130/models/npc-alex-rig-v1/model.glb",
+      "bytes": 13318500,
+      "sha256": "2371629a6ccb5ff5ca55e8462a2f2ddcb757e814d1922c760478817a8b217e9f"
+    },
+    {
+      "path": "public/art-v0130/models/npc-jordan-q-v1/asset.json",
+      "bytes": 1000,
+      "sha256": "5ae5c266a9f550a038c4ce3533c98d881be297655125caf72997abe658da9519"
+    },
+    {
+      "path": "public/art-v0130/models/npc-jordan-q-v1/model.glb",
+      "bytes": 10872808,
+      "sha256": "685700d5da104ec70955fdffe7c66f24e66f64f168ddc96b5219ad0c3f470bcd"
+    },
+    {
+      "path": "public/art-v0130/models/npc-jordan-rig-v1/asset.json",
+      "bytes": 891,
+      "sha256": "76839b28d4360d62381d740cb0f2b4da1951d767d4da18a1ec3928ab0acd38e1"
+    },
+    {
+      "path": "public/art-v0130/models/npc-jordan-rig-v1/model.glb",
+      "bytes": 12100444,
+      "sha256": "acb0639e79fec72548865181ec6295032cc4c34752d8eecf940e609e3196ab22"
+    },
+    {
+      "path": "public/art-v0130/models/npc-leo-q-v1/asset.json",
+      "bytes": 991,
+      "sha256": "21ba971115884b59d90aaca219f6d6eae7c210205ac335df4156d7e38b5561c8"
+    },
+    {
+      "path": "public/art-v0130/models/npc-leo-q-v1/model.glb",
+      "bytes": 11837120,
+      "sha256": "d155010233b5b0b8628058f17bd1d343465cc0d878dbbff3701c7af8d1b54435"
+    },
+    {
+      "path": "public/art-v0130/models/npc-leo-rig-v1/asset.json",
+      "bytes": 882,
+      "sha256": "db612bfa0bbc1f7b607059499616292abc1169cfa168461e1b08bdd22d2c3a0a"
+    },
+    {
+      "path": "public/art-v0130/models/npc-leo-rig-v1/model.glb",
+      "bytes": 12986944,
+      "sha256": "41cbbf19e1fc5545f6bb0995bb6a622b6cf7f77eaf9dd9d711625226b7567b80"
+    },
+    {
+      "path": "public/art-v0130/models/npc-maya-q-v1/asset.json",
+      "bytes": 994,
+      "sha256": "4861110309cee48e6089485817e0c4fbddb8d42fb90af9b2f14ae5c316feb41b"
+    },
+    {
+      "path": "public/art-v0130/models/npc-maya-q-v1/model.glb",
+      "bytes": 12575736,
+      "sha256": "e52e92316b21c19142de0b6d3caa115362f0ce8d9ac2163253e0d08db0883784"
+    },
+    {
+      "path": "public/art-v0130/models/npc-maya-rig-v1/asset.json",
+      "bytes": 885,
+      "sha256": "0515f2ae4c77c127d5c902dda247c82055f401aadeaa202c25ee8a398e797d1d"
+    },
+    {
+      "path": "public/art-v0130/models/npc-maya-rig-v1/model.glb",
+      "bytes": 14189900,
+      "sha256": "154f9dfa6d56ef8f6f6810d8d9aab7e996fdc7deb1abfbc63e1322e7ff4eee2d"
+    },
+    {
+      "path": "public/art-v0130/models/oak-hall-complete-v1/far-v12.glb",
+      "bytes": 143476,
+      "sha256": "993532f8f5f56db4f51ec7c458e79e18755eff8d2801317bd7569b6fa8d1a36e"
+    },
+    {
+      "path": "public/art-v0130/models/oak-hall-complete-v1/near-v11.glb",
+      "bytes": 1124512,
+      "sha256": "ce44f45e57b9d7a31d41a9f453d6ee6536068514168ac2220215c4bf0946908f"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/asset.json",
+      "bytes": 8305,
+      "sha256": "579dad39d7c1f84e2c6489533fc8efc85c86a47dd0e9e6feb1d5f7eb2ab029d1"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/derivative.json",
+      "bytes": 23295,
+      "sha256": "4ec83c7e3aa0c1a0000f7d52cd8766d820fa654f9e4dacc69af665d7e3239c81"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/far-baked-v2.glb",
+      "bytes": 2221892,
+      "sha256": "8781682100f3f9ad9f7e2f6905a1be19c6efa143c8c8c12e50866a1c97ad01ee"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/far-photo-facade-v9.glb",
+      "bytes": 2109000,
+      "sha256": "5766159be9204b63426dc065d3f2e13c5b3958994a60a03897419fbcc5343754"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/lod.json",
+      "bytes": 1084,
+      "sha256": "623e3db77f1f1932d6f94d80ad3a777d7c0dff40af0e48b0a08061d51ab9cf1e"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/model.glb",
+      "bytes": 16357668,
+      "sha256": "4299b49a35b44223b00c99a1c7bf0596bd0c6c258f0a852b345cadfe27adbd6f"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/near-full-gis-v2.glb",
+      "bytes": 25454468,
+      "sha256": "3340e755cf3174877260029f6ffc8c70f94c1d8571d300896a73d0bf3dfa014a"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/near-photo-facade-v9.glb",
+      "bytes": 19630896,
+      "sha256": "cac67c4f49781145c4095e1804d9179972ffb19c1ca569450490abe6dd99b835"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/OUG-far-original-uv-v67.glb",
+      "bytes": 2606704,
+      "sha256": "69f4f281881ab29edb63b2ee9cf952350cd498ff3f4772fcda0d773bc0615098"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-complete-q-v2/repair-v44.json",
+      "bytes": 3623,
+      "sha256": "56454d4505fe4d9c070e4b28ff888fb8dcc3e8911290626f3f7192a93756a25c"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-q-v1/asset.json",
+      "bytes": 997,
+      "sha256": "d52b1162e7d29a7702edbb50502f380bc5cd0a850435e6e70bc0e32ef59ceff0"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-q-v1/far.glb",
+      "bytes": 2545952,
+      "sha256": "21949185c3ae07a479df828036e4981d93217c64bd09a6f2a91c37256de6006c"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-q-v1/lod.json",
+      "bytes": 1374,
+      "sha256": "d1b26b439bac26fb0d182b40806b9b5c1dedae2797c7e3eb22b556c49d762dbc"
+    },
+    {
+      "path": "public/art-v0130/models/odegaard-q-v1/model.glb",
+      "bytes": 16552328,
+      "sha256": "31a54c4291618d221859609d53bd59c64cf6ece7407065f44b3e500b0da934ff"
+    },
+    {
+      "path": "public/art-v0130/models/pab-east-sites/PAEN-exterior-far-v1.glb",
+      "bytes": 111548,
+      "sha256": "74bdebf8342ea1999d3398963a7ba1dc5c9ba4588eb0aedaec39bcedb1c854ea"
+    },
+    {
+      "path": "public/art-v0130/models/pab-east-sites/PAEN-exterior-near-v1.glb",
+      "bytes": 592484,
+      "sha256": "5f451f217bcef393da25f6a6cd06fca0e1d0ec18cc63b02d7775674a0a288110"
+    },
+    {
+      "path": "public/art-v0130/models/pab-east-sites/PAES-exterior-far-v1.glb",
+      "bytes": 119836,
+      "sha256": "3fbb6aa876edc197c9c46e0b9d9ba4c28323cfcf5c4c0af7ba966f71151ef299"
+    },
+    {
+      "path": "public/art-v0130/models/pab-east-sites/PAES-exterior-near-v1.glb",
+      "bytes": 600768,
+      "sha256": "9d41106aa490da165023f2014712a3f42e93fa7b52af7c7d6e494b3d8022e33e"
+    },
+    {
+      "path": "public/art-v0130/models/pab-far-v54.glb",
+      "bytes": 1203484,
+      "sha256": "876bdf64666149e98e86ed3e4828c3a73dc0e11433fd69f860fc9fcdcedd9e62"
+    },
+    {
+      "path": "public/art-v0130/models/pab-near-v54.glb",
+      "bytes": 6308480,
+      "sha256": "b0c134ae510c03b558c3b1f5aa667c683824ba1088f900c5e08bbec7e5b49fcd"
+    },
+    {
+      "path": "public/art-v0130/models/paccar-q-v1/asset.json",
+      "bytes": 1383,
+      "sha256": "ad10bb94d8ad0629dd47b44c63e516afb3fe62d1c970ada6b97b5a7f6752dd5d"
+    },
+    {
+      "path": "public/art-v0130/models/paccar-q-v1/model.glb",
+      "bytes": 14745740,
+      "sha256": "39a93fd40ada80d56674235b5d922c0f3eaa4769c0b52f45de0ac5a8a018ba54"
+    },
+    {
+      "path": "public/art-v0130/models/padelford-hall-v1/far-v42.glb",
+      "bytes": 443296,
+      "sha256": "621fbbecc4508420ec9044425be6712d01358cbc3a9d3242850297af15543423"
+    },
+    {
+      "path": "public/art-v0130/models/padelford-hall-v1/near-v42.glb",
+      "bytes": 2402312,
+      "sha256": "383af65798978f5dff07c4fce74ce4413adc4a320f8f510c787c889c1d33f738"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/asset.json",
+      "bytes": 8676,
+      "sha256": "2a760db6d03ac5a71867e67b595737003b48d7ab58f06386b7a389b8d7641c47"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/far-baked-v2.glb",
+      "bytes": 2028212,
+      "sha256": "d58ad2c34e1ce4998e6df0b9bc9ed4a52cb9ad8a7ce2d763ae74bde18832cba0"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/far-sealed-v8.glb",
+      "bytes": 2655280,
+      "sha256": "2ed01ea94c781880d45fb15b3cf121bdba7f9b3d7637e7edccda8c737bbab913"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/lod.json",
+      "bytes": 1045,
+      "sha256": "e134c9ac5d12077f71ceddf33c4abe78d020ae0c687b9ff747258498fcad4583"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/model.glb",
+      "bytes": 15587280,
+      "sha256": "6989ad11432758a92647437ea2f395b3c203895163f122b7ba25cd2ebee124d1"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/near-closed-v2.glb",
+      "bytes": 21579424,
+      "sha256": "ccdf3c00d2ae0833a5c8fc7fbc73034094b712c82d17cc6f71042b857dcfe270"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/near-sealed-v3.glb",
+      "bytes": 22781544,
+      "sha256": "38ee11e801cd5f72f0b289816c46ec8d53dbfcb067c239706b38ec3867ca64e8"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-complete-q-v2/repair-v44.json",
+      "bytes": 1106,
+      "sha256": "e0f7f2155172d1d28fe742605fb259b8e99ed8d879bd207bd91a4b27f877c37c"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-q-v1/asset.json",
+      "bytes": 1400,
+      "sha256": "b5798c074bfba055d00d4322998ba9709eb44132ee03cecf62a87247f5307726"
+    },
+    {
+      "path": "public/art-v0130/models/parrington-q-v1/model.glb",
+      "bytes": 17736684,
+      "sha256": "addac8c560d3f47b54435d95a38a948cd507d14bbe7fb020cdf7ec2e391ff9ec"
+    },
+    {
+      "path": "public/art-v0130/models/po4-survey-v1/far.glb",
+      "bytes": 200124,
+      "sha256": "900eddfd1e403c1266557350751c01ad9fb58ace874f8cc67301055cef281488"
+    },
+    {
+      "path": "public/art-v0130/models/po4-survey-v1/near.glb",
+      "bytes": 985472,
+      "sha256": "2c701f4559379c8f9f999a3863e112985dd1f4a6c39f3027cca0f1a49c233420"
+    },
+    {
+      "path": "public/art-v0130/models/po6-survey-v1/far.glb",
+      "bytes": 45448,
+      "sha256": "517f956cf3917529538290ea91bc8cf47653bd6aa8f1278041a34111074dbc8f"
+    },
+    {
+      "path": "public/art-v0130/models/po6-survey-v1/near.glb",
+      "bytes": 558908,
+      "sha256": "9c11078d358a1ada9891a808cf4c58817c23f10e18c5030e1bb4df93bd1d8154"
+    },
+    {
+      "path": "public/art-v0130/models/power-plant-v5/far.glb",
+      "bytes": 1407132,
+      "sha256": "32be3e227c0f3bd48e754eecad173dac6f5256c4f52d03ad218a31431246b837"
+    },
+    {
+      "path": "public/art-v0130/models/power-plant-v5/near.glb",
+      "bytes": 4793920,
+      "sha256": "f6b30a563c00acd5f6d90535deae90f84c6ac812a4f7205c8f884e30ff9e118f"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-complete-q-v2/asset.json",
+      "bytes": 7285,
+      "sha256": "51c6053eb4494e0c1b08ffdf8cdc0a748bbff5a14bbbd3a08a2cf67461c53774"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-complete-q-v2/far-baked-v2.glb",
+      "bytes": 2083236,
+      "sha256": "df6d4317feb24aa2d2330783fa5e31f6b86f942483284bae274551f074eed5e8"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-complete-q-v2/lod.json",
+      "bytes": 1334,
+      "sha256": "21a31a0ddd99d0466a000b7ba2767cc0278565832ca5fa336827f65e51d0612e"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-complete-q-v2/model.glb",
+      "bytes": 14671236,
+      "sha256": "0bfcd17c6c594f6bdb5d7b865ae78cc575c961f37e043c8295f97403f7ab194e"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-complete-q-v2/near-calibrated-v2.glb",
+      "bytes": 15596904,
+      "sha256": "c1af7b85e93a8452767848861fe4d7f674d27ddf307636de9566139d30803f6f"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-hall-v1/far.glb",
+      "bytes": 2247224,
+      "sha256": "481ef664f8cf9b5769e8f180a0aa27154b3a435fb66aeca32e2341d3e0e07175"
+    },
+    {
+      "path": "public/art-v0130/models/raitt-hall-v1/lod.json",
+      "bytes": 1355,
+      "sha256": "4b0d4d3e4265fa227e372f821cf873cc9fd6a38ad5c96608f87da5636a5a3130"
+    },
+    {
+      "path": "public/art-v0130/models/savery-complete-q-v2/asset.json",
+      "bytes": 7410,
+      "sha256": "7789f637c987aa2313127a4892b985b5882faf2d9c8f3feb3d66104051d65837"
+    },
+    {
+      "path": "public/art-v0130/models/savery-complete-q-v2/far-baked-v2.glb",
+      "bytes": 2182896,
+      "sha256": "66ef9c11e486a1ed547f449dca044038baf3ef28bcfe6751645e39f21f4be283"
+    },
+    {
+      "path": "public/art-v0130/models/savery-complete-q-v2/lod.json",
+      "bytes": 1028,
+      "sha256": "482bceb9ea50c3069b7235549cc2f0e804be68f8ff482af3fff96458bd334295"
+    },
+    {
+      "path": "public/art-v0130/models/savery-complete-q-v2/model.glb",
+      "bytes": 16249500,
+      "sha256": "b927339f79529c0ab7b01fbbee715b705f34ea5143eba859afa33b3b7a9a478b"
+    },
+    {
+      "path": "public/art-v0130/models/savery-complete-q-v2/near-calibrated-v2.glb",
+      "bytes": 17459536,
+      "sha256": "98b0a323b074a00df5b6f2dccdf41121bbf3221e66d176deaab7eab70d7ed34e"
+    },
+    {
+      "path": "public/art-v0130/models/savery-hall-v1/far.glb",
+      "bytes": 2622336,
+      "sha256": "14b1ef32d0e43e4d221df6bcafe0f0503c299095ec5b7c4a7c8d601af3c8903b"
+    },
+    {
+      "path": "public/art-v0130/models/savery-hall-v1/lod.json",
+      "bytes": 1357,
+      "sha256": "dee49707573471a999250aba8ef1f8d636c890c509fb378bf4470e232ef96f64"
+    },
+    {
+      "path": "public/art-v0130/models/sieg-q-v1/asset.json",
+      "bytes": 1389,
+      "sha256": "8e43d75637415a01e7012eff0ac5f841f7816988726b2c3cb686265f0743c551"
+    },
+    {
+      "path": "public/art-v0130/models/sieg-q-v1/far.glb",
+      "bytes": 1627376,
+      "sha256": "bf80a5a1435ebb527593c1da48015d8203dc2547a0671a2a991a058d4f7d9c56"
+    },
+    {
+      "path": "public/art-v0130/models/sieg-q-v1/lod.json",
+      "bytes": 1396,
+      "sha256": "9f13d1e07535aa6f2ed4681c2093973d821177d06ad0b22150ee2c209299c026"
+    },
+    {
+      "path": "public/art-v0130/models/sieg-q-v1/model.glb",
+      "bytes": 18240636,
+      "sha256": "84bb68efd60b928805ae793792e3c882b370beb1426b06700c62d15b9068be7d"
+    },
+    {
+      "path": "public/art-v0130/models/sieg-thurston-doors-v3/far.glb",
+      "bytes": 2186804,
+      "sha256": "cc57e81587eee08e66ba49e9270bd72f4c0fa6463cb38fffca2b18672811fa57"
+    },
+    {
+      "path": "public/art-v0130/models/sieg-thurston-doors-v3/near.glb",
+      "bytes": 19637764,
+      "sha256": "8ae416ed15ff77a47ff307d6979261013254b3f02510020ad08d84782e605f70"
+    },
+    {
+      "path": "public/art-v0130/models/smith-gowen-complete-q-v2/far-architecture-v1.glb",
+      "bytes": 2313956,
+      "sha256": "ed1ddae13ff7a635e2d799f3cc35cfa37c22196c64ba31995b521fa1da7b4ad2"
+    },
+    {
+      "path": "public/art-v0130/models/smith-gowen-complete-q-v2/lod.json",
+      "bytes": 802,
+      "sha256": "e4d7d19a2b083a055ad5688f1ad1ce34d346a79c4d27921bc69555be61d51d5e"
+    },
+    {
+      "path": "public/art-v0130/models/smith-gowen-complete-q-v2/near-architecture-v10.glb",
+      "bytes": 24261628,
+      "sha256": "c213f6d564c27981008f13bdc3465103062155ce0cefe080549c3094f6346d52"
+    },
+    {
+      "path": "public/art-v0130/models/smith-gowen-complete-q-v2/production-v61.json",
+      "bytes": 79516,
+      "sha256": "6097318d0a4ed8036e14890803ac1d6a746f5dca7f0916c92fffced4701b1817"
+    },
+    {
+      "path": "public/art-v0130/models/smith-q-v1/asset.json",
+      "bytes": 1390,
+      "sha256": "3d6711a96ccd4173cd414aeb3ad6f1b6d3e70d93c01009d244faa70551aa5c0a"
+    },
+    {
+      "path": "public/art-v0130/models/smith-q-v1/model.glb",
+      "bytes": 16625600,
+      "sha256": "2fbe8f252c4a599d2311affebd79e6768485291710cb52ef65e4d4e6f513d266"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/allenSouth-far.glb",
+      "bytes": 1767076,
+      "sha256": "518de3c4740d7a0d966663944ec2aaa077960084ad12b2dfdd0192c58d880df3"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/allenSouth-near.glb",
+      "bytes": 19064168,
+      "sha256": "550ba58ca2e3cc2108dbfbe5121569e995e8a2badb351e45296d9893b3a4e209"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/central-far.glb",
+      "bytes": 3269624,
+      "sha256": "70a03a8690317c279df28d89db6586c697ad704bcfcc3921ded0a98a7c090dc8"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/central-near.glb",
+      "bytes": 22029024,
+      "sha256": "7422002b6c3271cc32919e1cc0262377b403c2a80fae9c505bf3ed7a73d58d2e"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/north-far.glb",
+      "bytes": 2007748,
+      "sha256": "c636eb06a9cd97582a85132e8bc6be92813013c44f78b591aa169ff058128c97"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/north-near.glb",
+      "bytes": 16960716,
+      "sha256": "46b76640a2bef9b3308a12e921b6947ec4610e9cb14b97c459b4722b4f8ddc30"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/south1935-far.glb",
+      "bytes": 3439492,
+      "sha256": "b2dc6bb80a48b578fb67ff0f75e2c11d15125f304bd90b473bd61c9ab282b414"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/south1935-near.glb",
+      "bytes": 16041596,
+      "sha256": "0200ef30cba5f142686a7fba91698d140c433baf2b1cab9de3640fda8c71265a"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-complex-v6/SUZ-allenSouth-far-original-uv-v68.glb",
+      "bytes": 3441736,
+      "sha256": "96a328a5d2ce6c453c278818c47f593d4e75d406300baec609cae158539ae333"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-west-wing-v1/far.glb",
+      "bytes": 2124500,
+      "sha256": "b0987539e379c255821c86a99567900763533b462ec70f74f51b01558d2ed101"
+    },
+    {
+      "path": "public/art-v0130/models/suzzallo-west-wing-v1/lod.json",
+      "bytes": 1377,
+      "sha256": "3f8945b96bc5e393dfe26d880b00b15debfc9046801317891fb9071b33006067"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bald-head-v1/asset.json",
+      "bytes": 1016,
+      "sha256": "91ab2e876d503b37b784c00185410427b83c7229e5b5f2015c4584251e2909df"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bald-head-v1/model.glb",
+      "bytes": 7761640,
+      "sha256": "0c63c5b6e3a8ef8ce23c1ad0c4dd3928a9cde360efd0a11b447d414e250bcaae"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-cargo-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "84f1613e4f8e83efc755976385933efc35436d50b99c1d1d91d6a4662fd5d229"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-cargo-v1/model.glb",
+      "bytes": 4190060,
+      "sha256": "f9c6b470dbdb98a09016c1bfa7c66a5aebc7ad42b42946416f7eb68204993ef9"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-culottes-v1/asset.json",
+      "bytes": 1045,
+      "sha256": "af61b354bcbee3acefb579261b10ce02587463cf9362bc4944dada36baa22d81"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-culottes-v1/model.glb",
+      "bytes": 4411364,
+      "sha256": "116db769b8f190ddebfdecb033b0bf4ca9de78c79421a2206704dafe8f83f20e"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-jeans-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "2bc424eb5331610d315db894d2b2d4254cb930389f5f7dc22d321b838e815721"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-jeans-v1/model.glb",
+      "bytes": 4644600,
+      "sha256": "60a805d70c1a1a03bf976df0e9953aefeaefd5423ad9e503c5f74e890af3015f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-shorts-v1/asset.json",
+      "bytes": 1039,
+      "sha256": "83e63e3d8660369b9d2bec0c72be44ddb167bffb89bac3feedc9779d1f4da8a1"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-shorts-v1/model.glb",
+      "bytes": 4363008,
+      "sha256": "9ce3014d72a5c080979cb252d104e3a49e89164e108b304ea7e0eb04c75c3e5f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-skirt-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "d92e36cc2d3de3c58751dc58b54a871579412733c4b350b0f30d89e2c4a73d8a"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-skirt-v1/model.glb",
+      "bytes": 4404716,
+      "sha256": "bcb74f5abb4147f1ea9c38e9f5d6de589635e5ed1c45dc30e1249285e065a305"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-trousers-v1/asset.json",
+      "bytes": 1045,
+      "sha256": "c18efefc5a7f5d67c517a993893345833476a10d41e17276c87ddc61b62754d5"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-bottom-trousers-v1/model.glb",
+      "bytes": 4432856,
+      "sha256": "11b20046a351b27a0d2d55393d8b69225bf9d44a02f17c0926a49fbe6802f011"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bob-v1-fit-v1/asset.json",
+      "bytes": 907,
+      "sha256": "abd1990fc027377eda1ce819545d962b9691fc33bcaec27390db1286462db22b"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bob-v1-fit-v1/model.glb",
+      "bytes": 4740192,
+      "sha256": "a67b3bfd17c4220ee6dbcef19a2a9fa02cdefadaaa377aaa5de6f680ce292409"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bob-v1-fit-v2/asset.json",
+      "bytes": 907,
+      "sha256": "bbbee3aca6bbdfa14b88b567026250007ee9f134330138c61fddc727ae73d018"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bob-v1-fit-v2/model.glb",
+      "bytes": 4761240,
+      "sha256": "c5a92f7a4e44c38c2566014041ea079c0dca266d28541386c39210e1c84ebefc"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bob-v1/asset.json",
+      "bytes": 1024,
+      "sha256": "d21037ceaea544d32ec2452b49d32d52f8a31ffffaf799d115769070a4221ee0"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bob-v1/model.glb",
+      "bytes": 4501616,
+      "sha256": "7f1cb3a0f0d17ffbfdc86be3796488400085343aa1a3a4616e883db5cd2d45de"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-braids-v1-fit-v1/asset.json",
+      "bytes": 932,
+      "sha256": "83369a0e71effe15f513716ef497daaa30fedcc56a4117f1bd3a46b7732eb057"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-braids-v1-fit-v1/model.glb",
+      "bytes": 4074552,
+      "sha256": "614896ef7a4b57468e629bc4718d361d71dd1096b1491ac39ec485b491ec6963"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-braids-v1-fit-v2/asset.json",
+      "bytes": 932,
+      "sha256": "ab313b7d3e9e9311758f95a85beabd775ec4bcb99032c4b68568bff7b5caffef"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-braids-v1-fit-v2/model.glb",
+      "bytes": 4093056,
+      "sha256": "35e2e6198dc00909481f43a35093e17dd14c6e70f5e74f40bbf0cb7c675dccc6"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-braids-v1/asset.json",
+      "bytes": 1033,
+      "sha256": "4a8bce7d4d0687a9724d008efaa019cf7c04fd4c26a4c926d0dd548d95f0480d"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-braids-v1/model.glb",
+      "bytes": 3831396,
+      "sha256": "0e3a12561e1c79cbb0723f07708e62298a915e67da4f57c9b908ccd828d66e89"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bun-v1-fit-v1/asset.json",
+      "bytes": 926,
+      "sha256": "c9a8ca1a9f0688fd92d01d859bf59df056be7333bf9c331bed7a580e3ab4246d"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bun-v1-fit-v1/model.glb",
+      "bytes": 4774108,
+      "sha256": "b9806afda90287458291ba1bfd5da89f75bed94bb8129312502b9f3e925e6fdc"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bun-v1-fit-v2/asset.json",
+      "bytes": 946,
+      "sha256": "98e6200dade08453de24db2b112445707d9997a85af316df74d9c8e9f3340f67"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bun-v1-fit-v2/model.glb",
+      "bytes": 4776184,
+      "sha256": "6202735f293ed20613c858997c09cd244e29794245989a63f5e71d25313b7a28"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bun-v1/asset.json",
+      "bytes": 1024,
+      "sha256": "6866e1b7b94fbca144c17d0fb9a04f0e5ea91f0d2480524fe32ccb6b61992b6b"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-bun-v1/model.glb",
+      "bytes": 4523948,
+      "sha256": "1e741ccbf5c4404967eeae14c46a988d15f938ed9639314df328bf6399774c72"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-curly-v1-fit-v1/asset.json",
+      "bytes": 873,
+      "sha256": "8dc69554fa9240fbdfcbdfcbaee36dccf8a59d76bb6a0ebd26da5905bad8d5a3"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-curly-v1-fit-v1/model.glb",
+      "bytes": 4617004,
+      "sha256": "3388686515619f3a024554d7db5a51d1b31edcfc1ec0dd918bca26db9964ae24"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-curly-v1-fit-v2/asset.json",
+      "bytes": 909,
+      "sha256": "6ca2702843b359d22482414f7b856733704545da170af231a30514e74528f2dc"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-curly-v1-fit-v2/model.glb",
+      "bytes": 4635580,
+      "sha256": "832bf449f133f4bdc1aa99d3ba5c528527dfe63cc4f5b77c83e2b0787b5418b1"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-curly-v1/asset.json",
+      "bytes": 1030,
+      "sha256": "cd01e4c1f9d7152a06da847c7fb5dc7636e7acc9bfcd63ec9dc9975b7bff2314"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-curly-v1/model.glb",
+      "bytes": 4421384,
+      "sha256": "7a2cfd1388b0df34c266bc7e40b0aca34d42a346a3cccc4f426988ceb01f94f8"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-long-v1-fit-v1/asset.json",
+      "bytes": 927,
+      "sha256": "7d6130aa0459dbddfb12fce9105d8e762780b48b3aee52052d064037fecc43f5"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-long-v1-fit-v1/model.glb",
+      "bytes": 4274964,
+      "sha256": "edfb99a9f32b68240eb16473f5d389e61cff33c89c12bb8bd842ae070173e901"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-long-v1-fit-v2/asset.json",
+      "bytes": 950,
+      "sha256": "ee729badcb6f037ebead9d7e81c9c0153d98279c2e2dad64570677f67a2f876a"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-long-v1-fit-v2/model.glb",
+      "bytes": 4275804,
+      "sha256": "b5d2b55c41da3b4cb425fa265835d49df8b5d5f67470e3592723132a88e6576f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-long-v1/asset.json",
+      "bytes": 1027,
+      "sha256": "b0ca31a3e7602905b4b4ccdbbb67d7fc093bf617a4bd9e06c05a20b544359f57"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-long-v1/model.glb",
+      "bytes": 4002668,
+      "sha256": "709d3583cd197e1e1b1aa1e6d39394449a22ad39307052b6b3058b766f295aaf"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-clean-v12/asset.json",
+      "bytes": 1295,
+      "sha256": "7a5d0f4d4fd29ef4e9928d9bd2abaf535896bb77518c7771d7fc1047d4e914e2"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-clean-v12/model.glb",
+      "bytes": 4084428,
+      "sha256": "8f9d7862b3b1d2156aa17927879a35a6dbbabe21555b8f4671fe435288ac5cc1"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-v1-fit-v1/asset.json",
+      "bytes": 933,
+      "sha256": "4b5b470957dbae0b5009715f400b62e09c783aba374bdf0aa3fb33e3857db566"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-v1-fit-v1/model.glb",
+      "bytes": 4068196,
+      "sha256": "cd0a088482caf82b00bee3f0ff4ce8c9f0fcbce54d1d54f9fc6fb9e63a14950f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-v1-fit-v2/asset.json",
+      "bytes": 954,
+      "sha256": "efea6b1b6c579accd70fb30bf1b2158d2de68a1297165ab2b0bdb8577d769bde"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-v1-fit-v2/model.glb",
+      "bytes": 4084408,
+      "sha256": "976d602b193c10d9db0d9ca95bd8fc57b96c734f82ccba11f85db1fdd581743b"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-v1/asset.json",
+      "bytes": 1039,
+      "sha256": "654ccae8a740e67fc9c0d1f968c2c39019c4ff9e16a2ebebdd6977a16d922b3f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-ponytail-v1/model.glb",
+      "bytes": 3836704,
+      "sha256": "9e3d6d4b47b2ffaa1bcbd8c823f1b68437b17146529d19eb9636136388a3780b"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-root-v10/asset.json",
+      "bytes": 626,
+      "sha256": "231c25ed3851cd499291937da504ad864233f9b406caa1ab143250786ca6f64e"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-root-v10/model.glb",
+      "bytes": 4020344,
+      "sha256": "588960cd477ca4e9ecafc96cb1616de552acc4d4e8a1713afe0c476ac6194f89"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-short-v1-fit-v1/asset.json",
+      "bytes": 930,
+      "sha256": "e54447d68126e580cf0a915b0889ffd92030ec9e2759f51ebf102f0cfcc61ee9"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-short-v1-fit-v1/model.glb",
+      "bytes": 4363868,
+      "sha256": "284630f2d96110869261431ee4dc688d999886497cd76ae0d65bf36ff41390f5"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-short-v1-fit-v2/asset.json",
+      "bytes": 930,
+      "sha256": "6021d945a64eee41d9de4055aab301ac2ecdd331412af8fad68e4d52637d4eb4"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-short-v1-fit-v2/model.glb",
+      "bytes": 4351580,
+      "sha256": "e46d133c3e94e5f923c8830ec9277946c42684e74d375f7ade8dd7a2b3105502"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-short-v1/asset.json",
+      "bytes": 1030,
+      "sha256": "3c46b1c33e3c1eb85b11cdf65c8e32c848f15719c1e21f13e2867ceec2a4c7a2"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-short-v1/model.glb",
+      "bytes": 4113532,
+      "sha256": "73a5c4769d699061677029c011146d3db21ec3b0a9ffe95fb910a27c02fd8d78"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-sidepart-v1-fit-v1/asset.json",
+      "bytes": 896,
+      "sha256": "363be607ce8260a6fe9e50ee12a0aabc31e10c919dbcbfaaf3858647a1c311c7"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-sidepart-v1-fit-v1/model.glb",
+      "bytes": 4238024,
+      "sha256": "c1200c506c3089c2672f35b857ad652d5d985b066f81035d933e34c1db97e8dd"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-sidepart-v1-fit-v2/asset.json",
+      "bytes": 932,
+      "sha256": "8d4db6f7c0561395f8a8339af4596c36a09d4f5e4c8998a4258d3547ab69cb54"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-sidepart-v1-fit-v2/model.glb",
+      "bytes": 4265300,
+      "sha256": "66eea4a5bc65c691995e7327dda831cffa05d33301566fcafb438bc64f0b1605"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-sidepart-v1/asset.json",
+      "bytes": 1039,
+      "sha256": "7fff467fc1af32c1165043e13095b8c6bf9eef9000038d7d3aafe72c1852175b"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hair-sidepart-v1/model.glb",
+      "bytes": 4028752,
+      "sha256": "c456de5c90a926794d7bd6948a1a7e3ea8e3714a87fa427b57e7a62fdaca2728"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hand-v9/asset.json",
+      "bytes": 774,
+      "sha256": "8f44c603ce83863ada1a2018cb8fa66dd66d8c3864c18efe6862d1b54ccee9c0"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-hand-v9/model.glb",
+      "bytes": 9431364,
+      "sha256": "4feb6baf8dee1e8e5224c0bcc1d3ddeb2e697eed59e793060387c1802a2948eb"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-head-v1/asset.json",
+      "bytes": 1088,
+      "sha256": "1dcd65fac401bbf2bd887464797a9308e7f347a06d5f3b2efdd2153486ef195f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-head-v1/model.glb",
+      "bytes": 14281340,
+      "sha256": "20f652b6166c0c0b0141154a73c521720195e1f21c226ae73ee13bf49f4e96e9"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-npc-quality-head-v2/asset.json",
+      "bytes": 1341,
+      "sha256": "c2dc84edb1ab69211d1883f3231b3e97b2474672b4a94f59c8b1462629660afe"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-npc-quality-head-v2/model.glb",
+      "bytes": 7177368,
+      "sha256": "873e919c64c80aa8ef1451dd46d2f33461232e5aef235b19f26fb12f38b563a8"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-shoe-v9/asset.json",
+      "bytes": 757,
+      "sha256": "3a363c83d0d13fe6e0264768f6ca9f90a852458e1d6144d7bb863c5455f9caee"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-shoe-v9/model.glb",
+      "bytes": 9456316,
+      "sha256": "8544f2a8d6dc4bad64b49474400a157516865e8d17d5686e7bf8aa0a9b86e12f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-cardigan-v1/asset.json",
+      "bytes": 1036,
+      "sha256": "b4ace8bf081992bebd5fc38e6fdacfa2d707e7766c7b6bb5dddb0bb7252c4149"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-cardigan-v1/model.glb",
+      "bytes": 4372956,
+      "sha256": "8307867908a6d49f58eed0c69aa034e46c50d1c3c7162535d26819474d082a7d"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-cardigan-v1/sleeve-influence.bin",
+      "bytes": 71604,
+      "sha256": "aaef849ece895c7dbb5ddd8988f482e739945701dc6e418efe2616bec76ad48e"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-cardigan-v1/sleeve-influence.json",
+      "bytes": 2403,
+      "sha256": "8cbf6958274abbb82f6a9a4ce892646e5bf7d29dbca6b250ab0df8a8fea5c9b0"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-hoodie-v1/asset.json",
+      "bytes": 1030,
+      "sha256": "e1aa2d6486418432ff76cb6d3e448384ea1cd753de307e1c4e896a0b269684d1"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-hoodie-v1/model.glb",
+      "bytes": 3466436,
+      "sha256": "606cdaa192665a7f0cdadfca5a8a11a8ce8a5db8a21130cb3f6238465784e456"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-hoodie-v1/sleeve-influence.bin",
+      "bytes": 68924,
+      "sha256": "e47be6febbf356d03ce0e474ad3d98c1f232a7dff66912ec4edef13b01826029"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-hoodie-v1/sleeve-influence.json",
+      "bytes": 1107,
+      "sha256": "dff41cc1625b52115bf47f1ec8e94acaa1ab40db3a435f04008f69300640fd0f"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-polo-v1/asset.json",
+      "bytes": 1024,
+      "sha256": "7dc66a93a0d16bf8949aa816a7100f10fdf5507b2de6e94d9778cdee5df6dedc"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-polo-v1/model.glb",
+      "bytes": 3844316,
+      "sha256": "779c6b01fc6553486f7762acdc9364b06855b3dd1000ede1fc294c87cf1e7c81"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-polo-v1/sleeve-influence.bin",
+      "bytes": 67644,
+      "sha256": "ab53c0f4388cdc13b82f4dc64ff8d1b224630c5b9f0c473862b718ea24c9899d"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-polo-v1/sleeve-influence.json",
+      "bytes": 1133,
+      "sha256": "500b33275de761fa702695bedfe17410330a5266123330507a80d96e2a7e01bf"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-tee-v1/asset.json",
+      "bytes": 1021,
+      "sha256": "8254288be2c59dfbd929a8b1a9c94519dd80601860baff0f4247284305064183"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-tee-v1/model.glb",
+      "bytes": 3577608,
+      "sha256": "889de461cc66089d0a40af5365a3a79b95bd551d3916b374b0fcc00da439c98a"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-tee-v1/sleeve-influence.bin",
+      "bytes": 70968,
+      "sha256": "2d65d0dd1769014dfaf0121726dd55bf66b686b75ade463fe65051fada4d2fd5"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-tee-v1/sleeve-influence.json",
+      "bytes": 1129,
+      "sha256": "32f9f6ad3544185e009f9ce9f59853021566d4186a8c1617c7a6297d6d5e0d0d"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-varsity-v1/asset.json",
+      "bytes": 1033,
+      "sha256": "1459cf77382617218911fabbcb8f3ad55f44cefb12f5d9bc5cdeab523043fff8"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-varsity-v1/model.glb",
+      "bytes": 4071432,
+      "sha256": "84bca97e6927fad71794e4291d14b4ac20ba9b832683231a37098c98433d7d20"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-varsity-v1/sleeve-influence.bin",
+      "bytes": 70540,
+      "sha256": "44fa68028f03c224607693efcb738035379435391353bd7383bb9a94564d4217"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-varsity-v1/sleeve-influence.json",
+      "bytes": 1429,
+      "sha256": "50eed1a0cf307a80b7ccb0cd1aba347a21c417a59b9ba8ba59299ef120cda0e6"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-vest-v1/asset.json",
+      "bytes": 1024,
+      "sha256": "193e0949685279fbc2dc2046538b507c54f8f4f34b109ff09d85aa112dda2892"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-vest-v1/model.glb",
+      "bytes": 4379500,
+      "sha256": "3574ec8a77e1402e7ffa50e327613b9b658cbd022a7e7f0b8c59a348ca5fe052"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-vest-v1/sleeve-influence.bin",
+      "bytes": 65308,
+      "sha256": "7abdaf22e3667192bb217cb671d0646b01e422224b8de6d607be68fa426951a8"
+    },
+    {
+      "path": "public/art-v0130/models/visitor-top-vest-v1/sleeve-influence.json",
+      "bytes": 1130,
+      "sha256": "2d9b875d6861a6f44d63df8d07ffdc352d894d85aba9eb7f8988169cc19717e6"
+    },
+    {
+      "path": "public/art-v0130/npc-integration.json",
+      "bytes": 3173,
+      "sha256": "0039e45cd402661253b5c8fbf6f8f56ac1251a5448b12c7d230bb7b3b0b7aa42"
+    },
+    {
+      "path": "public/art-v0130/plans/allen-open-arcade-v5.json",
+      "bytes": 777,
+      "sha256": "896b8ce131377baaa4d7df1a4b0c3f67c0798a8869faffbf06c27aa163c39955"
+    },
+    {
+      "path": "public/art-v0130/plans/suzzallo-complex-v5.json",
+      "bytes": 39885,
+      "sha256": "f79cb865e157cb47f7fc07f5a8eae31d8f9056ff9e1e91b090ddc13d574c74d7"
+    },
+    {
+      "path": "public/art-v0130/plans/suzzallo-groundworks-v6.json",
+      "bytes": 18063,
+      "sha256": "cc1135c4b5278fe3d28656b73611f85e9c4d1665cd38a9c92427505cd8ade896"
+    },
+    {
+      "path": "public/art-v0130/plans/suzzallo-runtime-v6.json",
+      "bytes": 6030,
+      "sha256": "9125e347061fd91ebaacf14c31db89323f996cad0002d3f9bc873c2ac87e2313"
+    },
+    {
+      "path": "public/art-v0130/plans/suzzallo-stair-hall-roof-v2.json",
+      "bytes": 1051,
+      "sha256": "a38ca22d8c1c54f777e15feec903d19d5dd79298a240e1f437e7129df8b41460"
+    },
+    {
+      "path": "public/art-v0130/red-square-banners-v59.json",
+      "bytes": 1257,
+      "sha256": "f5fe91fca0f85e8af4c2fe75b8b23c181c7b93e32c277adc5f9465fb65a1a81c"
+    },
+    {
+      "path": "public/art-v0130/reference-audit.json",
+      "bytes": 1586,
+      "sha256": "32441cd8d2b915474214def931a6cff0923be3a49d41169fa57bd1eac7da11af"
+    },
+    {
+      "path": "public/art-v0130/streaming-stage.json",
+      "bytes": 1155,
+      "sha256": "576b1612f894f97022358ee092137ed8f4ae5145429462c6ebeddca43a87e414"
+    },
+    {
+      "path": "public/art-v0130/terrain/oak-denny-site-v1.json",
+      "bytes": 421077,
+      "sha256": "909c3729c830ca7d3f7164de2baac78679f233493d5ac6428b400f43f25cf2a5"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-backpack.jpg",
+      "bytes": 13212,
+      "sha256": "74c29741310d4513478975bc8d6d0f9523dab3bbfc5ec55f98493388ca1aa443"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-bow.jpg",
+      "bytes": 14759,
+      "sha256": "e8a07ad1762b3d35bd44af34bda4788a0eb3b9102bf3fc64ef1a72a084940491"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-cap.jpg",
+      "bytes": 15583,
+      "sha256": "95804ba2c34907323d05707f53dca24ffb7f2ec2ea8062e60f50e24068a1e5d8"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-headphones.jpg",
+      "bytes": 16739,
+      "sha256": "8782e08c9ac59ea4307b495075286b4df48246f1941d316b914d58ed4b92445e"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-none.jpg",
+      "bytes": 18700,
+      "sha256": "95c1dc9d57e95aeaad500fd33a2ca78951b9dc1f477102aa0fa939f78581c2b4"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-satchel.jpg",
+      "bytes": 19083,
+      "sha256": "03ee463744d2f8725225ac56d88a17b6294c0754d0a6200c251fd1a3710fda26"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/accessory-scarf.jpg",
+      "bytes": 18650,
+      "sha256": "4dfa15cdd90bff71895d3093f91c1fee70a245247214300d68ae06f422c44755"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/body-athletic.jpg",
+      "bytes": 12739,
+      "sha256": "6ddedb2acb37f922d179245a7f3963b668b1ce2b27590904f14082e70f81b4ad"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/body-regular.jpg",
+      "bytes": 12410,
+      "sha256": "1f981d346a1f1e99ddde737080fc89b93fbbde60390f729cf94c54386fc7f93e"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/body-slim.jpg",
+      "bytes": 11916,
+      "sha256": "b90bb61c81bbf2fa48bf5410304bab34322d80f4320b5a62ecb3dd23c69ce851"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/bottom-cargo.jpg",
+      "bytes": 18090,
+      "sha256": "dfe176b3eb91d7084df38cb6e9790a89d391f709fc51dacafd1c2f84afae4171"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/bottom-culottes.jpg",
+      "bytes": 17021,
+      "sha256": "5737d366d394a19a277d0f231b7257dff810f7507db0981e81f32ac25963ca4e"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/bottom-jeans.jpg",
+      "bytes": 17294,
+      "sha256": "1756f25ae5591fa36e5b2af31e9569f4bf5acd11aaaaf124233fc909af07652c"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/bottom-shorts.jpg",
+      "bytes": 16697,
+      "sha256": "00e5a2d6dd69b3299709de51b1fdbffe6aaecdb9966d290f65d00e77bbfa3111"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/bottom-skirt.jpg",
+      "bytes": 16698,
+      "sha256": "9bfe20a4ff7d0edcc361d63985eb7073cee2550b50e1b94bfecd65f578338aac"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/bottom-trousers.jpg",
+      "bytes": 15370,
+      "sha256": "d62b92c909fd9d0062254d68091a793ba6d69f8127f1d15f3d5bcad62373046e"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/glasses-none.jpg",
+      "bytes": 18982,
+      "sha256": "1ef0803896e01fdd6ca504983c854cbcd35c1aced6057f39443b95dd88d95ae1"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/glasses-oval.jpg",
+      "bytes": 20428,
+      "sha256": "dc73ce74595cd35cfc9c5a833111fcd532e11d5dd07a506f05fef56fbc8a5243"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/glasses-round.jpg",
+      "bytes": 21171,
+      "sha256": "7d69d5921e81042da6019db56f732980ee41f2dda69dfdfbbcda281fc16e78c9"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/glasses-square.jpg",
+      "bytes": 20522,
+      "sha256": "48398ebc7a78734a92813c4733f7fca699ec0210e4508adb3737bb5d5186db56"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-bob.jpg",
+      "bytes": 14445,
+      "sha256": "0e0698a06e54847297a74f2f5bd1fc3d94ee11bbf5138c39e53f9c2db85c37f4"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-braids.jpg",
+      "bytes": 15351,
+      "sha256": "683c3a9b8adc28ecb7f6ab1264c8c147923284bab53e668675b6a3645b47c1be"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-bun.jpg",
+      "bytes": 15917,
+      "sha256": "575bb51499ed423bb23492e436e32f47fd8c6241cc2fd817bb4eb48067d40b3b"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-curly.jpg",
+      "bytes": 15795,
+      "sha256": "77dd217e0b59d8a4a17f6d8d58a903e2dd8e62ae233b1f577c0cda2eb2a70925"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-long.jpg",
+      "bytes": 17138,
+      "sha256": "0fe07db5ae3d6b51d8347079b2e502af93b830532b0c0c68a5b58cea6fabb85d"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-ponytail.jpg",
+      "bytes": 14671,
+      "sha256": "3a1cc284b61726ef6e06747c113cb18a3b7ddcdebb2156e7565d84837432e26e"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-short.jpg",
+      "bytes": 13889,
+      "sha256": "4c50a903e197701c1a345e009a7048fd91c944a07fe0d9bcf26cf4ac6bde6c45"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/hair-sidepart.jpg",
+      "bytes": 14516,
+      "sha256": "6037229d5ae23d5ad38dfbd4a50042543dc448e0de4e87325552cc9046a43f16"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/shoes-boots.jpg",
+      "bytes": 9981,
+      "sha256": "47513ef6e27fa2a199971d874a0ab7d2d6c1b891667634492266719f06fbd9e3"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/shoes-high.jpg",
+      "bytes": 11330,
+      "sha256": "eb45366146c44448ea4db81b00f57cfc33abd060a09a28c3c7fad39b35290b3d"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/shoes-loafers.jpg",
+      "bytes": 9356,
+      "sha256": "212269dcc47380ab4e1bd3f5f4117447665e9534154e944b5af26bc5f008ca79"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/shoes-sneakers.jpg",
+      "bytes": 10747,
+      "sha256": "1877e44fb893f66981aea5e295ab31f635956bd91dcdcfd7cd140622ca2f72e4"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/top-cardigan.jpg",
+      "bytes": 20151,
+      "sha256": "c186e1dda0e493f646435aa74504ac21c2d982a685719e55f828824a40f9b03b"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/top-hoodie.jpg",
+      "bytes": 18204,
+      "sha256": "ebfda29414095c01e33504eed274f2eefe857239725fa517bfc8b4802e4e9193"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/top-polo.jpg",
+      "bytes": 17571,
+      "sha256": "7c88f787ca4d1b8da44000bab52f93bb14fd335bf6970e0f4af1f0f62a74e4f5"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/top-tee.jpg",
+      "bytes": 17105,
+      "sha256": "0cad29e4e19e23caa1a8f519eb03ecb929c41fc487f18aa5c52275ea505a333e"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/top-varsity.jpg",
+      "bytes": 20611,
+      "sha256": "66698af676a994f39a9f4b4e74b11b8cfd204b1b367d7682dc5f3ea7f3954d92"
+    },
+    {
+      "path": "public/art-v0130/wardrobe-thumbnails-v12/top-vest.jpg",
+      "bytes": 20199,
+      "sha256": "3ba5bf3b5d9abba2dd107e5631eb085180cb58d57d3d7fcebbc11bacc8e983d8"
+    },
+    {
+      "path": "public/kin-site-concrete.png",
+      "bytes": 199829,
+      "sha256": "5505ecdaf769de2a84958f320cf575a0e1afb5392af2c649c68344c37ed8de5e"
+    },
+    {
+      "path": "public/pdl-bridge-precast.png",
+      "bytes": 179949,
+      "sha256": "12d72d93166ee74dd75bbf7642c0cc2dda8c6c1bc53873ebac82317886d154ad"
+    },
+    {
+      "path": "public/art-v0120/architecture.json",
+      "bytes": 28865631,
+      "sha256": "857749ed30052bfbecc6aa566ed51e7b744cab82a33655f66b34e4f08d7bbce5"
+    }
+  ]
+}

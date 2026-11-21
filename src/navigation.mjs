@@ -1,15 +1,59 @@
+import {siegThurstonApproach} from '../public/campus-sieg-entry-v1.js';
+import {engineeringEntry} from '../public/campus-engineering-entry-v1.js';
+import {kirstenApproach} from '../public/campus-kirsten-approach-v1.js';
+import {centralGarageEntry} from '../public/campus-cpg-entry-v2.js';
+import {chemicalConstructionFor,resolveChemicalConstructionMove} from '../public/campus-chemical-construction-v2.js';
+import {hubWestYard} from '../public/campus-hub-yard-v1.js';
+import {createHaggettSite} from '../public/campus-haggett-site.js';
+import {fosterSite} from '../public/campus-foster-site-v4.js';
+import {bagleySite} from '../public/bag-entry-site-v95.js';
+import {physicsPlaza} from '../public/campus-pab-plaza-v57.js';
+import {guthrieCampusSite} from '../public/guthrie-campus-site-v147.js';
+import {intellectualApproach} from '../public/intellectual-approach-runtime-v53.js';
 // School-only outdoor adapter. Base's indoor contract and source GIS remain unchanged.
-import {createCampusWalking} from '../public/campus-walking.js';
+import {createCampusWalking,WALK_RADIUS} from '../public/campus-walking.js';
 import {createSafePathfinder} from './safe-pathfinding.mjs';
 import {campusPlaces} from '../public/campus-places.js';
+import {BUILDING_ACCESS} from '../public/campus-building-access-data.js';
 const noRoute=message=>Object.assign(Error(message||'当前可通行区域中没有连通路线。'),{status:409,code:'no_route'});
 const finite=p=>Array.isArray(p)&&p.length===3&&p.every(Number.isFinite);
 const length=path=>path.slice(1).reduce((n,p,i)=>n+Math.hypot(...p.map((v,j)=>v-path[i][j])),0);
 export function createCampusNavigation(campus){
+  const engineering=engineeringEntry(campus),kirsten=kirstenApproach(campus),sieg=siegThurstonApproach(campus);
+  const foster=fosterSite(campus),haggett=createHaggettSite(campus),hubYard=hubWestYard(campus);
+  const intSite=intellectualApproach(campus),guthrie=guthrieCampusSite(campus),pab=physicsPlaza(campus),bag=bagleySite(campus);
   const {edges}=campus.graph,nodes=[...campus.graph.nodes],originalNodeCount=nodes.length,walking=createCampusWalking(campus),finder=createSafePathfinder(walking),fine=createSafePathfinder(walking,{cell:1,maxExpanded:80000});
   const links=nodes.map(()=>[]),edgeCache=new Map(),routeCache=new Map();
   const places=campusPlaces(campus).map(p=>{
+    if(p.id==='hub'&&hubYard){
+      const [x,z]=hubYard.arrival;
+      if(Number.isInteger(p.arrivalNode)&&walking.allowed(x,z)){
+        nodes[p.arrivalNode]=[x,walking.height(x,z),z];
+        return {...p,arrivalKind:'west-historic-entry'};
+      }
+    }
     if(p.arrivalNode!==undefined)return p;
+    const localArrival=intSite?.buildingId===p.buildingId?{point:intSite.arrival,pathId:intSite.pathId}:undefined;
+    const guthrieArrival=guthrie?.buildingId===p.buildingId?{point:guthrie.arrival,pathId:guthrie.east.pathId}:undefined;
+    // An exterior plaza stopping point beside the registered approach.
+    const plazaArrival=pab?.building===p.buildingId?{point:pab.arrival,pathId:'uw-35-347-193'}:undefined;
+    const bagArrival=bag?.id===p.buildingId?{point:bag.arrival,pathId:'uw-35-224-151'}:undefined;
+    const fosterPoint=foster&&({'sea-98914-0':foster.mainEntrance,'sea-79960-0':foster.courtAccess})[p.buildingId];
+    const fosterArrival=fosterPoint?{point:fosterPoint,pathId:foster.pathId}:undefined;
+    const constructionArrival=haggett&&haggett.id===p.buildingId?haggett.arrival:undefined;
+    const engineeringArrival=engineering?.id===p.buildingId?{point:engineering.arrival,pathId:engineering.pathId}:undefined;
+    const tunnelArrival=kirsten?.id===p.buildingId?{point:kirsten.arrival,pathId:kirsten.pathId}:undefined;
+    const siegArrival=sieg?.id===p.buildingId?{point:sieg.arrival,pathId:sieg.pathId}:undefined;
+    const registered=engineeringArrival??tunnelArrival??siegArrival??constructionArrival??fosterArrival??bagArrival??plazaArrival??guthrieArrival??localArrival??(campus.geometryHash===BUILDING_ACCESS.geometryHash
+      ? BUILDING_ACCESS.buildings.find(row=>row.id===p.buildingId)?.outdoorArrival : undefined);
+    if(registered && campus.paths.some(path=>path.id===registered.pathId)){
+      const [x,z]=registered.point;
+      if(walking.allowed(x,z)){
+        const arrivalNode=nodes.length;
+        nodes.push([x,walking.height(x,z),z]);links.push([]);
+        return {...p,arrivalNode};
+      }
+    }
     const building=campus.buildings.find(b=>b.id===p.buildingId),ring=building.rings[0],options=[];
     // An exterior approach point, not an invented entrance or a distant graph node.
     for(let i=1;i<ring.length;i++){
@@ -40,12 +84,40 @@ export function createCampusNavigation(campus){
     for(let i=1;i<indices.length;i++){const row=edge(indices[i-1],indices[i]);path.push(...row.path.slice(1));detours+=Number(row.detour);}
     const result={path,detours,networkFallback:false};routeCache.set(key,result);return result;
   }
+  function bagGuideSegment(a,b){
+    if(!walking.segmentClear(a,b))return false;
+    const count=Math.ceil(Math.hypot(b[0]-a[0],b[2]-a[2]));
+    const lerp=t=>a.map((v,i)=>v+(b[i]-v)*t);
+    // Reject a segment if splitting it into the guide's emitted waypoints
+    // uncovers a clearance issue close to a building edge.
+    for(let i=0;i<count;i++)if(!walking.segmentClear(lerp(i/count),lerp((i+1)/count)))return false;
+    return true;
+  }
+  const bagWalk=bag&&{...walking,segmentClear:bagGuideSegment};
+  const bagFinder=bagWalk&&createSafePathfinder(bagWalk);
+  const bagFine=bagWalk&&createSafePathfinder(bagWalk,{cell:1,maxExpanded:80000});
   function route(from,to){
     const end=typeof to==='string'?landmark(to).arrivalNode:to;if(!nodes[end])throw Object.assign(Error('Invalid route endpoint'),{status:400,code:'invalid_endpoint'});
     let result,start=Number.isInteger(from)?from:null,connector=false;
-    if(end>=originalNodeCount||(start!==null&&start>=originalNodeCount)){
+    const bagNode=bag&&places.find(p=>p.buildingId===bag.id)?.arrivalNode;
+    const bagStart=start===null?from:nodes[start];
+    const bagTrip=bagFinder&&(end===bagNode||start===bagNode||
+      (finite(bagStart)&&bag.floor(bagStart[0],bagStart[2])!==undefined));
+    const libraryNode=engineering&&places.find(place=>place.buildingId===engineering.id)?.arrivalNode;
+    const tunnelNode=kirsten&&places.find(place=>place.buildingId===kirsten.id)?.arrivalNode;
+    const siegNode=sieg&&places.find(place=>place.buildingId===sieg.id)?.arrivalNode;
+    const entrance=end===libraryNode?engineering:end===tunnelNode?kirsten:end===siegNode?sieg:undefined;
+    if(entrance){
+      const source=start===null?from:nodes[start];
+      if(!finite(source)||!walking.allowed(source[0],source[2]))throw noRoute();
+      const guide=entrance.guide.map(([x,z])=>[x,walking.height(x,z),z]);
+      const nearby=guide.findLastIndex(p=>Math.hypot(p[0]-source[0],p[2]-source[2])<1&&walking.segmentClear(source,p));
+      const approach=nearby>=0?[source]:find(source,guide[0]);
+      if(!approach)throw noRoute(entrance===engineering?'未找到可通行的工程图书馆斜坡入口。':entrance===kirsten?'未找到可通行的风洞入口。':'未找到可通行的 Sieg Hall 入口。');
+      result={path:[...approach,...guide.slice(Math.max(0,nearby))],detours:1,networkFallback:true};connector=start===null;
+    }else if(bagTrip||end>=originalNodeCount||(start!==null&&start>=originalNodeCount)){
       const source=start===null?from:nodes[start];if(!finite(source)||!walking.allowed(source[0],source[2]))throw noRoute();
-      const path=find(source,nodes[end]);if(!path)throw noRoute('此处暂未找到可安全连通的室外路线。地点留言仍可使用。');
+      const path=bagTrip?(bagFinder.find(source,nodes[end])||bagFine.find(source,nodes[end])):find(source,nodes[end]);if(!path)throw noRoute('此处暂未找到可安全连通的室外路线。地点留言仍可使用。');
       result={path,detours:1,networkFallback:true};connector=start===null;
     }
     else if(start!==null)result=network(start,end);
@@ -65,7 +137,17 @@ export function createCampusNavigation(campus){
     const distance=Number(length(path.map(n=>n.point)).toFixed(1));
     return {format:'hyper-dimension.geo-route/v1',sceneId:campus.id,geometryHash:campus.geometryHash,fromNode:start,toNode:end,distance,estimatedWalkingMinutes:distance?Math.max(1,Math.ceil(distance/75)):0,path,freeWalkConnector:connector,obstacleDetours:result.detours,networkFallback:result.networkFallback,planner:'public-graph + MIT javascript-astar; shared swept geometry; no teleport or corner-cutting',provenance:'UW public network with geometry-checked outdoor detours; no accessibility/closure guarantee'};
   }
-  return {nodes,links,places,landmark,nearest,route,walking};
+  const chemical=chemicalConstructionFor(campus,WALK_RADIUS);
+  const garage=centralGarageEntry(campus);
+  const garageBarrier=garage?.moveBarrier(WALK_RADIUS);
+  function readMovement(move,now=Date.now()){
+    const point=positionAlong(move,now)||[...nodes[landmark('red-square').arrivalNode]];
+    const outsidePoint=chemical?nodes[landmark(chemical.id).arrivalNode]:null;
+    const construction=resolveChemicalConstructionMove(chemical,move,now,point,outsidePoint);
+    const garagePoint=garage?nodes[landmark(garage.id).arrivalNode]:null;
+    return resolveChemicalConstructionMove(garageBarrier,construction.move,now,construction.point,garagePoint);
+  }
+  return {nodes,links,places,landmark,nearest,route,walking,readMovement};
 }
 export function positionAlong(move,now=Date.now()){
   if(!move?.path?.length)return null;let remaining=Math.max(0,(now-move.startedAt)/1000)*move.previewSpeed;
