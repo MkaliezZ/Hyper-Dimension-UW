@@ -1,8 +1,8 @@
 {
   "file": "Hyper-Dimension-UW-dev.124-art.zip",
-  "archiveBytes": 1483617059,
-  "sha256": "db81120f4df49476bdf5870e70e083db7a19e21a21dd7ab7a65018b029af53a9",
-  "files": 386,
+  "archiveBytes": 1483641745,
+  "sha256": "99b1d9e1def5dc006f7911c91157bd3479c0721e46c63bc40ef315fa44a6539a",
+  "files": 402,
   "sourceSha256": "bcae27892fb439bc17590a0175612af24104f6bce1a5ad22f2d1652ae09c5b75",
   "release": "v0.13.0-dev.124-art"
 }
