@@ -28,6 +28,11 @@
       "sha256": "e7a5112dff1b938daa9851908bcecfd2f591eb6dd8c5f1e8f21294247d1a5008"
     },
     {
+      "path": "CAMPUS-ART-RELEASE.json",
+      "bytes": 307,
+      "sha256": "575d036c7206675790254a38739d3f0cad64b43ce486197d55ca59d9127f7a29"
+    },
+    {
       "path": "CONTRIBUTING.md",
       "bytes": 808,
       "sha256": "6c7d18b60c0121a46072523f3ef7725e3eb6a7a751e943d2c31222fb932ae980"
@@ -54,13 +59,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 2310,
-      "sha256": "eef0617317a999c6ed56b51d417bfee3075ed97c0c673d47eeda97557326afc8"
+      "bytes": 2389,
+      "sha256": "2a0282cb69fa7f59e42e3649b230e99542b752962fa37d1202a28e7c159e7e90"
     },
     {
       "path": "README.md",
-      "bytes": 2414,
-      "sha256": "4d42498fe87f9c30a30fa96866f8c3dfce08ccb0c64cba047157747bc9c906f2"
+      "bytes": 2487,
+      "sha256": "e92e6d0912320026b2510c337d9506119003012bd34a3c15f4ce831f96aba773"
     },
     {
       "path": "SOURCE-DEPENDENCIES.json",
@@ -3114,8 +3119,8 @@
     },
     {
       "path": "docs/REPOSITORY-SCOPE.md",
-      "bytes": 1460,
-      "sha256": "70a886d61887f2b5f55e935e391924c26ab038584862cd9369698be261ba17cd"
+      "bytes": 1725,
+      "sha256": "1bea732933ea6ca54c78372e5adb255b9629f5cd076813dce34c0227f1a411df"
     },
     {
       "path": "docs/REPOSITORY-VALIDATION.md",
@@ -5244,8 +5249,8 @@
     },
     {
       "path": "scripts/restore-campus-art.py",
-      "bytes": 3034,
-      "sha256": "845ec07c0555c1ea09517a7449371beea1056222ff66d33fa4efdae3a4a608bd"
+      "bytes": 4116,
+      "sha256": "6ac0888084278faf71065219db1f877a9f9e60f43377d49f7a5cd2d496af5f96"
     },
     {
       "path": "scripts/restore-source-artifacts.py",

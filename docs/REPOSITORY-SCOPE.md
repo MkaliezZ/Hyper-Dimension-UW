@@ -4,7 +4,9 @@
 
 ## 完整校园美术
 
-`CAMPUS-ART-FILES.json` 记录只在本地恢复的模型、纹理、概念图和艺术资产元数据。使用 `python scripts/restore-campus-art.py --delivery /path/to/Hyper-Dimension-UW-dev.124.zip` 从匹配的完整交付包恢复。工具验证 ZIP 和逐项 SHA-256，保护已有同名文件。源码 Git 历史只保留必要的运行代码、经署名许可的轻量素材和文档截图。
+从 [dev.124 美术发布页](https://github.com/MkaliezZ/Hyper-Dimension-UW/releases/tag/v0.13.0-dev.124-art) 下载 `Hyper-Dimension-UW-dev.124-art.zip`，运行 `python scripts/restore-campus-art.py --art-pack Hyper-Dimension-UW-dev.124-art.zip`。工具使用 `CAMPUS-ART-RELEASE.json` 校验附件，并按文件核对 SHA-256。美术包附来源和许可说明，包含运行素材和经整理的概念图。
+
+`CAMPUS-ART-FILES.json` 保留完整交付 ZIP 的素材清单。持有完整交付 ZIP 时，仍可用 `python scripts/restore-campus-art.py --delivery /path/to/Hyper-Dimension-UW-dev.124.zip` 恢复。两种方式都保护已有的不同文件。
 
 ## 完整服务
 

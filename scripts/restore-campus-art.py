@@ -1,4 +1,4 @@
-"""Restore dev.124 art from a trusted local delivery without overwriting files."""
+"""Restore dev.124 art from a verified delivery or public art pack without overwriting files."""
 import argparse
 from hashlib import file_digest, sha256
 import json
@@ -9,17 +9,37 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("--delivery", required=True, type=Path)
+source = parser.add_mutually_exclusive_group(required=True)
+source.add_argument("--delivery", type=Path)
+source.add_argument("--art-pack", type=Path)
 args = parser.parse_args()
 manifest = json.loads((ROOT / "CAMPUS-ART-FILES.json").read_text(encoding="utf-8"))
 if manifest["format"] != "hyper-dimension.uw-local-art/v1":
     raise SystemExit("Unexpected campus art manifest")
-with args.delivery.open("rb") as source:
-    if file_digest(source, "sha256").hexdigest() != manifest["deliveryArchiveSha256"]:
+archive_path = args.delivery or args.art_pack
+items = manifest["files"]
+archive_hash = manifest["deliveryArchiveSha256"]
+if args.art_pack:
+    public = json.loads((ROOT / "CAMPUS-ART-RELEASE.json").read_text(encoding="utf-8"))
+    if public["sourceSha256"] != archive_hash:
+        raise SystemExit("The public art release belongs to a different source version")
+    archive_hash = public["sha256"]
+with archive_path.open("rb") as stream:
+    if file_digest(stream, "sha256").hexdigest() != archive_hash:
         raise SystemExit("The ZIP checksum does not match this source release")
+if args.art_pack:
+    with ZipFile(archive_path) as archive:
+        packaged = json.loads(archive.read("UW-ART-MANIFEST.json"))
+    if (packaged["format"] != "hyper-dimension.uw-public-art/v1"
+            or packaged["originalDeliverySha256"] != manifest["deliveryArchiveSha256"]):
+        raise SystemExit("Unexpected public art pack manifest")
+    indexed = {item["path"]: item for item in items}
+    items = packaged["files"]
+    if len(items) != public["files"] or any(indexed.get(item["path"]) != item for item in items):
+        raise SystemExit("The public art pack does not match the expected file list")
 
 targets = {}
-for item in manifest["files"]:
+for item in items:
     name = item["path"]
     path = PurePosixPath(name)
     allowed = (
@@ -40,7 +60,7 @@ for item in manifest["files"]:
                 raise SystemExit(f"Existing different file preserved: {name}")
 
 restored = 0
-with ZipFile(args.delivery) as archive:
+with ZipFile(archive_path) as archive:
     for item, target in targets.values():
         if target.exists():
             continue

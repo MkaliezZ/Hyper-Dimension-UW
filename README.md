@@ -12,12 +12,12 @@
 
 ## 本地启动
 
-需要 Node.js 22.13+、Python 3.11+ 和完整美术交付 ZIP。此仓库包含应用、内嵌 Base 源码、公开地理数据与轻量资源。完整 3D 模型及贴图由维护者提供的 dev.124 ZIP 恢复。
+需要 Node.js 22.13+ 和 Python 3.11+。先从 [GitHub Releases](https://github.com/MkaliezZ/Hyper-Dimension-UW/releases/tag/v0.13.0-dev.124-art) 下载 `Hyper-Dimension-UW-dev.124-art.zip`，放到仓库根目录。素材包包含建筑模型、角色、植被、贴图和换装缩略图。
 
 ```sh
 npm ci --prefix base --omit=dev --ignore-scripts
 npm run verify:source
-python scripts/restore-campus-art.py --delivery /path/to/Hyper-Dimension-UW-dev.124.zip
+python scripts/restore-campus-art.py --art-pack Hyper-Dimension-UW-dev.124-art.zip
 npm run verify:models
 npm start
 ```
