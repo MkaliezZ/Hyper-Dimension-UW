@@ -12,11 +12,12 @@
 
 ## 本地启动
 
-需要 Node.js 22.13+ 和 Python 3.11+。先从 [GitHub Releases](https://github.com/MkaliezZ/Hyper-Dimension-UW/releases/tag/v0.13.0-dev.124-art) 下载 `Hyper-Dimension-UW-dev.124-art.zip`，放到仓库根目录。素材包包含建筑模型、角色、植被、贴图和换装缩略图。
+需要 Node.js 22.13+ 和 Python 3.11+。先从 [GitHub Releases](https://github.com/MkaliezZ/Hyper-Dimension-UW/releases/tag/v0.13.0-dev.124-art) 下载美术 ZIP 的四个分卷（`.001` 至 `.004`），放到仓库根目录。合并工具会核对每个分卷和完整 ZIP 的 SHA-256。素材包包含建筑模型、角色、植被、贴图和换装缩略图。
 
 ```sh
 npm ci --prefix base --omit=dev --ignore-scripts
 npm run verify:source
+python scripts/join-campus-art.py
 python scripts/restore-campus-art.py --art-pack Hyper-Dimension-UW-dev.124-art.zip
 npm run verify:models
 npm start

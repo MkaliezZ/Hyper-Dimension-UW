@@ -29,8 +29,8 @@
     },
     {
       "path": "CAMPUS-ART-RELEASE.json",
-      "bytes": 307,
-      "sha256": "d59f99725f83982fa596850d8af8a36284e7634a4691d7ff2e1b0741efb61331"
+      "bytes": 1060,
+      "sha256": "601f035a866ce67fbd4666707c6ffbb071817821349524619ed9da6c264187a5"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -59,13 +59,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 2389,
-      "sha256": "2a0282cb69fa7f59e42e3649b230e99542b752962fa37d1202a28e7c159e7e90"
+      "bytes": 2499,
+      "sha256": "4ffd85c517be900ca7e50a8f2559ac1f4d2df6fd1ca4b3ab478e26d3c9ec76ce"
     },
     {
       "path": "README.md",
-      "bytes": 2487,
-      "sha256": "e92e6d0912320026b2510c337d9506119003012bd34a3c15f4ce831f96aba773"
+      "bytes": 2594,
+      "sha256": "7ab73943ac8c3e08f8d9a173079467eaa30dc670161a1435882dd4911cdf1707"
     },
     {
       "path": "SOURCE-DEPENDENCIES.json",
@@ -3119,8 +3119,8 @@
     },
     {
       "path": "docs/REPOSITORY-SCOPE.md",
-      "bytes": 1725,
-      "sha256": "1bea732933ea6ca54c78372e5adb255b9629f5cd076813dce34c0227f1a411df"
+      "bytes": 1791,
+      "sha256": "a9369fe78f85b4d9d1a3d02e801202f1a57983389f24da93fc886434ca04fb47"
     },
     {
       "path": "docs/REPOSITORY-VALIDATION.md",
@@ -5206,6 +5206,11 @@
       "path": "scripts/glb-buffer-ranges.mjs",
       "bytes": 3348,
       "sha256": "d2db18b2e02a77200a1f37dc5580c6b0fcea66427a9283b5bd90a0e61fd7bdaa"
+    },
+    {
+      "path": "scripts/join-campus-art.py",
+      "bytes": 1971,
+      "sha256": "dbcf34cbc515a313a65ff22320d7f3997e1bb68825d6057cdd6a60a534833e4a"
     },
     {
       "path": "scripts/local-preview.mjs",

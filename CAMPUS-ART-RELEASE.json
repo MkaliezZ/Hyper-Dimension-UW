@@ -4,5 +4,27 @@
   "sha256": "99b1d9e1def5dc006f7911c91157bd3479c0721e46c63bc40ef315fa44a6539a",
   "files": 402,
   "sourceSha256": "bcae27892fb439bc17590a0175612af24104f6bce1a5ad22f2d1652ae09c5b75",
-  "release": "v0.13.0-dev.124-art"
+  "release": "v0.13.0-dev.124-art",
+  "volumes": [
+    {
+      "file": "Hyper-Dimension-UW-dev.124-art.zip.001",
+      "bytes": 402653184,
+      "sha256": "5086efb3e00307acd4d7c924cc0f8460a08deb72132d65f5afed5b501172c025"
+    },
+    {
+      "file": "Hyper-Dimension-UW-dev.124-art.zip.002",
+      "bytes": 402653184,
+      "sha256": "aa2af8e081bce36b5938415aeb7f1a0cefca4e3f76fb9b3f7cd843a094dba577"
+    },
+    {
+      "file": "Hyper-Dimension-UW-dev.124-art.zip.003",
+      "bytes": 402653184,
+      "sha256": "84023a81fe0b526194e706c20f7ab9a455a42863d3e0129375cbf99c59cbd323"
+    },
+    {
+      "file": "Hyper-Dimension-UW-dev.124-art.zip.004",
+      "bytes": 275682193,
+      "sha256": "2f267d74d20a9809436ea79dbf363593037cfb13d2a8d0d948c5890f752fb16e"
+    }
+  ]
 }

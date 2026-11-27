@@ -12,11 +12,12 @@ Explore on foot or follow a landmark route, meet six fictional campus NPCs, and 
 
 ## Run locally
 
-Install Node.js 22.13+ and Python 3.11+. Download `Hyper-Dimension-UW-dev.124-art.zip` from [GitHub Releases](https://github.com/MkaliezZ/Hyper-Dimension-UW/releases/tag/v0.13.0-dev.124-art) and place it in the checkout root.
+Install Node.js 22.13+ and Python 3.11+. Download the four art ZIP volumes (`.001` through `.004`) from [GitHub Releases](https://github.com/MkaliezZ/Hyper-Dimension-UW/releases/tag/v0.13.0-dev.124-art) and place them in the checkout root. The join script verifies each volume and the reassembled ZIP.
 
 ```sh
 npm ci --prefix base --omit=dev --ignore-scripts
 npm run verify:source
+python scripts/join-campus-art.py
 python scripts/restore-campus-art.py --art-pack Hyper-Dimension-UW-dev.124-art.zip
 npm run verify:models
 npm start
